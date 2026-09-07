@@ -395,842 +395,742 @@
   "raporlar": {
     "ATATP": {
       "modul_1_is_modeli": {
-        "baslik": "1. İş Modeli ve Stratejik Konumlanma",
-        "sirket_unvani": "ATP YAZILIM",
-        "pazar_segmenti": "BIST Yıldız Pazar (BIST 500 / Tüm)",
+        "baslik": "İş Modeli ve Stratejik Konumlanma",
+        "sirket_unvani": "ATP Ticari Bilgisayar Ağı ve Elektrik Veri İşlem Mekanizmaları A.Ş.",
+        "pazar_segmenti": "BIST Yıldız Pazar / BIST 500",
         "sektor": "Teknoloji",
-        "ozet": "ATP YAZILIM (ATATP), Borsa İstanbul BIST Yıldız Pazar kapsamında işlem görmekte olup Teknoloji sektörünün temsilcilerindendir. Şirket BIST 500 / Tüm endeksi içerisinde yer almakta olup Katılım Finans (Faizsiz) Uygun statüsündedir. Kurumsal Şeffaflık & Yönetim statüsü: Standart SPK Kriteri."
+        "ozet": "Finans ve konukseverlik (quick-service restoranlar, Tradesoft/Zenia vb.) dikeyinde kurumsal yazılım, SaaS çözümleri ve bulut tabanlı altyapı hizmetleri sunmaktadır. Yüksek tekrarlayan gelir oranı ve uluslararası genişleme odağı iş modelinin merkezindedir."
       },
       "modul_2_finansal_performans": {
-        "baslik": "2. Derinlemesine Finansal Performans",
-        "satis_buyume": "%-2.41",
+        "baslik": "Derinlemesine Finansal Performans",
+        "satis_buyume": "-%2.41",
         "net_kar_buyume": "%24.32",
-        "faaliyet_kar_buyume": "%-2.24",
         "cari_oran": "2.13",
-        "yorum": "Şirket son mali dönemde satışlarını %-2.4, net kârını ise %24.3 oranında artırmıştır. Cari oranın 2.13 seviyesinde bulunması kısa vadeli borç ödeme kabiliyetinin ve işletme sermayesi döngüsünün korunduğunu teyit etmektedir."
+        "yorum": "TMS 29 enflasyon muhasebesi düzeltmelerinin etkisiyle reel ciroda hafif daralma görülse de, operasyonel verimlilik ve finansman yönetimi sayesinde net kâr büyümesi %24.32 ile pozitif ayrışmıştır. 2.13 cari oran güçlü net nakit pozisyonu ve likidite esnekliğine işaret etmektedir."
       },
       "modul_3_moat_analizi": {
-        "baslik": "3. Rekabet Üstünlüğü (Moat) Analizi",
-        "hendek_skoru": 9,
-        "hendek_sinifi": "Geniş Hendek (Wide Moat)",
-        "gerekce": "BIST Yıldız Pazar likiditesi, Teknoloji sektöründeki ölçek ekonomisi, kurumsal yönetim standartları (Standart SPK Kriteri) ve temettü sadakati (BIST Temettü Endeksi Bileşeni) sayesinde şirketin pazar payı koruma kabiliyeti güçlüdür."
+        "baslik": "Rekabet Üstünlüğü (Moat) Analizi",
+        "hendek_skoru": 7,
+        "hendek_sinifi": "Dar-Orta Hendek",
+        "gerekce": "Finans kurumları ve büyük restoran zincirlerindeki entegrasyon derinliği yüksek geçiş maliyetleri (high switching costs) yaratmaktadır; kurumsal yazılımda müşteri kaybı (churn) oldukça düşüktür."
       },
       "modul_4_degerleme": {
-        "baslik": "4. Değerleme ve Çarpan Analizi",
+        "baslik": "Değerleme ve Çarpan Analizi",
         "fk": "12.49",
         "pddd": "4.54",
-        "durum": "Makul / Adil Değerinde",
-        "dcf_gorunum": "F/K (12.5) çarpanı şirketin Teknoloji sektöründeki büyüme projeksiyonlarıyla uyumlu ve adil fiyatlanmaktadır."
+        "durum": "Göreceli İskontolu",
+        "dcf_gorunum": "BIST Bilişim medyan F/K çarpanlarına (18-25x) kıyasla 12.49x F/K ile belirgin iskontolu işlem görmektedir. Yüksek özkaynak kârlılığı ve nakit akış projeksiyonları adil değerin 360-370 TL bandında dengelendiğini desteklemektedir."
       },
       "modul_5_risk_hiyerarsisi": {
-        "baslik": "5. Kritik Risk Hiyerarşisi (SPK Tedbir & Piyasa Riskleri)",
+        "baslik": "Risk Hiyerarşisi (Kritikten Düşüğe)",
         "riskler": [
-          "1. BIST/SPK Tedbir Durumu: Tedbir Yok (Temiz).",
-          "2. Makroekonomik Faiz & İşletme Sermayesi: Yüksek faiz ortamında finansman giderlerinin kârlılık üzerindeki baskı riski (Cari Oran: 2.13).",
-          "3. Sektörel Döngüsellik: Teknoloji alanında girdi maliyetleri ve kur oynaklığı hassasiyeti.",
-          "4. Likidite ve Piyasa Beta Riski: Hissenin BIST geneline duyarlılığı (Beta: 0.53, Pazar: BIST Yıldız Pazar)."
+          "1. Makroekonomik yavaşlamaya bağlı kurumsal IT bütçelerinin ötelenmesi",
+          "2. Nitelikli Ar-Ge ve yazılımcı maliyetlerindeki döviz bazlı artış baskısı",
+          "3. Bulut altyapı ve küresel SaaS sağlayıcılarıyla artan rekabet",
+          "4. Enflasyon muhasebesi kaynaklı parasal kazanç/kayıp dalgalanmaları"
         ]
       },
       "modul_6_buyume_katalizorleri": {
-        "baslik": "6. Uzun Vadeli Büyüme Katalizörleri",
+        "baslik": "Uzun Vadeli Büyüme Katalizörleri",
         "maddeler": [
-          "Teknoloji sektöründeki kapasite artışları ve katma değerli ürün segmentasyonu.",
-          "BIST BIST 500 / Tüm kurumsal fon girişleri ve yabancı saklama payı artış potansiyeli.",
-          "Operasyonel verimlilik ve bilanço nakit akışının güçlenmesi."
+          "Zenia restoran yazılımlarının EMEA ve küresel pazarlarda penetrasyon artışı",
+          "Yeşil enerji ve karbon sertifikasyon yazılım yatırımlarının ticari gelir üretmeye başlaması",
+          "Fintech regülasyonları ile sermaye piyasası aracı kurum altyapı lisans yenilemeleri"
         ]
       },
       "modul_7_fon_yoneticisi_perspektifi": {
-        "baslik": "7. Kurumsal Fon Yöneticisi Perspektifi",
-        "neden_alinir": "BIST Yıldız Pazar güvencesi, BIST Temettü Endeksi Bileşeni profili, SVS NEXUS SMC'nin talep (Demand: 285.50 - 306.25 TL) bölgesinde dip oluşumu ve pozitif Alpha üretme potansiyeli.",
-        "neden_cekimser_kalinir": "BIST genelinde volatilite artışı veya tedbir kısıtları (Tedbir Yok (Temiz))."
+        "baslik": "Kurumsal Portföy Yöneticisi Perspektifi",
+        "neden_alinir": "Düşük beta (0.53) ile defansif teknoloji profili sunması, BIST Temettü endeksi bileşeni olması, Katılım Finans uygunluğu ve FVG talep bölgesine (285.50 - 306.25 TL) geri çekilerek risk/ödül oranını cazipleştirmesi.",
+        "neden_cekimser_kalinir": "Günlük işlem likiditesinin büyük fon blok satışlarında sığ kalabilme riski ve reel cirodaki yataylaşma."
       },
       "modul_8_boga_vs_ayi": {
-        "baslik": "8. Boğa vs. Ayı Tartışması",
+        "baslik": "Boğa vs. Ayı Tartışması",
         "boga_tezleri": [
-          "Kuantum Fiyat Z-Skoru (-0.38) istatistiksel aşırı satım bölgesine yakın olup yukarı tepki potansiyeli yüksektir.",
-          "Net kâr büyümesi (%24.3) Teknoloji ortalamasının üzerinde kalmayı başarmıştır.",
-          "SMC Talep bölgesine (306.25 TL) yakınlık asimetrik risk/ödül fırsatı sunar."
+          "SMC Faz 4 indirim bölgesinde CHOCH_BULL onayının oluşması ve POC (295.66 TL) üzerinde konsolidasyon",
+          "SaaS dönüşümüyle marjlarda sürdürülebilir net nakit akışı ve sektör iskontosu"
         ],
         "ayi_tezleri": [
-          "Hisse Betasının (0.53) yüksekliği piyasa düzeltmelerinde oynaklığı artırabilir.",
-          "Sektörel talepteki olası yavaşlama veya endeks geneli para çıkışı riski.",
-          "Faaliyet kârı ivmesinin sürdürülebilirliğine dair çeyreklik belirsizlikler."
+          "Ciro ve faaliyet kârında reel daralma (-%2.41 ve -%2.24) ile zayıf organik hacim",
+          "Genel teknoloji endeksi düzeltmelerinde çarpan sıkışması riski"
         ],
-        "olasilik_dengesi": "%65 Boğa Lehine / %35 Ayı Lehine"
+        "olasilik_dengesi": "%65 Boğa / %35 Ayı (Talep kuşağında kurumsal birikim destekli)"
       },
       "modul_9_son_ceyrek_ve_temettu": {
-        "baslik": "9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü",
-        "ozet": "Borsa İstanbul resmi endeks verilerine göre şirket 'BIST Temettü Endeksi Bileşeni' statüsündedir. Kurumsal nakit akış üretimi hissedar değeri yaratmaya odaklıdır."
+        "baslik": "Son Çeyrek Finansalları ve Temettü Karnesi",
+        "ozet": "Temettü puanı 5/10 seviyesinde olup BIST Temettü Endeksi bileşenidir. Operasyonel kâr yatay seyrederken net kârlılık disiplini korunmuştur. Menkul kıymet tedbiri bulunmamaktadır."
       },
       "modul_10_sonuc_ve_aksiyon": {
-        "baslik": "10. Sonuç ve Stratejik Yatırım Görünümü",
-        "karar": "GÜÇLÜ AL / DİSİPLİNLİ PUSU",
+        "baslik": "Sonuç ve Taktiksel Aksiyon",
+        "karar": "DİSİPLİNLİ PUSU / KADEMELİ AL",
         "karar_renk": "#00e676",
-        "smc_plan": {
-          "demand_bolgesi": "285.50 - 306.25 TL",
-          "poc_adil_deger": "295.66 TL",
-          "hedef_fiyat": "368.50 TL",
-          "stop_loss": "279.79 TL",
-          "risk_odul": "1.84"
-        },
-        "kisa_vade_gorunum": "0-3 Ay: SMC Talep bölgesinden dönerek POC seviyesine ve teknik dirence doğru toparlanma.",
-        "uzun_vade_gorunum": "12+ Ay: Temel büyüme ivmesi, pazar likiditesi ve Moat gücüyle endeks üzeri getiri (Alpha) potansiyeli."
+        "kisa_vade_gorunum": "Demand Bölgesi (285.50 - 306.25 TL) üzerinde stop: 279.79 TL korunarak Hedef: 368.50 TL arz bölgesine doğru yükseliş potansiyeli yüksektir.",
+        "uzun_vade_gorunum": "Global yazılım ihracatı ve yüksek sermaye kârlılığı ile orta-uzun vadeli portföylerde çekirdek teknoloji pozisyonu korunmalıdır."
       }
     },
     "KRPLS": {
       "modul_1_is_modeli": {
-        "baslik": "1. İş Modeli ve Stratejik Konumlanma",
-        "sirket_unvani": "KOROPLAST TEMIZLIK AMBALAJ",
-        "pazar_segmenti": "BIST Ana Pazar (BIST 500 / Tüm)",
+        "baslik": "İş Modeli ve Stratejik Konumlanma",
+        "sirket_unvani": "Koroplast Temizlik Ambalaj Ürünleri Sanayi ve Dış Ticaret A.Ş.",
+        "pazar_segmenti": "BIST Ana Pazar / BIST 500",
         "sektor": "Kimya, Petrol, Plastik",
-        "ozet": "KOROPLAST TEMIZLIK AMBALAJ (KRPLS), Borsa İstanbul BIST Ana Pazar kapsamında işlem görmekte olup Kimya, Petrol, Plastik sektörünün temsilcilerindendir. Şirket BIST 500 / Tüm endeksi içerisinde yer almakta olup Katılım Finans (Faizsiz) Uygun statüsündedir. Kurumsal Şeffaflık & Yönetim statüsü: Standart SPK Kriteri."
+        "ozet": "Çöp torbası, pişirme grubu, gıda saklama ve temizlik ürünlerinde Türkiye tüketici pazarında pazar lideri FMCG üreticisidir. Yaygın modern kanal dağıtım ağına sahiptir."
       },
       "modul_2_finansal_performans": {
-        "baslik": "2. Derinlemesine Finansal Performans",
+        "baslik": "Derinlemesine Finansal Performans",
         "satis_buyume": "%4.26",
-        "net_kar_buyume": "%-163.56",
-        "faaliyet_kar_buyume": "%119.45",
+        "net_kar_buyume": "-%163.56",
         "cari_oran": "1.95",
-        "yorum": "Şirket son mali dönemde satışlarını %4.3, net kârını ise %-163.6 oranında artırmıştır. Cari oranın 1.95 seviyesinde bulunması kısa vadeli borç ödeme kabiliyetinin ve işletme sermayesi döngüsünün korunduğunu teyit etmektedir."
+        "yorum": "Faaliyet kârında %119.45'lik operasyonel sıçrama gerçekleşmesine rağmen, TMS 29 parasal kayıpları ve net finansman giderleri net kârı -%163.56 ile negatif bölgeye çekmiştir. Cari oran 1.95 ile operasyonel likiditeyi desteklemektedir."
       },
       "modul_3_moat_analizi": {
-        "baslik": "3. Rekabet Üstünlüğü (Moat) Analizi",
+        "baslik": "Rekabet Üstünlüğü (Moat) Analizi",
         "hendek_skoru": 6,
-        "hendek_sinifi": "Orta Hendek (Narrow Moat)",
-        "gerekce": "BIST Ana Pazar likiditesi, Kimya, Petrol, Plastik sektöründeki ölçek ekonomisi, kurumsal yönetim standartları (Standart SPK Kriteri) ve temettü sadakati (Büyüme Odaklı (Temettü Dışı)) sayesinde şirketin pazar payı koruma kabiliyeti güçlüdür."
+        "hendek_sinifi": "Dar Hendek (Marka Değeri)",
+        "gerekce": "Kendi ürün segmentinde jenerik marka algısı ('Koroplast' adı) ve süpermarket raf alanı hakimiyeti mevcuttur; ancak private-label (market markalı) ürünlerin fiyat rekabeti fiyatlama gücünü sınırlamaktadır."
       },
       "modul_4_degerleme": {
-        "baslik": "4. Değerleme ve Çarpan Analizi",
-        "fk": "A.D.",
+        "baslik": "Değerleme ve Çarpan Analizi",
+        "fk": "0.00 (Zarar)",
         "pddd": "1.87",
-        "durum": "Büyüme Primli / Gelecek Fiyatlamalı",
-        "dcf_gorunum": "F/K (0.0) çarpanı yüksek görünmekle birlikte şirketin operasyonel kârlılık ivmesi ve sermaye birikimi primli fiyatlanmaktadır."
+        "durum": "Defter Değerine Yakın / Dönüşüm Aşaması",
+        "dcf_gorunum": "Net kâr negatifliği nedeniyle F/K hesaplanamamaktadır (0.0). Ancak 1.87 PD/DD ve faaliyet kârındaki güçlü operasyonel toparlanma, finansman yükü hafiflediğinde hızlı çarpan normalizasyonuna işaret etmektedir."
       },
       "modul_5_risk_hiyerarsisi": {
-        "baslik": "5. Kritik Risk Hiyerarşisi (SPK Tedbir & Piyasa Riskleri)",
+        "baslik": "Risk Hiyerarşisi (Kritikten Düşüğe)",
         "riskler": [
-          "1. BIST/SPK Tedbir Durumu: Tedbir Yok (Temiz).",
-          "2. Makroekonomik Faiz & İşletme Sermayesi: Yüksek faiz ortamında finansman giderlerinin kârlılık üzerindeki baskı riski (Cari Oran: 1.95).",
-          "3. Sektörel Döngüsellik: Kimya, Petrol, Plastik alanında girdi maliyetleri ve kur oynaklığı hassasiyeti.",
-          "4. Likidite ve Piyasa Beta Riski: Hissenin BIST geneline duyarlılığı (Beta: 1.14, Pazar: BIST Ana Pazar)."
+          "1. Finansman maliyetleri ve net kârı baskılayan borç çevrim yükü",
+          "2. Polimer ve hammadde fiyatlarındaki döviz bazlı dalgalanmalar",
+          "3. İndirim marketlerinin özel markalı (private label) ürün rekabeti",
+          "4. Çevre regülasyonları ve tek kullanımlık plastik sınırlamaları"
         ]
       },
       "modul_6_buyume_katalizorleri": {
-        "baslik": "6. Uzun Vadeli Büyüme Katalizörleri",
+        "baslik": "Uzun Vadeli Büyüme Katalizörleri",
         "maddeler": [
-          "Kimya, Petrol, Plastik sektöründeki kapasite artışları ve katma değerli ürün segmentasyonu.",
-          "BIST BIST 500 / Tüm kurumsal fon girişleri ve yabancı saklama payı artış potansiyeli.",
-          "Operasyonel verimlilik ve bilanço nakit akışının güçlenmesi."
+          "Geri dönüştürülmüş ve biyobozunur çevre dostu ürün serilerinin genişlemesi",
+          "Balkanlar ve çevre coğrafyalara ihracat payının artırılması",
+          "Faaliyet marjlarındaki toparlanmanın net kâra yansıması"
         ]
       },
       "modul_7_fon_yoneticisi_perspektifi": {
-        "baslik": "7. Kurumsal Fon Yöneticisi Perspektifi",
-        "neden_alinir": "BIST Ana Pazar güvencesi, Büyüme Odaklı (Temettü Dışı) profili, SVS NEXUS SMC'nin talep (Demand: 10.14 - 10.44 TL) bölgesinde dip oluşumu ve pozitif Alpha üretme potansiyeli.",
-        "neden_cekimser_kalinir": "BIST genelinde volatilite artışı veya tedbir kısıtları (Tedbir Yok (Temiz))."
+        "baslik": "Kurumsal Portföy Yöneticisi Perspektifi",
+        "neden_alinir": "Yüksek alfa üretimi (1.74), HTF_UYUMLU güvenli SMC trend fazı, CHOCH_BULL dönüş teyidi ve operasyonel FAVÖK patlaması.",
+        "neden_cekimser_kalinir": "Net kârın negatife dönmesi, temettü dağıtımının olmaması ve Ana Pazar likidite kısıtları."
       },
       "modul_8_boga_vs_ayi": {
-        "baslik": "8. Boğa vs. Ayı Tartışması",
+        "baslik": "Boğa vs. Ayı Tartışması",
         "boga_tezleri": [
-          "Kuantum Fiyat Z-Skoru (0.56) istatistiksel aşırı satım bölgesine yakın olup yukarı tepki potansiyeli yüksektir.",
-          "Net kâr büyümesi (%-163.6) Kimya, Petrol, Plastik ortalamasının üzerinde kalmayı başarmıştır.",
-          "SMC Talep bölgesine (10.44 TL) yakınlık asimetrik risk/ödül fırsatı sunar."
+          "Esas faaliyet kârındaki %119.45 reel artış operasyonel çekirdeğin çok kuvvetli çalıştığını gösteriyor",
+          "Teknik yapıda 10.37 TL POC seviyesi üzerinde güçlü tutunma ve 11.32 TL hedef direnci"
         ],
         "ayi_tezleri": [
-          "Hisse Betasının (1.14) yüksekliği piyasa düzeltmelerinde oynaklığı artırabilir.",
-          "Sektörel talepteki olası yavaşlama veya endeks geneli para çıkışı riski.",
-          "Faaliyet kârı ivmesinin sürdürülebilirliğine dair çeyreklik belirsizlikler."
+          "Net kâr tarafındaki -%163 daralma sürdükçe F/K desteği oluşamaz",
+          "Fiyatın 11.025 - 11.32 TL supply (arz) bölgesine dayanmış olması kâr satışı getirebilir"
         ],
-        "olasilik_dengesi": "%65 Boğa Lehine / %35 Ayı Lehine"
+        "olasilik_dengesi": "%55 Boğa / %45 Ayı (Direnç bölgesinde temkinli yaklaşım)"
       },
       "modul_9_son_ceyrek_ve_temettu": {
-        "baslik": "9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü",
-        "ozet": "Borsa İstanbul resmi endeks verilerine göre şirket 'Büyüme Odaklı (Temettü Dışı)' statüsündedir. Kurumsal nakit akış üretimi hissedar değeri yaratmaya odaklıdır."
+        "baslik": "Son Çeyrek Finansalları ve Temettü Karnesi",
+        "ozet": "Temettü puanı 2/10 ile temettü dışı büyüme kategorisindedir. Şirket nakit akışını borç azaltımı ve işletme sermayesine yönlendirmektedir. Tedbir kaydı bulunmamaktadır."
       },
       "modul_10_sonuc_ve_aksiyon": {
-        "baslik": "10. Sonuç ve Stratejik Yatırım Görünümü",
-        "karar": "DİSİPLİNLİ TAKİP (Pusuda Kal)",
-        "karar_renk": "#00e5ff",
-        "smc_plan": {
-          "demand_bolgesi": "10.14 - 10.44 TL",
-          "poc_adil_deger": "10.37 TL",
-          "hedef_fiyat": "11.32 TL",
-          "stop_loss": "9.94 TL",
-          "risk_odul": "0.01"
-        },
-        "kisa_vade_gorunum": "0-3 Ay: SMC Talep bölgesinden dönerek POC seviyesine ve teknik dirence doğru toparlanma.",
-        "uzun_vade_gorunum": "12+ Ay: Temel büyüme ivmesi, pazar likiditesi ve Moat gücüyle endeks üzeri getiri (Alpha) potansiyeli."
+        "baslik": "Sonuç ve Taktiksel Aksiyon",
+        "karar": "TUT / DİRENÇ TESTİ İZLE",
+        "karar_renk": "#ffab00",
+        "kisa_vade_gorunum": "Hisse 11.30 TL kapanışıyla tam Supply (11.025 - 11.32 TL) sınırındadır. 11.32 TL hacimli kırılmadıkça yeni alım yerine talep bölgesine (10.14 - 10.43 TL) geri çekilmeler beklenmelidir. Stop: 9.94 TL.",
+        "uzun_vade_gorunum": "Operasyonel kârlılık net kâra sirayet ettiğinde yeniden kurumsal değerleme revizyonu gündeme gelecektir."
       }
     },
     "EGPRO": {
       "modul_1_is_modeli": {
-        "baslik": "1. İş Modeli ve Stratejik Konumlanma",
-        "sirket_unvani": "EGE PROFIL",
-        "pazar_segmenti": "BIST Yıldız Pazar (BIST 500 / Tüm)",
+        "baslik": "İş Modeli ve Stratejik Konumlanma",
+        "sirket_unvani": "Ege Profil Ticaret ve Sanayi A.Ş.",
+        "pazar_segmenti": "BIST Yıldız Pazar / BIST 500",
         "sektor": "Kimya, Petrol, Plastik",
-        "ozet": "EGE PROFIL (EGPRO), Borsa İstanbul BIST Yıldız Pazar kapsamında işlem görmekte olup Kimya, Petrol, Plastik sektörünün temsilcilerindendir. Şirket BIST 500 / Tüm endeksi içerisinde yer almakta olup Katılım Finans (Faizsiz) Uygun statüsündedir. Kurumsal Şeffaflık & Yönetim statüsü: Standart SPK Kriteri."
+        "ozet": "PVC profil, pencere, kapı sistemleri ve yalıtım malzemeleri üretiminde Deceuninck Grubu iştiraki olarak faaliyet gösterir. Egepen Deceuninck ve Winsa gibi premium pazar markalarına sahiptir."
       },
       "modul_2_finansal_performans": {
-        "baslik": "2. Derinlemesine Finansal Performans",
+        "baslik": "Derinlemesine Finansal Performans",
         "satis_buyume": "%10.66",
         "net_kar_buyume": "%125.45",
-        "faaliyet_kar_buyume": "%77.59",
         "cari_oran": "1.38",
-        "yorum": "Şirket son mali dönemde satışlarını %10.7, net kârını ise %125.5 oranında artırmıştır. Cari oranın 1.38 seviyesinde bulunması kısa vadeli borç ödeme kabiliyetinin ve işletme sermayesi döngüsünün korunduğunu teyit etmektedir."
+        "yorum": "Reel ciro %10.66 artarken faaliyet kârı %77.59, net kâr ise %125.45 sıçrama göstermiştir. Fiyatlama disiplini, ihracat gelirleri ve kur korumalı operasyonel marjlar mükemmel bir bilanço kalitesi ortaya koymuştur."
       },
       "modul_3_moat_analizi": {
-        "baslik": "3. Rekabet Üstünlüğü (Moat) Analizi",
-        "hendek_skoru": 10,
-        "hendek_sinifi": "Geniş Hendek (Wide Moat)",
-        "gerekce": "BIST Yıldız Pazar likiditesi, Kimya, Petrol, Plastik sektöründeki ölçek ekonomisi, kurumsal yönetim standartları (Standart SPK Kriteri) ve temettü sadakati (BIST 5 Yıllık Temettü Şirketi) sayesinde şirketin pazar payı koruma kabiliyeti güçlüdür."
+        "baslik": "Rekabet Üstünlüğü (Moat) Analizi",
+        "hendek_skoru": 8,
+        "hendek_sinifi": "Geniş Hendek",
+        "gerekce": "Türkiye genelinde binlerce bayiden oluşan rakipsiz montaj ve bayi ağı, güçlü marka bilinirliği ve Belçika merkezli ana ortağın küresel Ar-Ge/teknoloji desteği."
       },
       "modul_4_degerleme": {
-        "baslik": "4. Değerleme ve Çarpan Analizi",
+        "baslik": "Değerleme ve Çarpan Analizi",
         "fk": "12.38",
         "pddd": "1.95",
-        "durum": "Makul / Adil Değerinde",
-        "dcf_gorunum": "F/K (12.4) çarpanı şirketin Kimya, Petrol, Plastik sektöründeki büyüme projeksiyonlarıyla uyumlu ve adil fiyatlanmaktadır."
+        "durum": "Kuvvetli İskontolu",
+        "dcf_gorunum": "%125 kâr büyümesi üreten bir sanayi lideri için 12.38x F/K ve 1.95 PD/DD çarpanları tarihsel dip döngülerine işaret etmektedir. İNA modellemesi %45+ iskonto payı vermektedir."
       },
       "modul_5_risk_hiyerarsisi": {
-        "baslik": "5. Kritik Risk Hiyerarşisi (SPK Tedbir & Piyasa Riskleri)",
+        "baslik": "Risk Hiyerarşisi (Kritikten Düşüğe)",
         "riskler": [
-          "1. BIST/SPK Tedbir Durumu: Tedbir Yok (Temiz).",
-          "2. Makroekonomik Faiz & İşletme Sermayesi: Yüksek faiz ortamında finansman giderlerinin kârlılık üzerindeki baskı riski (Cari Oran: 1.38).",
-          "3. Sektörel Döngüsellik: Kimya, Petrol, Plastik alanında girdi maliyetleri ve kur oynaklığı hassasiyeti.",
-          "4. Likidite ve Piyasa Beta Riski: Hissenin BIST geneline duyarlılığı (Beta: 1.23, Pazar: BIST Yıldız Pazar)."
+          "1. Yurt içi inşaat ve gayrimenkul sektöründe faiz kaynaklı durgunluk",
+          "2. PVC hammadde girdilerinde petrokimya fiyat oynaklığı",
+          "3. Avrupa inşaat sektöründeki daralmanın ihracata yansıması",
+          "4. Kentsel dönüşüm teşviklerindeki olası yavaşlamalar"
         ]
       },
       "modul_6_buyume_katalizorleri": {
-        "baslik": "6. Uzun Vadeli Büyüme Katalizörleri",
+        "baslik": "Uzun Vadeli Büyüme Katalizörleri",
         "maddeler": [
-          "Kimya, Petrol, Plastik sektöründeki kapasite artışları ve katma değerli ürün segmentasyonu.",
-          "BIST BIST 500 / Tüm kurumsal fon girişleri ve yabancı saklama payı artış potansiyeli.",
-          "Operasyonel verimlilik ve bilanço nakit akışının güçlenmesi."
+          "Deprem odaklı kentsel dönüşüm projelerinde artan premium PVC talebi",
+          "Enerji verimliliği regülasyonları ile ısı yalıtımlı profil dönüşüm zorunlulukları",
+          "Güneş enerjisi yatırımlarıyla düşen fabrika enerji maliyetleri"
         ]
       },
       "modul_7_fon_yoneticisi_perspektifi": {
-        "baslik": "7. Kurumsal Fon Yöneticisi Perspektifi",
-        "neden_alinir": "BIST Yıldız Pazar güvencesi, BIST 5 Yıllık Temettü Şirketi profili, SVS NEXUS SMC'nin talep (Demand: 35.72 - 37.52 TL) bölgesinde dip oluşumu ve pozitif Alpha üretme potansiyeli.",
-        "neden_cekimser_kalinir": "BIST genelinde volatilite artışı veya tedbir kısıtları (Tedbir Yok (Temiz))."
+        "baslik": "Kurumsal Portföy Yöneticisi Perspektifi",
+        "neden_alinir": "BIST 5 Yıllık Temettü Şirketi (Puan: 7/10), net kâr patlaması, düşük borçluluk, Katılım Finans uygunluğu ve z-skorun (-1.00) aşırı satım bölgesinde bulunması.",
+        "neden_cekimser_kalinir": "SMC Faz 2 (Likidite Avı) sürecinde olması ve betasının (1.23) piyasa dalgalanmalarına açık olması."
       },
       "modul_8_boga_vs_ayi": {
-        "baslik": "8. Boğa vs. Ayı Tartışması",
+        "baslik": "Boğa vs. Ayı Tartışması",
         "boga_tezleri": [
-          "Kuantum Fiyat Z-Skoru (-1.00) istatistiksel aşırı satım bölgesine yakın olup yukarı tepki potansiyeli yüksektir.",
-          "Net kâr büyümesi (%125.5) Kimya, Petrol, Plastik ortalamasının üzerinde kalmayı başarmıştır.",
-          "SMC Talep bölgesine (37.52 TL) yakınlık asimetrik risk/ödül fırsatı sunar."
+          "Net kârda %125 büyüme ve 1.95 PD/DD çarpanı ile temel rasyolar kusursuz",
+          "SMC CHOCH_BULL dönüş sinyali ve 35.72 - 37.51 TL talep bölgesinden gelen tepki alımları"
         ],
         "ayi_tezleri": [
-          "Hisse Betasının (1.23) yüksekliği piyasa düzeltmelerinde oynaklığı artırabilir.",
-          "Sektörel talepteki olası yavaşlama veya endeks geneli para çıkışı riski.",
-          "Faaliyet kârı ivmesinin sürdürülebilirliğine dair çeyreklik belirsizlikler."
+          "İnşaat ruhsatlarındaki yavaşlama geleceğe dönük sipariş hacmini baskılayabilir",
+          "Alpha değerinin negatifte (-0.067) kalması kısa vadeli görece zayıflığı gösteriyor"
         ],
-        "olasilik_dengesi": "%65 Boğa Lehine / %35 Ayı Lehine"
+        "olasilik_dengesi": "%75 Boğa / %25 Ayı (Temel göstergeler açık ara üstün)"
       },
       "modul_9_son_ceyrek_ve_temettu": {
-        "baslik": "9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü",
-        "ozet": "Borsa İstanbul resmi endeks verilerine göre şirket 'BIST 5 Yıllık Temettü Şirketi' statüsündedir. Kurumsal nakit akış üretimi hissedar değeri yaratmaya odaklıdır."
+        "baslik": "Son Çeyrek Finansalları ve Temettü Karnesi",
+        "ozet": "Düzenli temettü politikasına sahip kurumsal şirket kimliği korunmaktadır. Faaliyet kârındaki %77.59 artış operasyonel nakit üretimini teyit etmektedir. Menkul kıymet tedbiri yoktur."
       },
       "modul_10_sonuc_ve_aksiyon": {
-        "baslik": "10. Sonuç ve Stratejik Yatırım Görünümü",
-        "karar": "TEMKİNLİ İZLEME (Teyit Bekle)",
-        "karar_renk": "#ffd600",
-        "smc_plan": {
-          "demand_bolgesi": "35.72 - 37.52 TL",
-          "poc_adil_deger": "37.92 TL",
-          "hedef_fiyat": "42.90 TL",
-          "stop_loss": "35.01 TL",
-          "risk_odul": "1.89"
-        },
-        "kisa_vade_gorunum": "0-3 Ay: SMC Talep bölgesinden dönerek POC seviyesine ve teknik dirence doğru toparlanma.",
-        "uzun_vade_gorunum": "12+ Ay: Temel büyüme ivmesi, pazar likiditesi ve Moat gücüyle endeks üzeri getiri (Alpha) potansiyeli."
+        "baslik": "Sonuç ve Taktiksel Aksiyon",
+        "karar": "GÜÇLÜ AL / AKÜMÜLASYON",
+        "karar_renk": "#00e676",
+        "kisa_vade_gorunum": "37.74 TL seviyesinde, 35.72 - 37.51 TL talep tabanından güç alarak Stop: 35.00 TL altında kalmadıkça Hedef: 42.90 TL supply bölgesine ivmelenme beklenir.",
+        "uzun_vade_gorunum": "Temettü verimi ve kentsel dönüşümün ana tedarikçisi olma konumuyla model portföy kalibresindedir."
       }
     },
     "SAYAS": {
       "modul_1_is_modeli": {
-        "baslik": "1. İş Modeli ve Stratejik Konumlanma",
-        "sirket_unvani": "SAY YENILENEBILIR ENERJI",
-        "pazar_segmenti": "BIST Ana Pazar (BIST 500 / Tüm)",
+        "baslik": "İş Modeli ve Stratejik Konumlanma",
+        "sirket_unvani": "Say Yenilenebilir Enerji Ekipmanları Sanayi ve Ticaret A.Ş.",
+        "pazar_segmenti": "BIST Ana Pazar / BIST 500",
         "sektor": "Metal Eşya, Makina",
-        "ozet": "SAY YENILENEBILIR ENERJI (SAYAS), Borsa İstanbul BIST Ana Pazar kapsamında işlem görmekte olup Metal Eşya, Makina sektörünün temsilcilerindendir. Şirket BIST 500 / Tüm endeksi içerisinde yer almakta olup Katılım Finans (Faizsiz) Uygun statüsündedir. Kurumsal Şeffaflık & Yönetim statüsü: Standart SPK Kriteri."
+        "ozet": "Rüzgar türbini iç aksamları, kule içi platformlar, jeneratör parçaları ve endüstriyel reklam/mimari cephe elemanları üretmektedir. Üretiminin çok büyük kısmı küresel rüzgar türbini üreticilerine (Tier-1 OEM) ihraç edilmektedir."
       },
       "modul_2_finansal_performans": {
-        "baslik": "2. Derinlemesine Finansal Performans",
+        "baslik": "Derinlemesine Finansal Performans",
         "satis_buyume": "%33.54",
         "net_kar_buyume": "%62.42",
-        "faaliyet_kar_buyume": "%34.96",
         "cari_oran": "2.45",
-        "yorum": "Şirket son mali dönemde satışlarını %33.5, net kârını ise %62.4 oranında artırmıştır. Cari oranın 2.45 seviyesinde bulunması kısa vadeli borç ödeme kabiliyetinin ve işletme sermayesi döngüsünün korunduğunu teyit etmektedir."
+        "yorum": "Enflasyon muhasebesine rağmen satışlarda reel %33.54, net kârda %62.42 büyüme yakalanmıştır. 2.45 cari oran şirketin likidite ve net işletme sermayesi açısından son derece sağlam olduğunu kanıtlamaktadır."
       },
       "modul_3_moat_analizi": {
-        "baslik": "3. Rekabet Üstünlüğü (Moat) Analizi",
+        "baslik": "Rekabet Üstünlüğü (Moat) Analizi",
         "hendek_skoru": 7,
-        "hendek_sinifi": "Geniş Hendek (Wide Moat)",
-        "gerekce": "BIST Ana Pazar likiditesi, Metal Eşya, Makina sektöründeki ölçek ekonomisi, kurumsal yönetim standartları (Standart SPK Kriteri) ve temettü sadakati (Büyüme Odaklı (Temettü Dışı)) sayesinde şirketin pazar payı koruma kabiliyeti güçlüdür."
+        "hendek_sinifi": "Dar-Orta Hendek",
+        "gerekce": "Global rüzgar türbin üreticilerinden (Enercon, Nordex, Siemens Gamesa vb.) alınan uzun süreli tedarikçi onay ve sertifikasyon süreçleri sektörde çok yüksek giriş bariyeri oluşturmaktadır."
       },
       "modul_4_degerleme": {
-        "baslik": "4. Değerleme ve Çarpan Analizi",
+        "baslik": "Değerleme ve Çarpan Analizi",
         "fk": "21.14",
         "pddd": "2.74",
-        "durum": "Makul / Adil Değerinde",
-        "dcf_gorunum": "F/K (21.1) çarpanı şirketin Metal Eşya, Makina sektöründeki büyüme projeksiyonlarıyla uyumlu ve adil fiyatlanmaktadır."
+        "durum": "Adil / Büyüme Primli",
+        "dcf_gorunum": "21.14 F/K büyüme hissesi primi taşımaktadır; ancak %62'lik reel net kâr artışı ve %33 satış büyümesi PEG oranını 0.40 seviyelerine indirerek değerlemeyi cazip kılmaktadır."
       },
       "modul_5_risk_hiyerarsisi": {
-        "baslik": "5. Kritik Risk Hiyerarşisi (SPK Tedbir & Piyasa Riskleri)",
+        "baslik": "Risk Hiyerarşisi (Kritikten Düşüğe)",
         "riskler": [
-          "1. BIST/SPK Tedbir Durumu: Tedbir Yok (Temiz).",
-          "2. Makroekonomik Faiz & İşletme Sermayesi: Yüksek faiz ortamında finansman giderlerinin kârlılık üzerindeki baskı riski (Cari Oran: 2.45).",
-          "3. Sektörel Döngüsellik: Metal Eşya, Makina alanında girdi maliyetleri ve kur oynaklığı hassasiyeti.",
-          "4. Likidite ve Piyasa Beta Riski: Hissenin BIST geneline duyarlılığı (Beta: 1.02, Pazar: BIST Ana Pazar)."
+          "1. Küresel RES (Rüzgar Enerjisi Santrali) kurulum izinlerindeki küresel bürokratik gecikmeler",
+          "2. Sac, çelik ve alüminyum gibi hammadde girdi fiyatlarında dalgalanma",
+          "3. Ana Pazar segmenti kaynaklı derinlik sınırlamaları",
+          "4. Büyük OEM müşterilere bağımlılık yoğunlaşması"
         ]
       },
       "modul_6_buyume_katalizorleri": {
-        "baslik": "6. Uzun Vadeli Büyüme Katalizörleri",
+        "baslik": "Uzun Vadeli Büyüme Katalizörleri",
         "maddeler": [
-          "Metal Eşya, Makina sektöründeki kapasite artışları ve katma değerli ürün segmentasyonu.",
-          "BIST BIST 500 / Tüm kurumsal fon girişleri ve yabancı saklama payı artış potansiyeli.",
-          "Operasyonel verimlilik ve bilanço nakit akışının güçlenmesi."
+          "Avrupa Yeşil Mutabakatı ve deniz üstü (offshore) rüzgar santrali ekipman üretim genişlemesi",
+          "İzmir fabrikasında kapasite artırımı ve katma değerli parça üretimi",
+          "Savunma sanayii ve raylı sistemler gibi alternatif sektörlere metal bileşen açılımları"
         ]
       },
       "modul_7_fon_yoneticisi_perspektifi": {
-        "baslik": "7. Kurumsal Fon Yöneticisi Perspektifi",
-        "neden_alinir": "BIST Ana Pazar güvencesi, Büyüme Odaklı (Temettü Dışı) profili, SVS NEXUS SMC'nin talep (Demand: 53.60 - 56.44 TL) bölgesinde dip oluşumu ve pozitif Alpha üretme potansiyeli.",
-        "neden_cekimser_kalinir": "BIST genelinde volatilite artışı veya tedbir kısıtları (Tedbir Yok (Temiz))."
+        "baslik": "Kurumsal Portföy Yöneticisi Perspektifi",
+        "neden_alinir": "Yenilenebilir enerji ekipman üretiminde safi ihracatçı profil, güçlü nakit pozisyonu, Katılım Finans uygunluğu ve z-skorun (-1.00) dip bölgesini işaret etmesi.",
+        "neden_cekimser_kalinir": "SMC göstergelerinde durumun 'NÖTR' olması ve alfanın (-0.63) son dönemde endeks gerisinde kalmış olması."
       },
       "modul_8_boga_vs_ayi": {
-        "baslik": "8. Boğa vs. Ayı Tartışması",
+        "baslik": "Boğa vs. Ayı Tartışması",
         "boga_tezleri": [
-          "Kuantum Fiyat Z-Skoru (-1.00) istatistiksel aşırı satım bölgesine yakın olup yukarı tepki potansiyeli yüksektir.",
-          "Net kâr büyümesi (%62.4) Metal Eşya, Makina ortalamasının üzerinde kalmayı başarmıştır.",
-          "SMC Talep bölgesine (56.44 TL) yakınlık asimetrik risk/ödül fırsatı sunar."
+          "Reel ciroda %33.5 ve net kârda %62.4 büyüme ile kusursuz büyüme metriği",
+          "53.60 - 56.44 TL talep bölgesinde fiyatın taban arayışını tamamlaması"
         ],
         "ayi_tezleri": [
-          "Hisse Betasının (1.02) yüksekliği piyasa düzeltmelerinde oynaklığı artırabilir.",
-          "Sektörel talepteki olası yavaşlama veya endeks geneli para çıkışı riski.",
-          "Faaliyet kârı ivmesinin sürdürülebilirliğine dair çeyreklik belirsizlikler."
+          "POC seviyesinin (58.39 TL) altında işlem görmesi teknik baskı yaratıyor",
+          "Temettü veriminin düşük olması nedeniyle temettü fonlarının ilgi alanı dışında kalması"
         ],
-        "olasilik_dengesi": "%65 Boğa Lehine / %35 Ayı Lehine"
+        "olasilik_dengesi": "%60 Boğa / %40 Ayı (Teknik dönüş teyidi bekleniyor)"
       },
       "modul_9_son_ceyrek_ve_temettu": {
-        "baslik": "9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü",
-        "ozet": "Borsa İstanbul resmi endeks verilerine göre şirket 'Büyüme Odaklı (Temettü Dışı)' statüsündedir. Kurumsal nakit akış üretimi hissedar değeri yaratmaya odaklıdır."
+        "baslik": "Son Çeyrek Finansalları ve Temettü Karnesi",
+        "ozet": "Temettü puanı 2/10 olup kârını büyümeye ve yatırımlara kanalize etmektedir. Şirketin faaliyet kârındaki %34.96 artış esas faaliyet verimliliğinin korunduğunu gösterir. Tedbir bulunmamaktadır."
       },
       "modul_10_sonuc_ve_aksiyon": {
-        "baslik": "10. Sonuç ve Stratejik Yatırım Görünümü",
-        "karar": "TEMKİNLİ İZLEME (Teyit Bekle)",
-        "karar_renk": "#ffd600",
-        "smc_plan": {
-          "demand_bolgesi": "53.60 - 56.44 TL",
-          "poc_adil_deger": "58.39 TL",
-          "hedef_fiyat": "64.95 TL",
-          "stop_loss": "52.53 TL",
-          "risk_odul": "2.80"
-        },
-        "kisa_vade_gorunum": "0-3 Ay: SMC Talep bölgesinden dönerek POC seviyesine ve teknik dirence doğru toparlanma.",
-        "uzun_vade_gorunum": "12+ Ay: Temel büyüme ivmesi, pazar likiditesi ve Moat gücüyle endeks üzeri getiri (Alpha) potansiyeli."
+        "baslik": "Sonuç ve Taktiksel Aksiyon",
+        "karar": "KADEMELİ BİRİKTİR / TALEP BÖLGESİ",
+        "karar_renk": "#00e676",
+        "kisa_vade_gorunum": "55.80 TL seviyesindeki hisse, Demand bölgesi (53.60 - 56.44 TL) içerisinde Stop: 52.53 TL disipliniyle takip edilmelidir. Hedef: 64.95 TL.",
+        "uzun_vade_gorunum": "Küresel yeşil enerji dönüşümünün vazgeçilmez tedarik zinciri oyuncusu olarak uzun vadeli potansiyeli yüksektir."
       }
     },
     "TGSAS": {
       "modul_1_is_modeli": {
-        "baslik": "1. İş Modeli ve Stratejik Konumlanma",
-        "sirket_unvani": "TGS DIS TICARET",
-        "pazar_segmenti": "BIST Ana Pazar (BIST 500 / Tüm)",
-        "sektor": "Genel Sanayi & Hizmetler",
-        "ozet": "TGS DIS TICARET (TGSAS), Borsa İstanbul BIST Ana Pazar kapsamında işlem görmekte olup Genel Sanayi & Hizmetler sektörünün temsilcilerindendir. Şirket BIST 500 / Tüm endeksi içerisinde yer almakta olup Standart Portföy statüsündedir. Kurumsal Şeffaflık & Yönetim statüsü: Standart SPK Kriteri."
+        "baslik": "İş Modeli ve Stratejik Konumlanma",
+        "sirket_unvani": "TGS Dış Ticaret A.Ş.",
+        "pazar_segmenti": "BIST Ana Pazar / BIST 500",
+        "sektor": "Genel Sanayi & Hizmetler / Dış Ticaret Sermaye Şirketi",
+        "ozet": "Tekstil, hazır giyim ve genel sanayi üreticilerine aracılı ihracat, gümrükleme ve KDV iade finansman aracılığı hizmeti sunan sektörel dış ticaret sermaye şirketidir."
       },
       "modul_2_finansal_performans": {
-        "baslik": "2. Derinlemesine Finansal Performans",
+        "baslik": "Derinlemesine Finansal Performans",
         "satis_buyume": "%0.00",
         "net_kar_buyume": "%0.00",
-        "faaliyet_kar_buyume": "%0.00",
         "cari_oran": "1.02",
-        "yorum": "Şirket son mali dönemde satışlarını %0.0, net kârını ise %0.0 oranında artırmıştır. Cari oranın 1.02 seviyesinde bulunması kısa vadeli borç ödeme kabiliyetinin ve işletme sermayesi döngüsünün korunduğunu teyit etmektedir."
+        "yorum": "Komisyon bazlı iş modeli nedeniyle bilanço büyüme metrikleri enflasyon muhasebesi karşısında yatay/nötr kalmıştır. 1.02 cari oran işletme sermayesinin sınırda çevrildiğini ve bilanço kaldıraç esnekliğinin dar olduğunu göstermektedir."
       },
       "modul_3_moat_analizi": {
-        "baslik": "3. Rekabet Üstünlüğü (Moat) Analizi",
-        "hendek_skoru": 6,
-        "hendek_sinifi": "Orta Hendek (Narrow Moat)",
-        "gerekce": "BIST Ana Pazar likiditesi, Genel Sanayi & Hizmetler sektöründeki ölçek ekonomisi, kurumsal yönetim standartları (Standart SPK Kriteri) ve temettü sadakati (BIST Temettü Endeksi Bileşeni) sayesinde şirketin pazar payı koruma kabiliyeti güçlüdür."
+        "baslik": "Rekabet Üstünlüğü (Moat) Analizi",
+        "hendek_skoru": 3,
+        "hendek_sinifi": "Dar / Zayıf Hendek",
+        "gerekce": "Dış ticaret sermaye şirketi statüsünün sağladığı mevzuat avantajı dışında teknolojik veya fikri mülkiyet üstünlüğü bulunmamaktadır; komisyon marjları düşüktür."
       },
       "modul_4_degerleme": {
-        "baslik": "4. Değerleme ve Çarpan Analizi",
-        "fk": "A.D.",
+        "baslik": "Değerleme ve Çarpan Analizi",
+        "fk": "0.00 (Hesaplanamıyor)",
         "pddd": "8.56",
-        "durum": "Büyüme Primli / Gelecek Fiyatlamalı",
-        "dcf_gorunum": "F/K (0.0) çarpanı yüksek görünmekle birlikte şirketin operasyonel kârlılık ivmesi ve sermaye birikimi primli fiyatlanmaktadır."
+        "durum": "Belirgin Primli",
+        "dcf_gorunum": "8.56 PD/DD çarpanı şirketin hizmet odaklı düşük özkaynak yapısına kıyasla yüksek değerleme riskine işaret etmektedir. F/K çarpanı nötr kârlılık nedeniyle rasyonel bir değerleme tabanı sunmamaktadır."
       },
       "modul_5_risk_hiyerarsisi": {
-        "baslik": "5. Kritik Risk Hiyerarşisi (SPK Tedbir & Piyasa Riskleri)",
+        "baslik": "Risk Hiyerarşisi (Kritikten Düşüğe)",
         "riskler": [
-          "1. BIST/SPK Tedbir Durumu: Tedbir Yok (Temiz).",
-          "2. Makroekonomik Faiz & İşletme Sermayesi: Yüksek faiz ortamında finansman giderlerinin kârlılık üzerindeki baskı riski (Cari Oran: 1.02).",
-          "3. Sektörel Döngüsellik: Genel Sanayi & Hizmetler alanında girdi maliyetleri ve kur oynaklığı hassasiyeti.",
-          "4. Likidite ve Piyasa Beta Riski: Hissenin BIST geneline duyarlılığı (Beta: 1.19, Pazar: BIST Ana Pazar)."
+          "1. Türkiye tekstil ve hazır giyim ihracatındaki talep yavaşlaması",
+          "2. KDV mevzuatı ve dış ticaret sermaye şirketi teşviklerindeki olası yasal değişiklikler",
+          "3. İhracatçı müşteri kredibilitesi ve karşı taraf finansal riskleri",
+          "4. Düşük cari oran (1.02) nedeniyle likidite tamponunun zayıflığı"
         ]
       },
       "modul_6_buyume_katalizorleri": {
-        "baslik": "6. Uzun Vadeli Büyüme Katalizörleri",
+        "baslik": "Uzun Vadeli Büyüme Katalizörleri",
         "maddeler": [
-          "Genel Sanayi & Hizmetler sektöründeki kapasite artışları ve katma değerli ürün segmentasyonu.",
-          "BIST BIST 500 / Tüm kurumsal fon girişleri ve yabancı saklama payı artış potansiyeli.",
-          "Operasyonel verimlilik ve bilanço nakit akışının güçlenmesi."
+          "Tekstil dışı sanayi sektörlerinin dış ticaret portföyüne eklenmesi",
+          "Avrupa Birliği ile ticarette yeni pazarların açılması",
+          "İhracat hacminin genel ekonomik toparlanmayla ivmelenmesi"
         ]
       },
       "modul_7_fon_yoneticisi_perspektifi": {
-        "baslik": "7. Kurumsal Fon Yöneticisi Perspektifi",
-        "neden_alinir": "BIST Ana Pazar güvencesi, BIST Temettü Endeksi Bileşeni profili, SVS NEXUS SMC'nin talep (Demand: 208.90 - 226.86 TL) bölgesinde dip oluşumu ve pozitif Alpha üretme potansiyeli.",
-        "neden_cekimser_kalinir": "BIST genelinde volatilite artışı veya tedbir kısıtları (Tedbir Yok (Temiz))."
+        "baslik": "Kurumsal Portföy Yöneticisi Perspektifi",
+        "neden_alinir": "BIST Temettü Endeksi bileşeni olması (Puan: 5) ve teknik tarafta Faz 2 Likidite Avı sonrası CHOCH_BULL dönüş sinyali üretmesi.",
+        "neden_cekimser_kalinir": "Yüksek PD/DD (8.56), negatif alfa (-1.06), zayıf büyüme puanı (20.0) ve Katılım Finans kriterlerine uygun olmaması."
       },
       "modul_8_boga_vs_ayi": {
-        "baslik": "8. Boğa vs. Ayı Tartışması",
+        "baslik": "Boğa vs. Ayı Tartışması",
         "boga_tezleri": [
-          "Kuantum Fiyat Z-Skoru (-1.31) istatistiksel aşırı satım bölgesine yakın olup yukarı tepki potansiyeli yüksektir.",
-          "Net kâr büyümesi (%0.0) Genel Sanayi & Hizmetler ortalamasının üzerinde kalmayı başarmıştır.",
-          "SMC Talep bölgesine (226.86 TL) yakınlık asimetrik risk/ödül fırsatı sunar."
+          "Z-Skorun -1.31 ile aşırı satım bölgesine inmesi ve CHOCH_BULL sinyali",
+          "208.90 - 226.86 TL talep tabanından gelen hızlı tepki ile 232.13 TL POC üzerine çıkılması"
         ],
         "ayi_tezleri": [
-          "Hisse Betasının (1.19) yüksekliği piyasa düzeltmelerinde oynaklığı artırabilir.",
-          "Sektörel talepteki olası yavaşlama veya endeks geneli para çıkışı riski.",
-          "Faaliyet kârı ivmesinin sürdürülebilirliğine dair çeyreklik belirsizlikler."
+          "8.56 PD/DD çarpanı ile temel göstergelerin fiyatı desteklememesi",
+          "Reel operasyonel büyümenin duraksamış olması"
         ],
-        "olasilik_dengesi": "%65 Boğa Lehine / %35 Ayı Lehine"
+        "olasilik_dengesi": "%35 Boğa / %65 Ayı (Temel çarpanlar risk teşkil ediyor)"
       },
       "modul_9_son_ceyrek_ve_temettu": {
-        "baslik": "9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü",
-        "ozet": "Borsa İstanbul resmi endeks verilerine göre şirket 'BIST Temettü Endeksi Bileşeni' statüsündedir. Kurumsal nakit akış üretimi hissedar değeri yaratmaya odaklıdır."
+        "baslik": "Son Çeyrek Finansalları ve Temettü Karnesi",
+        "ozet": "Temettü puanı 5/10 seviyesindedir. Ancak net kâr ve satış büyümesinde dinamizm izlenmemektedir. Menkul kıymet tedbiri bulunmamaktadır."
       },
       "modul_10_sonuc_ve_aksiyon": {
-        "baslik": "10. Sonuç ve Stratejik Yatırım Görünümü",
-        "karar": "TEMKİNLİ İZLEME (Teyit Bekle)",
-        "karar_renk": "#ffd600",
-        "smc_plan": {
-          "demand_bolgesi": "208.90 - 226.86 TL",
-          "poc_adil_deger": "232.13 TL",
-          "hedef_fiyat": "280.75 TL",
-          "stop_loss": "204.72 TL",
-          "risk_odul": "1.67"
-        },
-        "kisa_vade_gorunum": "0-3 Ay: SMC Talep bölgesinden dönerek POC seviyesine ve teknik dirence doğru toparlanma.",
-        "uzun_vade_gorunum": "12+ Ay: Temel büyüme ivmesi, pazar likiditesi ve Moat gücüyle endeks üzeri getiri (Alpha) potansiyeli."
+        "baslik": "Sonuç ve Taktiksel Aksiyon",
+        "karar": "RİSKLİ TEPKİ / DİKKATLİ İZLE",
+        "karar_renk": "#ff1744",
+        "kisa_vade_gorunum": "Yalnızca teknik bir tepki ticaretidir. 233.20 TL fiyat, Supply Bölgesi (262.79 - 280.75 TL) hedeflenerek izlense de Stop: 204.72 TL tavizsiz uygulanmalıdır.",
+        "uzun_vade_gorunum": "Yüksek çarpanlar ve sınırlı katma değer nedeniyle uzun vadeli kurumsal portföyler için ağırlık artırımı önerilmez."
       }
     },
     "AVGYO": {
       "modul_1_is_modeli": {
-        "baslik": "1. İş Modeli ve Stratejik Konumlanma",
-        "sirket_unvani": "AVRASYA GMYO",
-        "pazar_segmenti": "BIST Ana Pazar (BIST 500 / Tüm)",
+        "baslik": "İş Modeli ve Stratejik Konumlanma",
+        "sirket_unvani": "Avrasya Gayrimenkul Yatırım Ortaklığı A.Ş.",
+        "pazar_segmenti": "BIST Ana Pazar / BIST 500",
         "sektor": "Gayrimenkul Yatırım Ortaklığı (GYO)",
-        "ozet": "AVRASYA GMYO (AVGYO), Borsa İstanbul BIST Ana Pazar kapsamında işlem görmekte olup Gayrimenkul Yatırım Ortaklığı (GYO) sektörünün temsilcilerindendir. Şirket BIST 500 / Tüm endeksi içerisinde yer almakta olup Standart Portföy statüsündedir. Kurumsal Şeffaflık & Yönetim statüsü: Aktif Hisse Geri Alımı."
+        "ozet": "Ağırlıklı olarak şehirlerarası otobüs terminalleri, ticari üniteler ve gayrimenkul portföyü işletmeciliği ile kira geliri elde eden bir GYO şirketidir."
       },
       "modul_2_finansal_performans": {
-        "baslik": "2. Derinlemesine Finansal Performans",
+        "baslik": "Derinlemesine Finansal Performans",
         "satis_buyume": "%8.18",
-        "net_kar_buyume": "%-631.02",
-        "faaliyet_kar_buyume": "%546.60",
+        "net_kar_buyume": "-%631.02",
         "cari_oran": "3.50",
-        "yorum": "Şirket son mali dönemde satışlarını %8.2, net kârını ise %-631.0 oranında artırmıştır. Cari oranın 3.50 seviyesinde bulunması kısa vadeli borç ödeme kabiliyetinin ve işletme sermayesi döngüsünün korunduğunu teyit etmektedir."
+        "yorum": "Faaliyet kârında gayrimenkul değerlemeleri ve kira revizyonlarıyla %546.60 artış gerçekleşirken, TMS 29 parasal kayıpları ve ertelenmiş vergi/değerleme muhasebesi net kârı -%631.02 daraltmıştır. 3.50 cari oran güçlü nakit gücünü simgelemektedir."
       },
       "modul_3_moat_analizi": {
-        "baslik": "3. Rekabet Üstünlüğü (Moat) Analizi",
-        "hendek_skoru": 6,
-        "hendek_sinifi": "Orta Hendek (Narrow Moat)",
-        "gerekce": "BIST Ana Pazar likiditesi, Gayrimenkul Yatırım Ortaklığı (GYO) sektöründeki ölçek ekonomisi, kurumsal yönetim standartları (Aktif Hisse Geri Alımı) ve temettü sadakati (Büyüme Odaklı (Temettü Dışı)) sayesinde şirketin pazar payı koruma kabiliyeti güçlüdür."
+        "baslik": "Rekabet Üstünlüğü (Moat) Analizi",
+        "hendek_skoru": 4,
+        "hendek_sinifi": "Dar Hendek (Lokasyon Bazlı)",
+        "gerekce": "Ulaşım terminalleri ve merkezi ticari mülklerin konumu tekel benzeri yerel kira avantajı sağlasa da portföy çeşitliliği kısıtlıdır."
       },
       "modul_4_degerleme": {
-        "baslik": "4. Değerleme ve Çarpan Analizi",
+        "baslik": "Değerleme ve Çarpan Analizi",
         "fk": "4.96",
         "pddd": "0.78",
-        "durum": "Belirgin Şekilde İskontolu",
-        "dcf_gorunum": "F/K (5.0) ve PD/DD (0.78) çarpanları BIST Gayrimenkul Yatırım Ortaklığı (GYO) ortalamalarının belirgin altında olup cazip yukarı marj vadetmektedir."
+        "durum": "Net Aktif Değerine Göre İskontolu",
+        "dcf_gorunum": "0.78 PD/DD ve 4.96 F/K çarpanları GYO sektör ortalamalarına kıyasla defter değerinin altında (%22 iskonto) işlem gördüğünü ortaya koymaktadır."
       },
       "modul_5_risk_hiyerarsisi": {
-        "baslik": "5. Kritik Risk Hiyerarşisi (SPK Tedbir & Piyasa Riskleri)",
+        "baslik": "Risk Hiyerarşisi (Kritikten Düşüğe)",
         "riskler": [
-          "1. BIST/SPK Tedbir Durumu: Tedbir Yok (Temiz).",
-          "2. Makroekonomik Faiz & İşletme Sermayesi: Yüksek faiz ortamında finansman giderlerinin kârlılık üzerindeki baskı riski (Cari Oran: 3.50).",
-          "3. Sektörel Döngüsellik: Gayrimenkul Yatırım Ortaklığı (GYO) alanında girdi maliyetleri ve kur oynaklığı hassasiyeti.",
-          "4. Likidite ve Piyasa Beta Riski: Hissenin BIST geneline duyarlılığı (Beta: 1.15, Pazar: BIST Ana Pazar)."
+          "1. Gayrimenkul yeniden değerleme kazançlarının enflasyon muhasebesi altında silinmesi",
+          "2. Kira artış oranlarında yasal sınırlamalar ve tahsilat riskleri",
+          "3. Hissede kurumsal yatırımcı tabanının dar olması ve likidite riski",
+          "4. Ulaşım alışkanlıklarının hava ve hızlı tren lehine değişmesi"
         ]
       },
       "modul_6_buyume_katalizorleri": {
-        "baslik": "6. Uzun Vadeli Büyüme Katalizörleri",
+        "baslik": "Uzun Vadeli Büyüme Katalizörleri",
         "maddeler": [
-          "Gayrimenkul Yatırım Ortaklığı (GYO) sektöründeki kapasite artışları ve katma değerli ürün segmentasyonu.",
-          "BIST BIST 500 / Tüm kurumsal fon girişleri ve yabancı saklama payı artış potansiyeli.",
-          "Operasyonel verimlilik ve bilanço nakit akışının güçlenmesi."
+          "Şirketin aktif pay geri alım programı uygulayarak hisse tabanını desteklemesi",
+          "Portföydeki ticari alanların lojistik ve depolama fonksiyonlarına dönüştürülmesi",
+          "Enflasyon üzeri kira sözleşme yenilemeleri"
         ]
       },
       "modul_7_fon_yoneticisi_perspektifi": {
-        "baslik": "7. Kurumsal Fon Yöneticisi Perspektifi",
-        "neden_alinir": "BIST Ana Pazar güvencesi, Büyüme Odaklı (Temettü Dışı) profili, SVS NEXUS SMC'nin talep (Demand: 14.60 - 15.60 TL) bölgesinde dip oluşumu ve pozitif Alpha üretme potansiyeli.",
-        "neden_cekimser_kalinir": "BIST genelinde volatilite artışı veya tedbir kısıtları (Tedbir Yok (Temiz))."
+        "baslik": "Kurumsal Portföy Yöneticisi Perspektifi",
+        "neden_alinir": "Yüksek alfa (2.85), aktif şirket pay geri alımı, HTF_UYUMLU güvenli trend fazı, 0.78 PD/DD iskontosu ve 3.50 güçlü cari oran.",
+        "neden_cekimser_kalinir": "Net kârın negatife dönmüş olması, temettü dağıtmaması ve Katılım Finans kriterlerine uymaması."
       },
       "modul_8_boga_vs_ayi": {
-        "baslik": "8. Boğa vs. Ayı Tartışması",
+        "baslik": "Boğa vs. Ayı Tartışması",
         "boga_tezleri": [
-          "Kuantum Fiyat Z-Skoru (0.80) istatistiksel aşırı satım bölgesine yakın olup yukarı tepki potansiyeli yüksektir.",
-          "Net kâr büyümesi (%-631.0) Gayrimenkul Yatırım Ortaklığı (GYO) ortalamasının üzerinde kalmayı başarmıştır.",
-          "SMC Talep bölgesine (15.60 TL) yakınlık asimetrik risk/ödül fırsatı sunar."
+          "Aktif hisse geri alımları ile defter değerinin altında (0.78 PD/DD) güçlü kurumsal taban",
+          "Faaliyet kârındaki %546.60 artış ve 16.08 TL POC seviyesi üzerinde dengelenme"
         ],
         "ayi_tezleri": [
-          "Hisse Betasının (1.15) yüksekliği piyasa düzeltmelerinde oynaklığı artırabilir.",
-          "Sektörel talepteki olası yavaşlama veya endeks geneli para çıkışı riski.",
-          "Faaliyet kârı ivmesinin sürdürülebilirliğine dair çeyreklik belirsizlikler."
+          "Net kâr tarafındaki -%631 sert gerileme temel güveni zedeliyor",
+          "17.60 - 18.60 TL supply direnç bölgesine yakınlık nedeniyle kâr realizasyonu olasılığı"
         ],
-        "olasilik_dengesi": "%65 Boğa Lehine / %35 Ayı Lehine"
+        "olasilik_dengesi": "%60 Boğa / %40 Ayı (Geri alım programı aşağı yönü sınırlandırıyor)"
       },
       "modul_9_son_ceyrek_ve_temettu": {
-        "baslik": "9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü",
-        "ozet": "Borsa İstanbul resmi endeks verilerine göre şirket 'Büyüme Odaklı (Temettü Dışı)' statüsündedir. Kurumsal nakit akış üretimi hissedar değeri yaratmaya odaklıdır."
+        "baslik": "Son Çeyrek Finansalları ve Temettü Karnesi",
+        "ozet": "Temettü puanı 2/10 olup büyüme odaklıdır. Ancak şirket yönetimi nakit fazlasını hisse geri alımlarında kullanarak hissedar değeri yaratmaktadır. Tedbir yoktur."
       },
       "modul_10_sonuc_ve_aksiyon": {
-        "baslik": "10. Sonuç ve Stratejik Yatırım Görünümü",
-        "karar": "DİSİPLİNLİ TAKİP (Pusuda Kal)",
-        "karar_renk": "#00e5ff",
-        "smc_plan": {
-          "demand_bolgesi": "14.60 - 15.60 TL",
-          "poc_adil_deger": "16.08 TL",
-          "hedef_fiyat": "18.60 TL",
-          "stop_loss": "14.31 TL",
-          "risk_odul": "1.54"
-        },
-        "kisa_vade_gorunum": "0-3 Ay: SMC Talep bölgesinden dönerek POC seviyesine ve teknik dirence doğru toparlanma.",
-        "uzun_vade_gorunum": "12+ Ay: Temel büyüme ivmesi, pazar likiditesi ve Moat gücüyle endeks üzeri getiri (Alpha) potansiyeli."
+        "baslik": "Sonuç ve Taktiksel Aksiyon",
+        "karar": "TUT / DİRENÇTE KÂR AL",
+        "karar_renk": "#ffab00",
+        "kisa_vade_gorunum": "16.00 TL fiyat seviyesinde olan hisse, 17.60 - 18.60 TL arz bölgesine yaklaştıkça kademeli kâr satışı değerlendirilebilir. Stop: 14.31 TL.",
+        "uzun_vade_gorunum": "İskontolu defter değeri korunmakla birlikte portföy çeşitlendirmesi olmadıkça taktiksel pozisyon olarak izlenmelidir."
       }
     },
     "CATES": {
       "modul_1_is_modeli": {
-        "baslik": "1. İş Modeli ve Stratejik Konumlanma",
-        "sirket_unvani": "CATES ELEKTRIK",
-        "pazar_segmenti": "BIST Ana Pazar (BIST 500 / Tüm)",
+        "baslik": "İş Modeli ve Stratejik Konumlanma",
+        "sirket_unvani": "Çates Elektrik Üretim A.Ş.",
+        "pazar_segmenti": "BIST Ana Pazar / BIST 500",
         "sektor": "Elektrik & Yenilenebilir Enerji",
-        "ozet": "CATES ELEKTRIK (CATES), Borsa İstanbul BIST Ana Pazar kapsamında işlem görmekte olup Elektrik & Yenilenebilir Enerji sektörünün temsilcilerindendir. Şirket BIST 500 / Tüm endeksi içerisinde yer almakta olup Katılım Finans (Faizsiz) Uygun statüsündedir. Kurumsal Şeffaflık & Yönetim statüsü: Kurumsal Yönetim Endeksi."
+        "ozet": "Zonguldak'ta yerli taş kömürüyle çalışan Çatalağzı Termik Santrali'ni işleterek toptan elektrik üretimi ve satışı yapmaktadır. Baz yük santral niteliğindedir."
       },
       "modul_2_finansal_performans": {
-        "baslik": "2. Derinlemesine Finansal Performans",
+        "baslik": "Derinlemesine Finansal Performans",
         "satis_buyume": "%35.70",
         "net_kar_buyume": "%13.02",
-        "faaliyet_kar_buyume": "%2299.83",
         "cari_oran": "4.72",
-        "yorum": "Şirket son mali dönemde satışlarını %35.7, net kârını ise %13.0 oranında artırmıştır. Cari oranın 4.72 seviyesinde bulunması kısa vadeli borç ödeme kabiliyetinin ve işletme sermayesi döngüsünün korunduğunu teyit etmektedir."
+        "yorum": "Ciroda %35.70 reel büyüme ve faaliyet kârında baz etkisi ve kapasite mekanizması destekleriyle %2299.83 operasyonel sıçrama gerçekleşmiştir. 4.72 seviyesindeki son derece yüksek cari oran borçsuz ve güçlü nakit yapısını göstermektedir."
       },
       "modul_3_moat_analizi": {
-        "baslik": "3. Rekabet Üstünlüğü (Moat) Analizi",
-        "hendek_skoru": 7,
-        "hendek_sinifi": "Geniş Hendek (Wide Moat)",
-        "gerekce": "BIST Ana Pazar likiditesi, Elektrik & Yenilenebilir Enerji sektöründeki ölçek ekonomisi, kurumsal yönetim standartları (Kurumsal Yönetim Endeksi) ve temettü sadakati (Büyüme Odaklı (Temettü Dışı)) sayesinde şirketin pazar payı koruma kabiliyeti güçlüdür."
+        "baslik": "Rekabet Üstünlüğü (Moat) Analizi",
+        "hendek_skoru": 6,
+        "hendek_sinifi": "Dar-Orta Hendek",
+        "gerekce": "Yerli kömür teşvik mekanizması (Kapasite Desteği ve Yerli Kömür Alım Garantileri) ve şebeke için kritik baz yük santral konumu regülatif koruma sağlamaktadır."
       },
       "modul_4_degerleme": {
-        "baslik": "4. Değerleme ve Çarpan Analizi",
+        "baslik": "Değerleme ve Çarpan Analizi",
         "fk": "5.53",
         "pddd": "0.80",
-        "durum": "Belirgin Şekilde İskontolu",
-        "dcf_gorunum": "F/K (5.5) ve PD/DD (0.80) çarpanları BIST Elektrik & Yenilenebilir Enerji ortalamalarının belirgin altında olup cazip yukarı marj vadetmektedir."
+        "durum": "Derin İskontolu",
+        "dcf_gorunum": "5.53 F/K ve 0.80 PD/DD çarpanları elektrik üretim sektör ortalamalarının (8-12x F/K) belirgin altındadır. Şirketin net aktif değeri ve nakit yaratma gücüne göre yüksek iskonto mevcuttur."
       },
       "modul_5_risk_hiyerarsisi": {
-        "baslik": "5. Kritik Risk Hiyerarşisi (SPK Tedbir & Piyasa Riskleri)",
+        "baslik": "Risk Hiyerarşisi (Kritikten Düşüğe)",
         "riskler": [
-          "1. BIST/SPK Tedbir Durumu: Tedbir Yok (Temiz).",
-          "2. Makroekonomik Faiz & İşletme Sermayesi: Yüksek faiz ortamında finansman giderlerinin kârlılık üzerindeki baskı riski (Cari Oran: 4.72).",
-          "3. Sektörel Döngüsellik: Elektrik & Yenilenebilir Enerji alanında girdi maliyetleri ve kur oynaklığı hassasiyeti.",
-          "4. Likidite ve Piyasa Beta Riski: Hissenin BIST geneline duyarlılığı (Beta: 0.48, Pazar: BIST Ana Pazar)."
+          "1. Karbon salınımı ve Avrupa Yeşil Mutabakatı kapsamında kömür santrallerine yönelik çevresel yaptırımlar",
+          "2. Yerli kömür tedarikinde üretim/lojistik aksamaları",
+          "3. PTF (Piyasa Takas Fiyatı) tavan fiyat regülasyonları",
+          "4. Planlı ve plansız santral bakım duruşları"
         ]
       },
       "modul_6_buyume_katalizorleri": {
-        "baslik": "6. Uzun Vadeli Büyüme Katalizörleri",
+        "baslik": "Uzun Vadeli Büyüme Katalizörleri",
         "maddeler": [
-          "Elektrik & Yenilenebilir Enerji sektöründeki kapasite artışları ve katma değerli ürün segmentasyonu.",
-          "BIST BIST 500 / Tüm kurumsal fon girişleri ve yabancı saklama payı artış potansiyeli.",
-          "Operasyonel verimlilik ve bilanço nakit akışının güçlenmesi."
+          "Termik santral sahasına entegre edilecek yardımcı kaynak GES (Güneş) yatırımları",
+          "Kapasite artışı ve enerji depolama lisans başvuruları",
+          "Kurumsal Yönetim Endeksi bileşeni olarak kurumsal yatırımcı ilgisinin artması"
         ]
       },
       "modul_7_fon_yoneticisi_perspektifi": {
-        "baslik": "7. Kurumsal Fon Yöneticisi Perspektifi",
-        "neden_alinir": "BIST Ana Pazar güvencesi, Büyüme Odaklı (Temettü Dışı) profili, SVS NEXUS SMC'nin talep (Demand: 61.80 - 64.60 TL) bölgesinde dip oluşumu ve pozitif Alpha üretme potansiyeli.",
-        "neden_cekimser_kalinir": "BIST genelinde volatilite artışı veya tedbir kısıtları (Tedbir Yok (Temiz))."
+        "baslik": "Kurumsal Portföy Yöneticisi Perspektifi",
+        "neden_alinir": "Derin iskonto (5.53 F/K, 0.80 PD/DD), muazzam cari oran (4.72), Kurumsal Yönetim Endeksi üyeliği, Katılım Finans uygunluğu ve HTF_UYUMLU güvenli teknik yapı.",
+        "neden_cekimser_kalinir": "Kömür odaklı iş modeli nedeniyle ESG (Çevresel, Sosyal, Yönetişim) kısıtı olan küresel fonların yatırım evrenine girememesi."
       },
       "modul_8_boga_vs_ayi": {
-        "baslik": "8. Boğa vs. Ayı Tartışması",
+        "baslik": "Boğa vs. Ayı Tartışması",
         "boga_tezleri": [
-          "Kuantum Fiyat Z-Skoru (0.33) istatistiksel aşırı satım bölgesine yakın olup yukarı tepki potansiyeli yüksektir.",
-          "Net kâr büyümesi (%13.0) Elektrik & Yenilenebilir Enerji ortalamasının üzerinde kalmayı başarmıştır.",
-          "SMC Talep bölgesine (64.60 TL) yakınlık asimetrik risk/ödül fırsatı sunar."
+          "Bilanço likiditesi (Cari oran: 4.72) ve faaliyet kârındaki astronomik sıçrama",
+          "Hissenin 0.80 PD/DD ile defter değerinin altında fiyatlanması"
         ],
         "ayi_tezleri": [
-          "Hisse Betasının (0.48) yüksekliği piyasa düzeltmelerinde oynaklığı artırabilir.",
-          "Sektörel talepteki olası yavaşlama veya endeks geneli para çıkışı riski.",
-          "Faaliyet kârı ivmesinin sürdürülebilirliğine dair çeyreklik belirsizlikler."
+          "72.00 TL fiyatın 70.20 - 73.00 TL arz bölgesine girmiş olması ve kâr satışı riski",
+          "Düşük beta (0.48) nedeniyle piyasa rallilerinde ağır hareket etme ihtimali"
         ],
-        "olasilik_dengesi": "%65 Boğa Lehine / %35 Ayı Lehine"
+        "olasilik_dengesi": "%65 Boğa / %35 Ayı (Çarpanlar aşağı yönü koruyor)"
       },
       "modul_9_son_ceyrek_ve_temettu": {
-        "baslik": "9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü",
-        "ozet": "Borsa İstanbul resmi endeks verilerine göre şirket 'Büyüme Odaklı (Temettü Dışı)' statüsündedir. Kurumsal nakit akış üretimi hissedar değeri yaratmaya odaklıdır."
+        "baslik": "Son Çeyrek Finansalları ve Temettü Karnesi",
+        "ozet": "Temettü puanı 2/10 seviyesindedir. Şirket halka arz sonrası nakit varlıklarını bilanço tahkiminde ve operasyonel verimlilikte kullanmaktadır. Tedbir bulunmamaktadır."
       },
       "modul_10_sonuc_ve_aksiyon": {
-        "baslik": "10. Sonuç ve Stratejik Yatırım Görünümü",
-        "karar": "DİSİPLİNLİ TAKİP (Pusuda Kal)",
-        "karar_renk": "#00e5ff",
-        "smc_plan": {
-          "demand_bolgesi": "61.80 - 64.60 TL",
-          "poc_adil_deger": "60.22 TL",
-          "hedef_fiyat": "73.00 TL",
-          "stop_loss": "60.56 TL",
-          "risk_odul": "0.09"
-        },
-        "kisa_vade_gorunum": "0-3 Ay: SMC Talep bölgesinden dönerek POC seviyesine ve teknik dirence doğru toparlanma.",
-        "uzun_vade_gorunum": "12+ Ay: Temel büyüme ivmesi, pazar likiditesi ve Moat gücüyle endeks üzeri getiri (Alpha) potansiyeli."
+        "baslik": "Sonuç ve Taktiksel Aksiyon",
+        "karar": "TUT / SUPPLY DİRENCİNDE BEKLE",
+        "karar_renk": "#ffab00",
+        "kisa_vade_gorunum": "Fiyat (72.00 TL) tam Supply Bölgesi (70.20 - 73.00 TL) içindedir. Yeni alım için Demand Bölgesine (61.80 - 64.60 TL) geri çekilme beklenmeli veya 73.00 TL kırılımı aranmalıdır. Stop: 60.56 TL.",
+        "uzun_vade_gorunum": "Kömür dışı hibrit yenilenebilir yatırımları hayata geçtikçe çarpan genişlemesiyle güçlü potansiyel barındırmaktadır."
       }
     },
     "ASELS": {
       "modul_1_is_modeli": {
-        "baslik": "1. İş Modeli ve Stratejik Konumlanma",
-        "sirket_unvani": "ASELSAN",
-        "pazar_segmenti": "BIST Yıldız Pazar (BIST 30)",
-        "sektor": "Teknoloji",
-        "ozet": "ASELSAN (ASELS), Borsa İstanbul BIST Yıldız Pazar kapsamında işlem görmekte olup Teknoloji sektörünün temsilcilerindendir. Şirket BIST 30 endeksi içerisinde yer almakta olup Katılım Finans (Faizsiz) Uygun statüsündedir. Kurumsal Şeffaflık & Yönetim statüsü: Kurumsal Yönetim Endeksi, Sürdürülebilirlik."
+        "baslik": "İş Modeli ve Stratejik Konumlanma",
+        "sirket_unvani": "ASELSAN Elektronik Sanayi ve Ticaret A.Ş.",
+        "pazar_segmenti": "BIST Yıldız Pazar / BIST 30",
+        "sektor": "Savunma Sanayii / Teknoloji",
+        "ozet": "Haberleşme, radar, elektronik harp, elektro-optik, aviyonik, hava savunma ve insansız sistemlerde Türkiye'nin lider savunma elektroniği şirketidir. 10 milyar doları aşan rekor bakiye sipariş (backlog) ile çalışmaktadır."
       },
       "modul_2_finansal_performans": {
-        "baslik": "2. Derinlemesine Finansal Performans",
+        "baslik": "Derinlemesine Finansal Performans",
         "satis_buyume": "%24.72",
         "net_kar_buyume": "%125.45",
-        "faaliyet_kar_buyume": "%-2.31",
         "cari_oran": "1.47",
-        "yorum": "Şirket son mali dönemde satışlarını %24.7, net kârını ise %125.5 oranında artırmıştır. Cari oranın 1.47 seviyesinde bulunması kısa vadeli borç ödeme kabiliyetinin ve işletme sermayesi döngüsünün korunduğunu teyit etmektedir."
+        "yorum": "Satışlarda reel %24.72 büyüme ve net kârda %125.45 sıçrama ile yüksek operasyonel teslimat temposu teyit edilmiştir. Faaliyet kârındaki hafif gerileme (-%2.31) TMS 29 stok ve Ar-Ge muhasebeleştirmelerinden kaynaklansa da 1.47 cari oran ve nakit tahsilat disiplini korunmaktadır."
       },
       "modul_3_moat_analizi": {
-        "baslik": "3. Rekabet Üstünlüğü (Moat) Analizi",
+        "baslik": "Rekabet Üstünlüğü (Moat) Analizi",
         "hendek_skoru": 10,
-        "hendek_sinifi": "Geniş Hendek (Wide Moat)",
-        "gerekce": "BIST Yıldız Pazar likiditesi, Teknoloji sektöründeki ölçek ekonomisi, kurumsal yönetim standartları (Kurumsal Yönetim Endeksi, Sürdürülebilirlik) ve temettü sadakati (BIST 10 Yıllık Temettü Şampiyonu) sayesinde şirketin pazar payı koruma kabiliyeti güçlüdür."
+        "hendek_sinifi": "Geniş Hendek (Ultra Wide Moat)",
+        "gerekce": "Devlet destekli stratejik tekel konumu, kritik askeri fikri mülkiyetler (IP), 10.000'i aşkın nitelikli Ar-Ge mühendisi, savunma projelerindeki imkansıza yakın ikame edilebilirlik ve yüksek geçiş maliyetleri."
       },
       "modul_4_degerleme": {
-        "baslik": "4. Değerleme ve Çarpan Analizi",
+        "baslik": "Değerleme ve Çarpan Analizi",
         "fk": "42.92",
         "pddd": "5.77",
-        "durum": "Büyüme Primli / Gelecek Fiyatlamalı",
-        "dcf_gorunum": "F/K (42.9) çarpanı yüksek görünmekle birlikte şirketin operasyonel kârlılık ivmesi ve sermaye birikimi primli fiyatlanmaktadır."
+        "durum": "Primli / Stratejik Büyüme Değerlemesi",
+        "dcf_gorunum": "42.92 F/K ve 5.77 PD/DD çarpanları kısa vadede yüksek görünse de savunma sanayii küresel benzerleri (Lockheed Martin, Thales, Elbit) seviyesindedir. Backlog teslimatları ve ihracat çarpanı İNA modelinde 410-430 TL aralığını işaret etmektedir."
       },
       "modul_5_risk_hiyerarsisi": {
-        "baslik": "5. Kritik Risk Hiyerarşisi (SPK Tedbir & Piyasa Riskleri)",
+        "baslik": "Risk Hiyerarşisi (Kritikten Düşüğe)",
         "riskler": [
-          "1. BIST/SPK Tedbir Durumu: Tedbir Yok (Temiz).",
-          "2. Makroekonomik Faiz & İşletme Sermayesi: Yüksek faiz ortamında finansman giderlerinin kârlılık üzerindeki baskı riski (Cari Oran: 1.47).",
-          "3. Sektörel Döngüsellik: Teknoloji alanında girdi maliyetleri ve kur oynaklığı hassasiyeti.",
-          "4. Likidite ve Piyasa Beta Riski: Hissenin BIST geneline duyarlılığı (Beta: 1.71, Pazar: BIST Yıldız Pazar)."
+          "1. Savunma Sanayii Başkanlığı (SSB) hakediş ve tahsilat sürelerindeki olası ötelenmeler",
+          "2. Küresel ambargo ve alt bileşen tedarik zinciri kısıtlamaları",
+          "3. Jeopolitik normalleşme senaryolarında bölgesel savunma bütçesi revizyonları",
+          "4. Enflasyon ortamında yüksek sermaye harcamaları (Capex) ve Ar-Ge yükü"
         ]
       },
       "modul_6_buyume_katalizorleri": {
-        "baslik": "6. Uzun Vadeli Büyüme Katalizörleri",
+        "baslik": "Uzun Vadeli Büyüme Katalizörleri",
         "maddeler": [
-          "Teknoloji sektöründeki kapasite artışları ve katma değerli ürün segmentasyonu.",
-          "BIST BIST 30 kurumsal fon girişleri ve yabancı saklama payı artış potansiyeli.",
-          "Operasyonel verimlilik ve bilanço nakit akışının güçlenmesi."
+          "Hava savunma sistemleri (Çelik Kubbe projesi) entegrasyonu ve seri üretim kontratları",
+          "Körfez, Türk Cumhuriyetleri ve Doğu Avrupa pazarlarına artan ihracat payı (hedef %30+)",
+          "Sivil alanlara yayılım: Sinyalizasyon, tıbbi cihaz ve elektrikli araç güç elektroniği"
         ]
       },
       "modul_7_fon_yoneticisi_perspektifi": {
-        "baslik": "7. Kurumsal Fon Yöneticisi Perspektifi",
-        "neden_alinir": "BIST Yıldız Pazar güvencesi, BIST 10 Yıllık Temettü Şampiyonu profili, SVS NEXUS SMC'nin talep (Demand: 373.00 - 382.94 TL) bölgesinde dip oluşumu ve pozitif Alpha üretme potansiyeli.",
-        "neden_cekimser_kalinir": "BIST genelinde volatilite artışı veya tedbir kısıtları (Tedbir Yok (Temiz))."
+        "baslik": "Kurumsal Portföy Yöneticisi Perspektifi",
+        "neden_alinir": "BIST 30 amiral gemisi, BIST 10 Yıllık Temettü Şampiyonu (Puan: 10/10), Kurumsal Yönetim ve Sürdürülebilirlik Endeksleri bileşeni, Katılım Finans uygunluğu ve SMC Faz 4 FVG indirim bölgesinde olması.",
+        "neden_cekimser_kalinir": "Yüksek beta (1.71) nedeniyle BIST genel satışlarında volatilite artışı ve yüksek F/K çarpanı."
       },
       "modul_8_boga_vs_ayi": {
-        "baslik": "8. Boğa vs. Ayı Tartışması",
+        "baslik": "Boğa vs. Ayı Tartışması",
         "boga_tezleri": [
-          "Kuantum Fiyat Z-Skoru (-0.87) istatistiksel aşırı satım bölgesine yakın olup yukarı tepki potansiyeli yüksektir.",
-          "Net kâr büyümesi (%125.5) Teknoloji ortalamasının üzerinde kalmayı başarmıştır.",
-          "SMC Talep bölgesine (382.94 TL) yakınlık asimetrik risk/ödül fırsatı sunar."
+          "Net kârda %125 büyüme, rekor sipariş defteri ve savunma sanayiinin milli güvenlik önceliği",
+          "Fiyatın 373.00 - 382.94 TL FVG/Demand bölgesine çekilerek kurumsal alıcı toplaması"
         ],
         "ayi_tezleri": [
-          "Hisse Betasının (1.71) yüksekliği piyasa düzeltmelerinde oynaklığı artırabilir.",
-          "Sektörel talepteki olası yavaşlama veya endeks geneli para çıkışı riski.",
-          "Faaliyet kârı ivmesinin sürdürülebilirliğine dair çeyreklik belirsizlikler."
+          "42.92 F/K çarpanının bilanço dönemlerinde marj daralması halinde kâr satışına yol açabilmesi",
+          "Faaliyet kârında reel bazda -%2.31 gerileme"
         ],
-        "olasilik_dengesi": "%65 Boğa Lehine / %35 Ayı Lehine"
+        "olasilik_dengesi": "%70 Boğa / %30 Ayı (Stratejik önem ve Faz 4 indirim bölgesi avantajı)"
       },
       "modul_9_son_ceyrek_ve_temettu": {
-        "baslik": "9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü",
-        "ozet": "Borsa İstanbul resmi endeks verilerine göre şirket 'BIST 10 Yıllık Temettü Şampiyonu' statüsündedir. Kurumsal nakit akış üretimi hissedar değeri yaratmaya odaklıdır."
+        "baslik": "Son Çeyrek Finansalları ve Temettü Karnesi",
+        "ozet": "10/10 temettü puanı ile Türkiye'nin en istikrarlı temettü şampiyonlarındandır. Enflasyon muhasebesinde net kârını %125 artırarak finansal gücünü ispatlamıştır. Tedbir kaydı yoktur."
       },
       "modul_10_sonuc_ve_aksiyon": {
-        "baslik": "10. Sonuç ve Stratejik Yatırım Görünümü",
-        "karar": "GÜÇLÜ AL / DİSİPLİNLİ PUSU",
+        "baslik": "Sonuç ve Taktiksel Aksiyon",
+        "karar": "GÜÇLÜ AL / DİSİPLİNLİ PUSU (FAZ 4)",
         "karar_renk": "#00e676",
-        "smc_plan": {
-          "demand_bolgesi": "373.00 - 382.94 TL",
-          "poc_adil_deger": "388.05 TL",
-          "hedef_fiyat": "412.75 TL",
-          "stop_loss": "365.54 TL",
-          "risk_odul": "1.08"
-        },
-        "kisa_vade_gorunum": "0-3 Ay: SMC Talep bölgesinden dönerek POC seviyesine ve teknik dirence doğru toparlanma.",
-        "uzun_vade_gorunum": "12+ Ay: Temel büyüme ivmesi, pazar likiditesi ve Moat gücüyle endeks üzeri getiri (Alpha) potansiyeli."
+        "kisa_vade_gorunum": "388.25 TL kapanış seviyesinde; 373.00 - 382.94 TL Demand/FVG aralığı kademeli alım fırsatıdır. Stop: 365.54 TL altında günlük kapanış. Hedef: 412.75 TL Supply bölgesi.",
+        "uzun_vade_gorunum": "Türkiye'nin teknolojik bağımsızlık vizyonunun omurgası olarak kurumsal portföylerin vazgeçilmez çekirdek (core) varlığıdır."
       }
     },
     "MTRKS": {
       "modul_1_is_modeli": {
-        "baslik": "1. İş Modeli ve Stratejik Konumlanma",
-        "sirket_unvani": "MATRIKS FINANSAL TEKNOLOJILER",
-        "pazar_segmenti": "BIST Ana Pazar (BIST 500 / Tüm)",
-        "sektor": "Teknoloji",
-        "ozet": "MATRIKS FINANSAL TEKNOLOJILER (MTRKS), Borsa İstanbul BIST Ana Pazar kapsamında işlem görmekte olup Teknoloji sektörünün temsilcilerindendir. Şirket BIST 500 / Tüm endeksi içerisinde yer almakta olup Standart Portföy statüsündedir. Kurumsal Şeffaflık & Yönetim statüsü: Standart SPK Kriteri."
+        "baslik": "İş Modeli ve Stratejik Konumlanma",
+        "sirket_unvani": "Matriks Finansal Teknolojiler A.Ş.",
+        "pazar_segmenti": "BIST Ana Pazar / BIST 500",
+        "sektor": "Finansal Teknolojiler / Yazılım",
+        "ozet": "Yurtiçi ve küresel finans piyasalarına veri terminali, algoritmik emir iletim altyapıları (MatriksIQ), BIST ve VIOP piyasa yapıcı çözümleri ile kripto veri terminalleri sağlayan fintech şirketidir."
       },
       "modul_2_finansal_performans": {
-        "baslik": "2. Derinlemesine Finansal Performans",
+        "baslik": "Derinlemesine Finansal Performans",
         "satis_buyume": "%13.06",
         "net_kar_buyume": "%73.66",
-        "faaliyet_kar_buyume": "%-84.52",
         "cari_oran": "1.84",
-        "yorum": "Şirket son mali dönemde satışlarını %13.1, net kârını ise %73.7 oranında artırmıştır. Cari oranın 1.84 seviyesinde bulunması kısa vadeli borç ödeme kabiliyetinin ve işletme sermayesi döngüsünün korunduğunu teyit etmektedir."
+        "yorum": "Ciro reel %13.06, net kâr ise %73.66 büyümüştür. Faaliyet kârındaki -%84.52 düşüş enflasyon muhasebesi altındaki Ar-Ge aktifleştirmeleri ve operasyonel maliyet yeniden değerlemelerinden kaynaklanmıştır. Cari oran 1.84 ile borçsuz yapıyı korumaktadır."
       },
       "modul_3_moat_analizi": {
-        "baslik": "3. Rekabet Üstünlüğü (Moat) Analizi",
-        "hendek_skoru": 9,
-        "hendek_sinifi": "Geniş Hendek (Wide Moat)",
-        "gerekce": "BIST Ana Pazar likiditesi, Teknoloji sektöründeki ölçek ekonomisi, kurumsal yönetim standartları (Standart SPK Kriteri) ve temettü sadakati (BIST 5 Yıllık Temettü Şirketi) sayesinde şirketin pazar payı koruma kabiliyeti güçlüdür."
+        "baslik": "Rekabet Üstünlüğü (Moat) Analizi",
+        "hendek_skoru": 8,
+        "hendek_sinifi": "Geniş Hendek (Ekosistem Hakimiyeti)",
+        "gerekce": "BIST aracı kurumları, fon yöneticileri ve bireysel yatırımcılar nezdinde standart haline gelmiş terminal ağı, yüksek geçiş maliyeti ve Borsa İstanbul doğrudan bağlantı (colocation) lisans üstünlüğü."
       },
       "modul_4_degerleme": {
-        "baslik": "4. Değerleme ve Çarpan Analizi",
+        "baslik": "Değerleme ve Çarpan Analizi",
         "fk": "10.01",
         "pddd": "2.52",
-        "durum": "Büyüme Primli / Gelecek Fiyatlamalı",
-        "dcf_gorunum": "F/K (10.0) çarpanı yüksek görünmekle birlikte şirketin operasyonel kârlılık ivmesi ve sermaye birikimi primli fiyatlanmaktadır."
+        "durum": "Kuvvetli İskontolu",
+        "dcf_gorunum": "Bir SaaS ve finansal teknoloji şirketi için 10.01 F/K ve 2.52 PD/DD çarpanları olağanüstü cazip bir çarpan iskontosu sergilemektedir."
       },
       "modul_5_risk_hiyerarsisi": {
-        "baslik": "5. Kritik Risk Hiyerarşisi (SPK Tedbir & Piyasa Riskleri)",
+        "baslik": "Risk Hiyerarşisi (Kritikten Düşüğe)",
         "riskler": [
-          "1. BIST/SPK Tedbir Durumu: Tedbir Yok (Temiz).",
-          "2. Makroekonomik Faiz & İşletme Sermayesi: Yüksek faiz ortamında finansman giderlerinin kârlılık üzerindeki baskı riski (Cari Oran: 1.84).",
-          "3. Sektörel Döngüsellik: Teknoloji alanında girdi maliyetleri ve kur oynaklığı hassasiyeti.",
-          "4. Likidite ve Piyasa Beta Riski: Hissenin BIST geneline duyarlılığı (Beta: 1.12, Pazar: BIST Ana Pazar)."
+          "1. BIST işlem hacimlerinde ve yeni yatırımcı sayısında görülebilecek olası daralma",
+          "2. Faaliyet kâr marjlarında izlenen sert erime (-%84.52) ve operasyonel gider baskısı",
+          "3. Küresel terminallerin (TradingView vb.) yerel broker entegrasyonlarını artırması",
+          "4. BIST veri dağıtım lisans maliyet artışları"
         ]
       },
       "modul_6_buyume_katalizorleri": {
-        "baslik": "6. Uzun Vadeli Büyüme Katalizörleri",
+        "baslik": "Uzun Vadeli Büyüme Katalizörleri",
         "maddeler": [
-          "Teknoloji sektöründeki kapasite artışları ve katma değerli ürün segmentasyonu.",
-          "BIST BIST 500 / Tüm kurumsal fon girişleri ve yabancı saklama payı artış potansiyeli.",
-          "Operasyonel verimlilik ve bilanço nakit akışının güçlenmesi."
+          "Algoritmik ve kantitatif trading araçlarına (MatriksIQ) yönelik bireysel/kurumsal talep artışı",
+          "Yapay zeka tabanlı piyasa analiz modülleri ve otomatik emir motorlarının ticarileşmesi",
+          "Yurt dışı sermaye piyasalarına veri ve emir iletim açılımları"
         ]
       },
       "modul_7_fon_yoneticisi_perspektifi": {
-        "baslik": "7. Kurumsal Fon Yöneticisi Perspektifi",
-        "neden_alinir": "BIST Ana Pazar güvencesi, BIST 5 Yıllık Temettü Şirketi profili, SVS NEXUS SMC'nin talep (Demand: 30.38 - 32.09 TL) bölgesinde dip oluşumu ve pozitif Alpha üretme potansiyeli.",
-        "neden_cekimser_kalinir": "BIST genelinde volatilite artışı veya tedbir kısıtları (Tedbir Yok (Temiz))."
+        "baslik": "Kurumsal Portföy Yöneticisi Perspektifi",
+        "neden_alinir": "Fintech pazarında fiili monopol gücü, 10.01 F/K iskontosu, BIST 5 Yıllık Temettü Şirketi (Puan: 7/10) unvanı, HTF_UYUMLU güvenli teknik trend ve z-skorun (-0.85) ucuzluk bölgesinde olması.",
+        "neden_cekimser_kalinir": "Katılım Finans evreninde yer almaması ve faaliyet kârındaki operasyonel marj daralması."
       },
       "modul_8_boga_vs_ayi": {
-        "baslik": "8. Boğa vs. Ayı Tartışması",
+        "baslik": "Boğa vs. Ayı Tartışması",
         "boga_tezleri": [
-          "Kuantum Fiyat Z-Skoru (-0.85) istatistiksel aşırı satım bölgesine yakın olup yukarı tepki potansiyeli yüksektir.",
-          "Net kâr büyümesi (%73.7) Teknoloji ortalamasının üzerinde kalmayı başarmıştır.",
-          "SMC Talep bölgesine (32.09 TL) yakınlık asimetrik risk/ödül fırsatı sunar."
+          "10.01 F/K ile teknoloji sektörünün en ucuz düzenli temettü ödeyen nakit akış makinesi",
+          "30.38 - 32.08 TL talep bölgesinde fiyatın konsolide olması ve dip çalışması"
         ],
         "ayi_tezleri": [
-          "Hisse Betasının (1.12) yüksekliği piyasa düzeltmelerinde oynaklığı artırabilir.",
-          "Sektörel talepteki olası yavaşlama veya endeks geneli para çıkışı riski.",
-          "Faaliyet kârı ivmesinin sürdürülebilirliğine dair çeyreklik belirsizlikler."
+          "Esas faaliyet kârındaki %84 erimenin sürdürülebilirlik kaygısı yaratması",
+          "Piyasa hacimlerinin durgunlaştığı dönemlerde terminal abonelik iptal riskleri"
         ],
-        "olasilik_dengesi": "%65 Boğa Lehine / %35 Ayı Lehine"
+        "olasilik_dengesi": "%65 Boğa / %35 Ayı (Çarpan iskontosu ve temettü gücü destekli)"
       },
       "modul_9_son_ceyrek_ve_temettu": {
-        "baslik": "9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü",
-        "ozet": "Borsa İstanbul resmi endeks verilerine göre şirket 'BIST 5 Yıllık Temettü Şirketi' statüsündedir. Kurumsal nakit akış üretimi hissedar değeri yaratmaya odaklıdır."
+        "baslik": "Son Çeyrek Finansalları ve Temettü Karnesi",
+        "ozet": "Temettü puanı 7/10 olup istikrarlı kâr payı dağıtım geleneğine sahiptir. Net kâr %73.66 artarak finansal gücünü korumuştur. Tedbir bulunmamaktadır."
       },
       "modul_10_sonuc_ve_aksiyon": {
-        "baslik": "10. Sonuç ve Stratejik Yatırım Görünümü",
-        "karar": "TEMKİNLİ İZLEME (Teyit Bekle)",
-        "karar_renk": "#ffd600",
-        "smc_plan": {
-          "demand_bolgesi": "30.38 - 32.09 TL",
-          "poc_adil_deger": "32.53 TL",
-          "hedef_fiyat": "37.20 TL",
-          "stop_loss": "29.77 TL",
-          "risk_odul": "4.59"
-        },
-        "kisa_vade_gorunum": "0-3 Ay: SMC Talep bölgesinden dönerek POC seviyesine ve teknik dirence doğru toparlanma.",
-        "uzun_vade_gorunum": "12+ Ay: Temel büyüme ivmesi, pazar likiditesi ve Moat gücüyle endeks üzeri getiri (Alpha) potansiyeli."
+        "baslik": "Sonuç ve Taktiksel Aksiyon",
+        "karar": "AL / PORTFÖY EKLE",
+        "karar_renk": "#00e676",
+        "kisa_vade_gorunum": "31.10 TL fiyat seviyesi, Demand (30.38 - 32.08 TL) bandı içinde alım fırsatıdır. Stop: 29.77 TL. İlk hedef arz bölgesi 35.50 - 37.20 TL.",
+        "uzun_vade_gorunum": "Algoritmik işlem kültürünün gelişimi ve fintech büyümesi ile çarpan genişlemesi potansiyeli yüksektir."
       }
     },
     "TARKM": {
       "modul_1_is_modeli": {
-        "baslik": "1. İş Modeli ve Stratejik Konumlanma",
-        "sirket_unvani": "TARKIM BITKI KORUMA",
-        "pazar_segmenti": "BIST Yıldız Pazar (BIST 500 / Tüm)",
-        "sektor": "Kimya, Petrol, Plastik",
-        "ozet": "TARKIM BITKI KORUMA (TARKM), Borsa İstanbul BIST Yıldız Pazar kapsamında işlem görmekte olup Kimya, Petrol, Plastik sektörünün temsilcilerindendir. Şirket BIST 500 / Tüm endeksi içerisinde yer almakta olup Katılım Finans (Faizsiz) Uygun statüsündedir. Kurumsal Şeffaflık & Yönetim statüsü: Standart SPK Kriteri."
+        "baslik": "İş Modeli ve Stratejik Konumlanma",
+        "sirket_unvani": "Tarkim Bitki Koruma Sanayi ve Ticaret A.Ş.",
+        "pazar_segmenti": "BIST Yıldız Pazar / BIST 500",
+        "sektor": "Kimya, Petrol, Plastik / Tarım Kimyasalları",
+        "ozet": "Zirai mücadele ilaçları, bitki koruma ürünleri, insektisit, herbisit, fungisit ve bitki gelişim düzenleyicileri üretimi ve dağıtımı yapmaktadır. Türkiye Tarım Kredi Kooperatifleri iştirakidir."
       },
       "modul_2_finansal_performans": {
-        "baslik": "2. Derinlemesine Finansal Performans",
+        "baslik": "Derinlemesine Finansal Performans",
         "satis_buyume": "%14.17",
-        "net_kar_buyume": "%-190.52",
-        "faaliyet_kar_buyume": "%-8.15",
+        "net_kar_buyume": "-%190.52",
         "cari_oran": "1.16",
-        "yorum": "Şirket son mali dönemde satışlarını %14.2, net kârını ise %-190.5 oranında artırmıştır. Cari oranın 1.16 seviyesinde bulunması kısa vadeli borç ödeme kabiliyetinin ve işletme sermayesi döngüsünün korunduğunu teyit etmektedir."
+        "yorum": "Ciroda %14.17'lik reel artışa rağmen TMS 29 parasal kayıpları ve finansman maliyetleri net kârı -%190.52 ile ağır zarara sürüklemiştir. Faaliyet kârı da %8.15 gerilemiştir. Cari oran 1.16 ile işletme sermayesi baskısına işaret etmektedir."
       },
       "modul_3_moat_analizi": {
-        "baslik": "3. Rekabet Üstünlüğü (Moat) Analizi",
+        "baslik": "Rekabet Üstünlüğü (Moat) Analizi",
         "hendek_skoru": 7,
-        "hendek_sinifi": "Geniş Hendek (Wide Moat)",
-        "gerekce": "BIST Yıldız Pazar likiditesi, Kimya, Petrol, Plastik sektöründeki ölçek ekonomisi, kurumsal yönetim standartları (Standart SPK Kriteri) ve temettü sadakati (Büyüme Odaklı (Temettü Dışı)) sayesinde şirketin pazar payı koruma kabiliyeti güçlüdür."
+        "hendek_sinifi": "Dar-Orta Hendek",
+        "gerekce": "Tarım Kredi Kooperatifleri ortaklığı sayesinde Türkiye genelindeki çiftçilere doğrudan erişim ve ruhsatlandırma portföyü güçlü bir dağıtım kanalı üstünlüğü yaratmaktadır."
       },
       "modul_4_degerleme": {
-        "baslik": "4. Değerleme ve Çarpan Analizi",
+        "baslik": "Değerleme ve Çarpan Analizi",
         "fk": "869.58",
         "pddd": "3.37",
-        "durum": "Büyüme Primli / Gelecek Fiyatlamalı",
-        "dcf_gorunum": "F/K (869.6) çarpanı yüksek görünmekle birlikte şirketin operasyonel kârlılık ivmesi ve sermaye birikimi primli fiyatlanmaktadır."
+        "durum": "Aşırı Primli / Finansal Bozulma",
+        "dcf_gorunum": "869.58 F/K çarpanı net kârdaki çöküşün sonucudur ve hissenin kârlılık üretmeden fiyatlandığını göstermektedir. 3.37 PD/DD tarım kimyası akranlarına göre belirgin primlidir."
       },
       "modul_5_risk_hiyerarsisi": {
-        "baslik": "5. Kritik Risk Hiyerarşisi (SPK Tedbir & Piyasa Riskleri)",
+        "baslik": "Risk Hiyerarşisi (Kritikten Düşüğe)",
         "riskler": [
-          "1. BIST/SPK Tedbir Durumu: Tedbir Yok (Temiz).",
-          "2. Makroekonomik Faiz & İşletme Sermayesi: Yüksek faiz ortamında finansman giderlerinin kârlılık üzerindeki baskı riski (Cari Oran: 1.16).",
-          "3. Sektörel Döngüsellik: Kimya, Petrol, Plastik alanında girdi maliyetleri ve kur oynaklığı hassasiyeti.",
-          "4. Likidite ve Piyasa Beta Riski: Hissenin BIST geneline duyarlılığı (Beta: 1.04, Pazar: BIST Yıldız Pazar)."
+          "1. Ağır finansman giderleri ve net zararın özkaynakları eritme riski",
+          "2. Çiftçi alım gücünün düşmesi ve zirai ilaç tahsilat vadelerinin uzaması",
+          "3. İklim krizine bağlı kuraklık ve tarımsal rekolte kayıpları",
+          "4. Aktif madde ithalatında döviz kuru bağımlılığı"
         ]
       },
       "modul_6_buyume_katalizorleri": {
-        "baslik": "6. Uzun Vadeli Büyüme Katalizörleri",
+        "baslik": "Uzun Vadeli Büyüme Katalizörleri",
         "maddeler": [
-          "Kimya, Petrol, Plastik sektöründeki kapasite artışları ve katma değerli ürün segmentasyonu.",
-          "BIST BIST 500 / Tüm kurumsal fon girişleri ve yabancı saklama payı artış potansiyeli.",
-          "Operasyonel verimlilik ve bilanço nakit akışının güçlenmesi."
+          "Manisa Turgutlu OSB'deki yeni fabrika yatırımının tamamlanması ve kapasitenin katlanması",
+          "Biyolojik bitki koruma ve organik tarım kimyasalları ürün gamının devreye girmesi",
+          "Ortadoğu ve Orta Asya ülkelerine zirai ilaç ihracat atağı"
         ]
       },
       "modul_7_fon_yoneticisi_perspektifi": {
-        "baslik": "7. Kurumsal Fon Yöneticisi Perspektifi",
-        "neden_alinir": "BIST Yıldız Pazar güvencesi, Büyüme Odaklı (Temettü Dışı) profili, SVS NEXUS SMC'nin talep (Demand: 462.50 - 492.88 TL) bölgesinde dip oluşumu ve pozitif Alpha üretme potansiyeli.",
-        "neden_cekimser_kalinir": "BIST genelinde volatilite artışı veya tedbir kısıtları (Tedbir Yok (Temiz))."
+        "baslik": "Kurumsal Portföy Yöneticisi Perspektifi",
+        "neden_alinir": "Yeni fabrika yatırım hikayesi, Katılım Finans uygunluğu ve teknik göstergelerde z-skorun (-1.20) aşırı satım bölgesinde olması.",
+        "neden_cekimser_kalinir": "869.58 F/K aşırı çarpan riski, net kâr çöküşü (-%190), temettü dağıtmaması ve zayıf cari oran (1.16)."
       },
       "modul_8_boga_vs_ayi": {
-        "baslik": "8. Boğa vs. Ayı Tartışması",
+        "baslik": "Boğa vs. Ayı Tartışması",
         "boga_tezleri": [
-          "Kuantum Fiyat Z-Skoru (-1.20) istatistiksel aşırı satım bölgesine yakın olup yukarı tepki potansiyeli yüksektir.",
-          "Net kâr büyümesi (%-190.5) Kimya, Petrol, Plastik ortalamasının üzerinde kalmayı başarmıştır.",
-          "SMC Talep bölgesine (492.88 TL) yakınlık asimetrik risk/ödül fırsatı sunar."
+          "Yeni fabrika yatırımıyla üretim kapasitesinin katlanacak olması ve cironun %14.17 büyümesi",
+          "462.50 - 492.88 TL talep bölgesinden gelen tepki alımları"
         ],
         "ayi_tezleri": [
-          "Hisse Betasının (1.04) yüksekliği piyasa düzeltmelerinde oynaklığı artırabilir.",
-          "Sektörel talepteki olası yavaşlama veya endeks geneli para çıkışı riski.",
-          "Faaliyet kârı ivmesinin sürdürülebilirliğine dair çeyreklik belirsizlikler."
+          "869.58 F/K gibi sürdürülemez değerleme çarpanı ve derinleşen net dönem zararı",
+          "SMC Faz 2 likidite avı ortamında alfanın (-0.81) zayıflığı"
         ],
-        "olasilik_dengesi": "%65 Boğa Lehine / %35 Ayı Lehine"
+        "olasilik_dengesi": "%30 Boğa / %70 Ayı (Temel veriler toparlanmadan risk büyüktür)"
       },
       "modul_9_son_ceyrek_ve_temettu": {
-        "baslik": "9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü",
-        "ozet": "Borsa İstanbul resmi endeks verilerine göre şirket 'Büyüme Odaklı (Temettü Dışı)' statüsündedir. Kurumsal nakit akış üretimi hissedar değeri yaratmaya odaklıdır."
+        "baslik": "Son Çeyrek Finansalları ve Temettü Karnesi",
+        "ozet": "Temettü puanı 2/10 ile temettü dışıdır. Son çeyrekte operasyonel kâr üretimi finansman giderlerini karşılayamamıştır. Menkul kıymet tedbiri bulunmamaktadır."
       },
       "modul_10_sonuc_ve_aksiyon": {
-        "baslik": "10. Sonuç ve Stratejik Yatırım Görünümü",
-        "karar": "TEMKİNLİ İZLEME (Teyit Bekle)",
-        "karar_renk": "#ffd600",
-        "smc_plan": {
-          "demand_bolgesi": "462.50 - 492.88 TL",
-          "poc_adil_deger": "506.80 TL",
-          "hedef_fiyat": "584.00 TL",
-          "stop_loss": "453.25 TL",
-          "risk_odul": "0.94"
-        },
-        "kisa_vade_gorunum": "0-3 Ay: SMC Talep bölgesinden dönerek POC seviyesine ve teknik dirence doğru toparlanma.",
-        "uzun_vade_gorunum": "12+ Ay: Temel büyüme ivmesi, pazar likiditesi ve Moat gücüyle endeks üzeri getiri (Alpha) potansiyeli."
+        "baslik": "Sonuç ve Taktiksel Aksiyon",
+        "karar": "KAÇIN / GÖZLEMLE",
+        "karar_renk": "#d50000",
+        "kisa_vade_gorunum": "520.50 TL seviyesinde işlem gören hissede finansal çarpanlar rasyonel zemine oturana kadar alım risklidir. Teknikte Stop: 453.25 TL seviyesi altında aşağı yönlü boşluk (gap) riski mevcuttur. Olası tepkide Supply: 553.60 - 584.00 TL.",
+        "uzun_vade_gorunum": "Manisa fabrika yatırımı faaliyete geçip kârlılık tablosunda dönüş görülmeden uzun vadeli temel giriş önerilmez."
       }
     }
   }
