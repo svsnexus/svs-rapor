@@ -1,3 +1,5 @@
 PROMPT_*.txt
 INPUT_*.json
+*.json
+Strateji_plan_API_*.html
 *.tmp
