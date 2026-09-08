@@ -119,6 +119,10 @@
                     <div>REFERANS TARİH</div>
                     <div style="font-size:16px;">09.09.2026</div>
                 </div>
+                <div class="top-badge" style="border-color:#00e676; color:#00e676; background:rgba(0,230,118,0.1); cursor:pointer;" onclick="location.reload(true)" title="Sayfayı Yenile">
+                    <div>SİSTEM DURUMU</div>
+                    <div style="font-size:14px; font-weight:800;">🟢 CANLI & GÜNCEL</div>
+                </div>
             </div>
         </div>
 
@@ -2134,6 +2138,26 @@
                 targetBtn.classList.add('active');
             }
         }
+
+        // 🛡️ AKILLI SÜRÜM DEDEKTÖRÜ (Sabit Link Önbellek Kalkanı)
+        (function() {
+            try {
+                const CURRENT_DATE = "09.09.2026";
+                const checkUrl = 'version.json?_t=' + new Date().getTime();
+                fetch(checkUrl, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' } })
+                    .then(function(res) {
+                        if (res.ok) return res.json();
+                        return null;
+                    })
+                    .then(function(data) {
+                        if (data && data.tarih && data.tarih !== CURRENT_DATE) {
+                            console.log("[SVS NEXUS] Yeni rapor yayında (" + data.tarih + "). Güncelleniyor...");
+                            window.location.replace(window.location.origin + window.location.pathname + '?v=' + encodeURIComponent(data.tarih) + '&_=' + (data.timestamp || Date.now()));
+                        }
+                    })
+                    .catch(function(e) {});
+            } catch(err) {}
+        })();
     </script>
 </body>
 </html>

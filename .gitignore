@@ -1,5 +1,6 @@
 PROMPT_*.txt
 INPUT_*.json
 *.json
+!version.json
 Strateji_plan_API_*.html
 *.tmp
