@@ -99,6 +99,10 @@
         .sg-title { font-size: 13px; font-weight: 800; margin-bottom: 8px; }
         .balance-tag { margin-left: auto; font-size: 11px; font-weight: 700; color: var(--accent-cyan); background: rgba(0,229,255,0.1); padding: 2px 8px; border-radius: 4px; }
 
+        /* SPK Yasal Uyarı Bildirimi */
+        .spk-disclaimer { background: rgba(255,179,0,0.08); border: 1px solid rgba(255,179,0,0.3); border-left: 4px solid var(--accent-gold); border-radius: 10px; padding: 14px 20px; font-size: 11.5px; color: #cbd5e1; line-height: 1.6; margin-bottom: 22px; }
+        .spk-disclaimer b { color: var(--accent-gold); }
+
         /* Footer */
         .footer { text-align: center; padding: 24px; font-size: 12px; color: var(--text-muted); border-top: 1px solid var(--card-border); margin-top: 32px; }
     </style>
@@ -126,6 +130,11 @@
             </div>
         </div>
 
+        <!-- SPK Yasal Uyarı Bildirimi -->
+        <div class="spk-disclaimer">
+            <b>⚖️ YASAL UYARI / SPK MEVZUATI:</b> Burada yer alan yatırım bilgi, yorum ve tavsiyeleri yatırım danışmanlığı kapsamında değildir. Yatırım danışmanlığı hizmeti; aracı kurumlar, portföy yönetim şirketleri, mevduat kabul etmeyen bankalar ile müşteri arasında imzalanacak yatırım danışmanlığı sözleşmesi çerçevesinde sunulmaktadır. Burada yer alan algoritmik analizler, dinamik SMC seviyeleri ve model çıktıları tamamen matematiksel karar destek ve kurumsal araştırma amaçlı olup kesinlikle doğrudan al-sat veya getiri vaadi içeren bir tavsiye niteliği taşımaz.
+        </div>
+
         <!-- Top 10 Executive Summary Table -->
         <div class="section-box">
             <div class="sb-title">
@@ -142,7 +151,7 @@
                             <th>BIST PAZARI</th>
                             <th>RESMİ SEKTÖR</th>
                             <th>SON FİYAT</th>
-                            <th>TALEP (DEMAND)</th>
+                            <th>YAKIN TAKİP (DEMAND)</th>
                             <th>ADİL DEĞER (POC)</th>
                             <th>MOAT</th>
                             <th>TEDBİR DURUMU</th>
@@ -176,7 +185,7 @@
             <td style="color:#00e5ff;">4.70</td>
             <td><span class="moat-badge">★ 4/10</span></td>
             <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">Tedbir Yok (Temiz)</span></td>
-            <td><span class="badge" style="background:#ffab0022; color:#ffab00; border:1px solid #ffab00;">TUT / TEMKİNLİ İZLE</span></td>
+            <td><span class="badge" style="background:#ffab0022; color:#ffab00; border:1px solid #ffab00;">TEMKİNLİ İZLEME (Onay Bekleniyor)</span></td>
         </tr>
         
         <tr onclick="showTab('MRGYO')" style="cursor:pointer;">
@@ -190,7 +199,7 @@
             <td style="color:#00e5ff;">1.55</td>
             <td><span class="moat-badge">★ 5/10</span></td>
             <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">Tedbir Yok (Temiz)</span></td>
-            <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">KADEMELİ AL / DEĞER ODAKLI</span></td>
+            <td><span class="badge" style="background:#29b6f622; color:#29b6f6; border:1px solid #29b6f6;">DİSİPLİNLİ İZLEME (Sıcak Takip)</span></td>
         </tr>
         
         <tr onclick="showTab('HATEK')" style="cursor:pointer;">
@@ -204,7 +213,7 @@
             <td style="color:#00e5ff;">12.98</td>
             <td><span class="moat-badge">★ 3/10</span></td>
             <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">Tedbir Yok (Temiz)</span></td>
-            <td><span class="badge" style="background:#ffab0022; color:#ffab00; border:1px solid #ffab00;">NÖTR / İZLEMEDE KAL</span></td>
+            <td><span class="badge" style="background:#ffab0022; color:#ffab00; border:1px solid #ffab00;">TEMKİNLİ İZLEME (Onay Bekleniyor)</span></td>
         </tr>
         
         <tr onclick="showTab('BRLSM')" style="cursor:pointer;">
@@ -218,7 +227,7 @@
             <td style="color:#00e5ff;">21.12</td>
             <td><span class="moat-badge">★ 6/10</span></td>
             <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">Tedbir Yok (Temiz)</span></td>
-            <td><span class="badge" style="background:#ffab0022; color:#ffab00; border:1px solid #ffab00;">DİSİPLİNLİ İZLEME (Sıcak Takip)</span></td>
+            <td><span class="badge" style="background:#29b6f622; color:#29b6f6; border:1px solid #29b6f6;">DİSİPLİNLİ İZLEME (Sıcak Takip)</span></td>
         </tr>
         
         <tr onclick="showTab('ALGYO')" style="cursor:pointer;">
@@ -232,7 +241,7 @@
             <td style="color:#00e5ff;">3.65</td>
             <td><span class="moat-badge">★ 7/10</span></td>
             <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">Tedbir Yok (Temiz)</span></td>
-            <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">KADEMELİ AL / DEĞER ODAKLI</span></td>
+            <td><span class="badge" style="background:#29b6f622; color:#29b6f6; border:1px solid #29b6f6;">DİSİPLİNLİ İZLEME (Sıcak Takip)</span></td>
         </tr>
         
         <tr onclick="showTab('KRDMA')" style="cursor:pointer;">
@@ -244,9 +253,9 @@
             <td style="color:#ffb300; font-weight:700;">55.65 TL</td>
             <td style="color:#00e676;">54.00 - 58.29</td>
             <td style="color:#00e5ff;">55.98</td>
-            <td><span class="moat-badge">★ 7/10</span></td>
+            <td><span class="moat-badge">★ 6/10</span></td>
             <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">Tedbir Yok (Temiz)</span></td>
-            <td><span class="badge" style="background:#ffab0022; color:#ffab00; border:1px solid #ffab00;">YAKIN TAKİP / DÖNGÜSEL TEPKİ</span></td>
+            <td><span class="badge" style="background:#ffab0022; color:#ffab00; border:1px solid #ffab00;">TEMKİNLİ İZLEME (Onay Bekleniyor)</span></td>
         </tr>
         
         <tr onclick="showTab('ENKAI')" style="cursor:pointer;">
@@ -260,7 +269,7 @@
             <td style="color:#00e5ff;">85.35</td>
             <td><span class="moat-badge">★ 9/10</span></td>
             <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">Tedbir Yok (Temiz)</span></td>
-            <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">POZİTİF İVME / PORTFÖY ÇAPASI</span></td>
+            <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">POZİTİF İVME / YAKIN TAKİP</span></td>
         </tr>
         
         <tr onclick="showTab('KRDMD')" style="cursor:pointer;">
@@ -272,9 +281,9 @@
             <td style="color:#ffb300; font-weight:700;">47.48 TL</td>
             <td style="color:#00e676;">42.58 - 43.92</td>
             <td style="color:#00e5ff;">44.96</td>
-            <td><span class="moat-badge">★ 7/10</span></td>
+            <td><span class="moat-badge">★ 6/10</span></td>
             <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">Tedbir Yok (Temiz)</span></td>
-            <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">AL / TEKNİK TEPKİ ODAKLI</span></td>
+            <td><span class="badge" style="background:#29b6f622; color:#29b6f6; border:1px solid #29b6f6;">DİSİPLİNLİ İZLEME (Sıcak Takip)</span></td>
         </tr>
         
         <tr onclick="showTab('AKFYE')" style="cursor:pointer;">
@@ -288,7 +297,7 @@
             <td style="color:#00e5ff;">23.69</td>
             <td><span class="moat-badge">★ 6/10</span></td>
             <td><span class="badge" style="background:#00e67622; color:#00e676; border:1px solid #00e676;">Tedbir Yok (Temiz)</span></td>
-            <td><span class="badge" style="background:#ff174422; color:#ff1744; border:1px solid #ff1744;">SAT / UZAK DUR (DOKUNMA)</span></td>
+            <td><span class="badge" style="background:#ffab0022; color:#ffab00; border:1px solid #ffab00;">TEMKİNLİ İZLEME (Onay Bekleniyor)</span></td>
         </tr>
         
                     </tbody>
@@ -408,7 +417,7 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏛️</span> 1. İş Modeli ve Stratejik Konumlanma</div>
                     <div class="mod-body">
-                        <p>Doğu Anadolu bölgesinde elektrik dağıtımı ve perakende satış faaliyetlerini yürüten şirket, monopol yapılı bölgesel lisans hakkı ve yenilenebilir enerji yatırımlarıyla regüle ve kararlı bir nakit akışı üretmektedir.</p>
+                        <p>Doğu Aras Enerji, Doğu Anadolu Bölgesi'nde elektrik dağıtım ve perakende satış faaliyetlerini tekel hakkı ve düzenlemeye tabi tarife yapısı altında yürütmektedir. Şirket, altyapı yatırımları ve yenilenebilir enerji üretim kapasitesiyle bölgesel enerji arz güvenliğinde stratejik bir konuma sahiptir.</p>
                     </div>
                 </div>
 
@@ -417,12 +426,12 @@
                     <div class="mod-head"><span class="mod-icon">📊</span> 2. Derinlemesine Finansal Performans</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%11.10</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%61.74</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%25.00</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%11.10 Büyüme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%61.74 Büyüme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%25.00 Büyüme</span></div>
                             <div class="kpi-box"><span class="kpi-lbl">Cari Oran</span><span class="kpi-val cyan">2.03</span></div>
                         </div>
-                        <p style="margin-top:12px;">Satış gelirlerinde %11.10 ile dengeli bir büyüme yakalayan şirket, net kârını %61.74 artırarak güçlü bir marj genişlemesi sergilemiştir. 2.03 cari oran, borç ödeme kapasitesinin ve likidite yapısının oldukça sağlıklı olduğunu göstermektedir.</p>
+                        <p style="margin-top:12px;">Şirket, satışlarında %11.10 oranında makul bir artış sağlarken operasyonel verimlilik ve kârlılık marjlarındaki iyileşmeyle net kârını %61.74 oranında belirgin şekilde büyütmüştür. 2.03 seviyesindeki güçlü cari oran, işletme sermayesi yönetimi ve kısa vadeli borç ödeme kapasitesinin oldukça sağlıklı olduğunu göstermektedir.</p>
                     </div>
                 </div>
 
@@ -431,7 +440,7 @@
                     <div class="mod-head"><span class="mod-icon">🏰</span> 3. Rekabet Üstünlüğü (Moat) Analizi</div>
                     <div class="mod-body">
                         <div class="moat-highlight">Hendek Sınıfı: <b>Geniş Hendek (Wide Moat) (Skor: 8/10)</b></div>
-                        <p>Bölgesel elektrik dağıtım lisansının sağladığı doğal tekel konumu, yüksek giriş engelleri ve altyapı mülkiyeti şirkete kırılması zor bir rekabet avantajı sunmaktadır.</p>
+                        <p>Elektrik dağıtım lisansının sağladığı bölgesel doğal tekel yapısı, yüksek giriş engelleri ve EPDK tarifelerinin sunduğu düzenli nakit akışı şirkete güçlü bir rekabet avantajı sağlamaktadır.</p>
                     </div>
                 </div>
 
@@ -440,11 +449,11 @@
                     <div class="mod-head"><span class="mod-icon">⚖️</span> 4. Değerleme ve Çarpan Analizi</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">10.99</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">1.31</span></div>
-                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Makul / Dengeli Değerleme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">10.99x</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">1.31x</span></div>
+                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Sektör Ortalamalarına Paralel Makul İskonto</span></div>
                         </div>
-                        <p style="margin-top:12px;">10.99 F/K ve 1.31 PD/DD çarpanları, sektör ortalamalarına kıyasla makul seviyelerde olup, regüle gelir yapısı dikkate alındığında indirgenmiş nakit akımlarına göre yükseliş potansiyeli barındırmaktadır.</p>
+                        <p style="margin-top:12px;">Düzenlenen varlık tabanı (RAB) büyümesi ve yenilenebilir enerji kapasite artışları dikkate alındığında, uzun vadeli indirgenmiş nakit akımları mevcut piyasa değerine göre prim potansiyeline işaret etmektedir.</p>
                     </div>
                 </div>
 
@@ -453,7 +462,7 @@
                     <div class="mod-head"><span class="mod-icon">⚠️</span> 5. Kritik Risk Hiyerarşisi & Resmi Tedbirler</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>1. EPDK mevzuat ve tarife değişikliklerinin marjlar üzerindeki olası baskısı.</li><li>2. Bölgesel kayıp-kaçak oranları ve tahsilat performansındaki dönemsel dalgalanmalar.</li><li>3. Yenilenebilir enerji yatırımlarında finansman maliyetlerinin artması.</li><li>4. Herhangi bir SPK tedbiri bulunmamakta, tahta derinliği ve işlem özgürlüğü tam seviyededir.</li>
+                            <li>1. EPDK düzenlemeleri ve tarife parametrelerindeki olası revizyon riskleri.</li><li>2. Bölgesel kayıp-kaçak oranlarındaki dalgalanmalar ve tahsilat riskleri.</li><li>3. Elektrik toptan satış fiyatlarındaki volatilite ve maliyet artışları.</li><li>4. Faiz oranlarındaki yüksek seyrin yatırım finansman maliyetleri üzerindeki etkisi.</li>
                         </ul>
                     </div>
                 </div>
@@ -463,7 +472,7 @@
                     <div class="mod-head"><span class="mod-icon">🚀</span> 6. Uzun Vadeli Büyüme Katalizörleri</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>Dağıtım altyapısı için yapılan yatırımların regüle varlık tabanını (RVT) büyütmesi.</li><li>Yenilenebilir enerji portföyünün genişletilmesiyle artan yeşil enerji marjı.</li><li>Elektrikli araç şarj ağı ve depolamalı GES/RES projelerinin ciroya katkısı.</li>
+                            <li>Şebeke altyapı yatırımları sonucu artan Düzenlemeye Tabi Varlık Tabanı (RAB).</li><li>Yenilenebilir enerji portföy yatırımları ve yeşil enerji satış gelirleri.</li><li>Bölgesel sanayi ve mesken elektrik tüketimindeki artış trendi.</li>
                         </ul>
                     </div>
                 </div>
@@ -474,11 +483,11 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box green-border">
                             <div class="sg-title" style="color:#00e676;">🟢 Neden Portföye Alınır? (Long Tezi)</div>
-                            <p>Katılım finans uygunluğu, yüksek net kâr büyümesi (%61.74) ve güçlü likidite rasyoları (Cari Oran: 2.03) nedeniyle uzun vadeli defansif büyüme portföylerine eklenir.</p>
+                            <p>Defansif nakit akışı, yüksek net kâr büyümesi (%61.74), 2.03 cari oran ile düşük likidite riski ve Katılım Finans uygunluğu.</p>
                         </div>
                         <div class="sg-box red-border">
                             <div class="sg-title" style="color:#ff5252;">🔴 Neden Çekimser Kalınır? (Risk / Kısıtlar)</div>
-                            <p>Enerji sektöründeki regülasyon riskleri ve makroekonomik faiz ortamının altyapı harcamalarına getirdiği yük çekimserlik yaratabilir.</p>
+                            <p>Elektrik sektöründeki regülasyon bağımlılığı ve makro faiz ortamı.</p>
                         </div>
                     </div>
                 </div>
@@ -489,11 +498,11 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box">
                             <div class="sg-title" style="color:#00e676;">Boğa Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#00e676;'>✓ Net kârda %61.74'lük kuvvetli ivme ve SMC tarafındaki BOS_BULL yapısı.</li><li style='color:#00e676;'>✓ Z-Skorunun 0.71 ile pozitif momentum bölgesinde bulunması.</li></ul>
+                            <ul class="clean-list"><li style='color:#00e676;'>✓ Kârlılıktaki %61.74 net artış ve pozitif momentum gösteren Z-skor (0.7107).</li><li style='color:#00e676;'>✓ BIST Yıldız Pazar bileşeni olması ve 0.7261 pozitif alpha üretimi.</li><li style='color:#00e676;'>✓ Sağlam bilanço yapısı ve Katılım Finans kriterlerine tam uyum.</li></ul>
                         </div>
                         <div class="sg-box">
                             <div class="sg-title" style="color:#ff5252;">Ayı Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Satış büyümesinin (%11.10) enflasyon karşısında reel olarak sınırlı kalması.</li><li style='color:#ff5252;'>⚠ Supply bölgesi olan 123.58 - 125.70 aralığının kısa vadeli direnç oluşturması.</li></ul>
+                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Satış gelirlerindeki büyümenin (%11.10) enflasyonun altında kalması.</li><li style='color:#ff5252;'>⚠ Yeniden değerleme ve tarife dönemlerindeki olası nakit akışı zamanlamaları.</li></ul>
                         </div>
                     </div>
                 </div>
@@ -502,19 +511,19 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🪙</span> 9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü</div>
                     <div class="mod-body">
-                        <p>BIST Temettü Endeksi bileşeni olan ARASE, 5 puanlık temettü skoruyla düzenli kâr payı dağıtım alışkanlığını sürdürmekte, son çeyrekte operasyonel verimlilik artışı kaydetmektedir.</p>
+                        <p>Son çeyrekte operasyonel kârlılık artışı sürdürülmüştür. Hisse, BIST Temettü Endeksi bileşeni olup 5 puanlık temettü skoruna sahiptir ve düzenli nakit temettü ödeme geleneğini korumaktadır.</p>
                     </div>
                 </div>
 
                 <!-- Modül 10: Sonuç ve Görünüm -->
                 <div class="mod-card">
-                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Aksiyon Planı</div>
+                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Model Görünümü</div>
                     <div class="mod-body">
                         <div style="font-size:18px; font-weight:800; color:#00e676; margin-bottom:8px;">
                             POZİTİF İVME / YAKIN TAKİP
                         </div>
-                        <p><b>Kısa Vade (0-3 Ay):</b> 117.20 - 119.33 talep bölgesine çekilmelerde alım fırsatları değerlendirilebilir; 125.70 hedefi takip edilmektedir.</p>
-                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Güçlü bilanço ve regüle nakit akışı ile uzun vadeli yükseliş trendini koruması beklenmektedir.</p>
+                        <p><b>Kısa Vade (0-3 Ay):</b> 117.20 - 119.33 talep bölgesinin üzerinde tutunma eğilimi ve SMC Faz 3 uyanış yapısı kısa vadeli teknik görünümü desteklemektedir.</p>
+                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Bölgesel tekel konumu, yüksek net kâr artışı ve güçlü işletme sermayesi yapısı uzun vadeli değer yaratımını desteklemektedir.</p>
                     </div>
                 </div>
             </div>
@@ -542,11 +551,11 @@
                     <div class="moat-box">
                         <div class="moat-label">HENDEK (MOAT) SKORU</div>
                         <div class="moat-val">4<span style="font-size:16px;">/10</span></div>
-                        <div class="moat-sub">Dar / Zayıf Hendek (Narrow Moat)</div>
+                        <div class="moat-sub">Dar Hendek (Narrow Moat)</div>
                     </div>
                     <div class="verdict-box" style="border-color:#ffab00;">
                         <div class="verdict-label">ALGORİTMİK MODEL STATÜSÜ</div>
-                        <div class="verdict-val" style="color:#ffab00;">TUT / TEMKİNLİ İZLE</div>
+                        <div class="verdict-val" style="color:#ffab00;">TEMKİNLİ İZLEME (Onay Bekleniyor)</div>
                     </div>
                 </div>
             </div>
@@ -585,7 +594,7 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏛️</span> 1. İş Modeli ve Stratejik Konumlanma</div>
                     <div class="mod-body">
-                        <p>Polietilen ve polistiren bazlı yalıtım malzemeleri üretimi yapan şirket, inşaat, tesisat ve ambalaj sektörlerine dönük teknik köpük ve yalıtım çözümleri sunmaktadır.</p>
+                        <p>Dinamik Isı, polietilen ve kauçuk köpüğü bazlı yalıtım ve ambalaj malzemeleri üretimi gerçekleştirmektedir. İnşaat, tesisat ve iklimlendirme sektörlerine yönelik esnek ve hafif yalıtım çözümleri sunmaktadır.</p>
                     </div>
                 </div>
 
@@ -594,12 +603,12 @@
                     <div class="mod-head"><span class="mod-icon">📊</span> 2. Derinlemesine Finansal Performans</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">-%0.92</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">-%27.97</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">-%2480.61</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%-0.92 Daralma</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%-27.97 Daralma</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%-2480.61 Daralma</span></div>
                             <div class="kpi-box"><span class="kpi-lbl">Cari Oran</span><span class="kpi-val cyan">3.97</span></div>
                         </div>
-                        <p style="margin-top:12px;">Şirketin satış gelirlerinde -%0.92 ile yatay/hafif daralma görülürken, esas faaliyet kârlılığında artan hammadde ve üretim maliyetleri nedeniyle -%2480.61 oranında şiddetli bir operasyonel kâr çöküşü yaşanmıştır. Net kâr %27.97 gerilemiştir. 3.97 cari oran ise muazzam bir likidite tamponu sunmaktadır.</p>
+                        <p style="margin-top:12px;">Şirketin operasyonel kârlılığı inşaat ve imalat sektöründeki yavaşlamaya bağlı olarak ciddi baskı görmüş, faaliyet kârı ve net kârında sert düşüşler kaydedilmiştir. Satışlar yatay-negatif bir seyir izlemiştir. Buna karşın 3.97 seviyesindeki son derece yüksek cari oran, bilançonun likidite açısından korunaklı kaldığına işaret etmektedir.</p>
                     </div>
                 </div>
 
@@ -607,8 +616,8 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏰</span> 3. Rekabet Üstünlüğü (Moat) Analizi</div>
                     <div class="mod-body">
-                        <div class="moat-highlight">Hendek Sınıfı: <b>Dar / Zayıf Hendek (Narrow Moat) (Skor: 4/10)</b></div>
-                        <p>Yalıtım ve plastik sektöründeki yoğun rekabet, girdi maliyetlerine bağlı marj hassasiyeti ve düşük ürün farklılaşması şirketin hendek gücünü sınırlandırmaktadır.</p>
+                        <div class="moat-highlight">Hendek Sınıfı: <b>Dar Hendek (Narrow Moat) (Skor: 4/10)</b></div>
+                        <p>Yalıtım ve ambalaj sektöründeki yoğun rekabet ve ikame ürün varlığı, şirketin fiyatlama gücünü sınırlamaktadır.</p>
                     </div>
                 </div>
 
@@ -617,11 +626,11 @@
                     <div class="mod-head"><span class="mod-icon">⚖️</span> 4. Değerleme ve Çarpan Analizi</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">48.29</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">1.58</span></div>
-                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Pahalı / Baskılanmış Operasyonel Çarpan</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">48.29x</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">1.58x</span></div>
+                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Yüksek F/K Çarpanı (Kârlılık Baskısı Kaynaklı)</span></div>
                         </div>
-                        <p style="margin-top:12px;">Faaliyet kârındaki sert daralma sebebiyle F/K oranı 48.29 seviyesine fırlamıştır; mevcut kârlılıkla değerleme primli görünmektedir.</p>
+                        <p style="margin-top:12px;">Operasyonel kârlılığın toparlanması durumunda çarpanların normale dönmesi beklenmekte olup mevcut durumda DCF değerlemesi marj teyidi gerektirmektedir.</p>
                     </div>
                 </div>
 
@@ -630,7 +639,7 @@
                     <div class="mod-head"><span class="mod-icon">⚠️</span> 5. Kritik Risk Hiyerarşisi & Resmi Tedbirler</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>1. Esas faaliyet kârlılığındaki dramatik düşüşün devam etmesi riski.</li><li>2. İnşaat ve yalıtım sektöründeki durgunluğun talebi baskılaması.</li><li>3. Petrokimya hammadde fiyatlarındaki marj daraltıcı dalgalanmalar.</li><li>4. Şirket üzerinde aktif SPK tedbiri bulunmamaktadır; likidite serbesttir.</li>
+                            <li>1. İnşaat ve yapı sektöründeki daralmanın ürün talebi üzerindeki olumsuz etkisi.</li><li>2. Hammadde (polimer/petrokimya) fiyatlarındaki dalgalanmalar.</li><li>3. Faaliyet kârlılığındaki sert düşüşün operasyonel nakit akışlarına yansıması.</li><li>4. Düşük işlem hacmi ve tahta derinliği riski.</li>
                         </ul>
                     </div>
                 </div>
@@ -640,7 +649,7 @@
                     <div class="mod-head"><span class="mod-icon">🚀</span> 6. Uzun Vadeli Büyüme Katalizörleri</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>Kentsel dönüşüm ve binalarda enerji tasarrufu zorunluluklarının yalıtım talebini artırması.</li><li>İhracat pazarlarında yeni distribütörlük ve ambalaj kanallarının açılması.</li><li>Yüksek cari oran (3.97) sayesinde olası işletme sermayesi şoklarına direnç.</li>
+                            <li>Binalarda enerji verimliliği ve yalıtım standartlarının sıkılaştırılması düzenlemeleri.</li><li>İhracat pazarlarında yeni distribütörlük ağlarının kurulması.</li><li>Katma değerli teknik yalıtım ürün segmentinin payının artırılması.</li>
                         </ul>
                     </div>
                 </div>
@@ -651,26 +660,26 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box green-border">
                             <div class="sg-title" style="color:#00e676;">🟢 Neden Portföye Alınır? (Long Tezi)</div>
-                            <p>Z-Skorunun (1.04) ve Alpha'nın (1.48) yüksek ivmeye işaret etmesi, Katılım Finans uygunluğu ve güçlü likidite yapısı kısa vadeli teknik tepkiler için cazip kılabilir.</p>
+                            <p>3.97 oranındaki yüksek cari oran, net borçsuz bilanço yapısı ve 1.48 seviyesindeki pozitif alpha.</p>
                         </div>
                         <div class="sg-box red-border">
                             <div class="sg-title" style="color:#ff5252;">🔴 Neden Çekimser Kalınır? (Risk / Kısıtlar)</div>
-                            <p>48.29 F/K ve operasyonel kârdaki ciddi çöküş (-%2480.61) fundamental fonların uzak durmasına yol açar.</p>
+                            <p>Faaliyet kârlılığındaki sert daralma ve 48.29x seviyesindeki yüksek F/K çarpanı.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Modül 8: Boğa vs Ayı -->
                 <div class="mod-card" style="grid-column: span 2;">
-                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%55 Boğa Lehine / %45 Ayı Lehine</span></div>
+                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%45 Boğa / %55 Ayı Lehine</span></div>
                     <div class="mod-body split-grid">
                         <div class="sg-box">
                             <div class="sg-title" style="color:#00e676;">Boğa Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#00e676;'>✓ 1.48 Alpha ve 1.04 Z-Skor ile hissede oluşan pozitif talep iştahı.</li><li style='color:#00e676;'>✓ Borçsuz sayılabilecek güçlü bilanço (Cari Oran: 3.97).</li></ul>
+                            <ul class="clean-list"><li style='color:#00e676;'>✓ Z-Skorunun (1.0375) pozitif ivmeye işaret etmesi.</li><li style='color:#00e676;'>✓ Gözle görülür yüksek likidite tamponu (Cari Oran: 3.97).</li><li style='color:#00e676;'>✓ Katılım Finans esaslarına uygunluk.</li></ul>
                         </div>
                         <div class="sg-box">
                             <div class="sg-title" style="color:#ff5252;">Ayı Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Faaliyet kârındaki dramatik kayıp ve F/K çarpanının 48.29'a yükselmiş olması.</li><li style='color:#ff5252;'>⚠ Satışların reelde daralması (-%0.92).</li></ul>
+                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Faaliyet kârındaki negatif dönüşüm ve net kârdaki %27.97 daralma.</li><li style='color:#ff5252;'>⚠ Sektörel talep daralması ve yüksek F/K çarpanı.</li></ul>
                         </div>
                     </div>
                 </div>
@@ -679,19 +688,19 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🪙</span> 9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü</div>
                     <div class="mod-body">
-                        <p>Büyüme odaklı yapısı nedeniyle temettü ödemeyen şirket, son çeyrekte maliyet baskılarını bilançosuna yansıtmış ve kârlılıkta ciddi bir ivme kaybı yaşamıştır.</p>
+                        <p>Son dönem finansallarında marj daralması belirginleşmiştir. Hisse büyüme odaklı olup temettü verimi düşüktür (Temettü Puanı: 2).</p>
                     </div>
                 </div>
 
                 <!-- Modül 10: Sonuç ve Görünüm -->
                 <div class="mod-card">
-                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Aksiyon Planı</div>
+                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Model Görünümü</div>
                     <div class="mod-body">
                         <div style="font-size:18px; font-weight:800; color:#ffab00; margin-bottom:8px;">
-                            TUT / TEMKİNLİ İZLE
+                            TEMKİNLİ İZLEME (Onay Bekleniyor)
                         </div>
-                        <p><b>Kısa Vade (0-3 Ay):</b> SMC göstergeleri güvenli bölgede olsa da 5.04 hedef seviyesine yaklaşırken temel kârlılık düzelmeden agresif alımdan kaçınılmalıdır.</p>
-                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Operasyonel kâr marjlarında toparlanma görülmeden uzun vadeli pozisyon açılması risk taşımaktadır.</p>
+                        <p><b>Kısa Vade (0-3 Ay):</b> 4.33 - 4.51 talep bölgesinden gelen tepkiler izlenmeli, operasyonel dönüş teyidi aranmalıdır.</p>
+                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Şirket bilançosundaki likidite korumasının faaliyet kârlılığına yansıması için sektörel toparlanma beklenmelidir.</p>
                     </div>
                 </div>
             </div>
@@ -721,9 +730,9 @@
                         <div class="moat-val">5<span style="font-size:16px;">/10</span></div>
                         <div class="moat-sub">Orta Hendek (Moderate Moat)</div>
                     </div>
-                    <div class="verdict-box" style="border-color:#00e676;">
+                    <div class="verdict-box" style="border-color:#29b6f6;">
                         <div class="verdict-label">ALGORİTMİK MODEL STATÜSÜ</div>
-                        <div class="verdict-val" style="color:#00e676;">KADEMELİ AL / DEĞER ODAKLI</div>
+                        <div class="verdict-val" style="color:#29b6f6;">DİSİPLİNLİ İZLEME (Sıcak Takip)</div>
                     </div>
                 </div>
             </div>
@@ -762,7 +771,7 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏛️</span> 1. İş Modeli ve Stratejik Konumlanma</div>
                     <div class="mod-body">
-                        <p>Ağırlıklı olarak turizm ve otel gayrimenkullerine yatırım yapan MRGYO, turizm odaklı portföyü ile kira ve gayrimenkul değer artış geliri elde etmektedir.</p>
+                        <p>Martı GYO, esas olarak turizm ve konaklama odaklı gayrimenkul portföyü işletmektedir. Turizm tesisleri ve otel kiralamalarından elde ettiği döviz bazlı veya endeksli kira gelirleriyle geleneksel konut GYO'larından ayrışmaktadır.</p>
                     </div>
                 </div>
 
@@ -771,12 +780,12 @@
                     <div class="mod-head"><span class="mod-icon">📊</span> 2. Derinlemesine Finansal Performans</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%89.63</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%104.90</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%87.84</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%89.63 Büyüme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%104.90 Büyüme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%87.84 Büyüme</span></div>
                             <div class="kpi-box"><span class="kpi-lbl">Cari Oran</span><span class="kpi-val cyan">0.74</span></div>
                         </div>
-                        <p style="margin-top:12px;">Satışlarını %89.63, faaliyet kârını %87.84 ve net kârını %104.90 artıran şirket oldukça yüksek bir operasyonel büyüme sergilemiştir. Ancak 0.74 cari oran, kısa vadeli yükümlülüklerin karşılanmasında işletme sermayesi baskısı yaratmaktadır.</p>
+                        <p style="margin-top:12px;">Şirket turizm sezonundaki canlılık ve portföy değerlemeleriyle satış gelirlerini %89.63, net kârını ise %104.90 oranında artırarak güçlü bir büyüme kaydetmiştir. Ancak 0.74 seviyesindeki cari oran, kısa vadeli yükümlülüklerin takibini gerekli kılmaktadır.</p>
                     </div>
                 </div>
 
@@ -785,7 +794,7 @@
                     <div class="mod-head"><span class="mod-icon">🏰</span> 3. Rekabet Üstünlüğü (Moat) Analizi</div>
                     <div class="mod-body">
                         <div class="moat-highlight">Hendek Sınıfı: <b>Orta Hendek (Moderate Moat) (Skor: 5/10)</b></div>
-                        <p>Ege ve Akdeniz bölgesindeki stratejik otel ve gayrimenkul lokasyonları şirkete belirli bir varlık değeri avantajı sağlamaktadır.</p>
+                        <p>Ege ve Akdeniz bölgelerindeki kıymetli lokasyonlarda yer alan turizm tesisleri ve otel portföyü belirli bir konum avantajı yaratmaktadır.</p>
                     </div>
                 </div>
 
@@ -794,11 +803,11 @@
                     <div class="mod-head"><span class="mod-icon">⚖️</span> 4. Değerleme ve Çarpan Analizi</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">1.62</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.38</span></div>
-                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Aşırı İskontolu</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">1.62x</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.38x</span></div>
+                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Derin İskonto (Aşırı Düşük Çarpanlar)</span></div>
                         </div>
-                        <p style="margin-top:12px;">1.62 F/K ve 0.38 PD/DD oranları, şirketin varlıklarının ve kârlılığının piyasada ciddi şekilde iskontolu fiyatlandığını göstermektedir.</p>
+                        <p style="margin-top:12px;">0.38 PD/DD çarpanı, şirketin net aktif değerine göre yüksek iskonto ile işlem gördüğünü kanıtlamaktadır.</p>
                     </div>
                 </div>
 
@@ -807,7 +816,7 @@
                     <div class="mod-head"><span class="mod-icon">⚠️</span> 5. Kritik Risk Hiyerarşisi & Resmi Tedbirler</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>1. Cari oranın 0.74 olması sebebiyle kısa vadeli borç çevrim ve likidite riski.</li><li>2. Turizm sektöründeki sezonsallık ve jeopolitik gelişmelerin gelirler üzerindeki etkisi.</li><li>3. Yüksek faiz ortamının GYO gayrimenkul değerlemeleri üzerindeki baskısı.</li><li>4. Tedbir kararı bulunmamakta, işlem serbestisi mevcuttur.</li>
+                            <li>1. 0.74 olan cari oran nedeniyle ortaya çıkabilecek kısa vadeli likidite sıkışıklığı.</li><li>2. Turizm sektöründeki sezonsallık ve jeopolitik gelişmeler.</li><li>3. Finansal borçların ve faiz giderlerinin net kâr üzerindeki baskısı.</li><li>4. Gayrimenkul değerleme raporlarındaki varsayım değişiklikleri.</li>
                         </ul>
                     </div>
                 </div>
@@ -817,7 +826,7 @@
                     <div class="mod-head"><span class="mod-icon">🚀</span> 6. Uzun Vadeli Büyüme Katalizörleri</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>Turizm gelirlerindeki artışa paralel olarak otel kira sözleşmelerinin yukarı yönlü revizyonu.</li><li>Yeniden değerleme raporlarında portföy değerinin yükselmesi.</li><li>Borç yapılandırmaları ile finansal giderlerin azaltılması imkanı.</li>
+                            <li>Turizm gelirlerindeki artış ve otel kira sözleşmelerindeki güncellemeler.</li><li>Varlık portföyünün borç azaltımı amacıyla yeniden yapılandırılması.</li><li>Gayrimenkul piyasasındaki olası değer artışları.</li>
                         </ul>
                     </div>
                 </div>
@@ -828,26 +837,26 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box green-border">
                             <div class="sg-title" style="color:#00e676;">🟢 Neden Portföye Alınır? (Long Tezi)</div>
-                            <p>0.38 PD/DD gibi aşırı düşük çarpanlar, %104.90 net kâr artışı ve SMC'de HTF uyumlu BOS_BULL yapısı nedeniyle derin değer (deep value) arayan fonlarca tercih edilir.</p>
+                            <p>1.62x F/K ve 0.38x PD/DD gibi aşırı düşük çarpanlar, %104.90 net kâr büyümesi ve BOS_BULL yapısı.</p>
                         </div>
                         <div class="sg-box red-border">
                             <div class="sg-title" style="color:#ff5252;">🔴 Neden Çekimser Kalınır? (Risk / Kısıtlar)</div>
-                            <p>Cari oranın 1.00 altında kalması (0.74) ve borçluluk yapısı kurumsal ölçekte çekimserlik sebebidir.</p>
+                            <p>1.00 altındaki cari oran (0.74) ve yüksek beta (1.25) katsayısı.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Modül 8: Boğa vs Ayı -->
                 <div class="mod-card" style="grid-column: span 2;">
-                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%70 Boğa Lehine / %30 Ayı Lehine</span></div>
+                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%65 Boğa / %35 Ayı Lehine</span></div>
                     <div class="mod-body split-grid">
                         <div class="sg-box">
                             <div class="sg-title" style="color:#00e676;">Boğa Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#00e676;'>✓ 0.38 PD/DD ve 1.62 F/K ile BIST'in en ucuz GYO'larından biri olması.</li><li style='color:#00e676;'>✓ Satış ve kârlılıktaki %85+ üzerindeki güçlü büyüme ivmesi.</li></ul>
+                            <ul class="clean-list"><li style='color:#00e676;'>✓ Çok düşük PD/DD (0.38x) ve F/K (1.62x) çarpanları ile derin varlık iskontosu.</li><li style='color:#00e676;'>✓ Operasyonel kârlılıkta %87.84 artış ve HTF boğa yapısı.</li><li style='color:#00e676;'>✓ GÜVENLİ fazda bulunması ve yükseliş potansiyeli.</li></ul>
                         </div>
                         <div class="sg-box">
                             <div class="sg-title" style="color:#ff5252;">Ayı Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Likidite darlığı gösteren 0.74 cari oran.</li><li style='color:#ff5252;'>⚠ 1.25 yüksek beta nedeniyle piyasa düşüşlerine aşırı duyarlılık.</li></ul>
+                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Cari oranın 0.74 olması nedeniyle işletme sermayesi yetersizliği riski.</li><li style='color:#ff5252;'>⚠ Katılım Finans kriterlerine uygun olmaması.</li></ul>
                         </div>
                     </div>
                 </div>
@@ -856,19 +865,19 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🪙</span> 9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü</div>
                     <div class="mod-body">
-                        <p>Temettü ödemeyen ve kârı bünyede tutan şirket, son dönemde operasyonel kârlılığını belirgin şekilde yükseltmeyi başarmıştır.</p>
+                        <p>Son çeyrek bilançosunda net kâr patlaması görülmüştür. GYO statüsünde olup nakit temettü dağıtım kararı yönetim kurulunca dönemsel değerlendirilmektedir.</p>
                     </div>
                 </div>
 
                 <!-- Modül 10: Sonuç ve Görünüm -->
                 <div class="mod-card">
-                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Aksiyon Planı</div>
+                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Model Görünümü</div>
                     <div class="mod-body">
-                        <div style="font-size:18px; font-weight:800; color:#00e676; margin-bottom:8px;">
-                            KADEMELİ AL / DEĞER ODAKLI
+                        <div style="font-size:18px; font-weight:800; color:#29b6f6; margin-bottom:8px;">
+                            DİSİPLİNLİ İZLEME (Sıcak Takip)
                         </div>
-                        <p><b>Kısa Vade (0-3 Ay):</b> 1.43 - 1.51 talep bölgesinden alınan destekle 1.75 direncine doğru SMC uyumlu hareket beklenmektedir.</p>
-                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Varlık iskontosunun kapanmasıyla birlikte orta-uzun vadede potansiyelini yansıtması öngörülmektedir.</p>
+                        <p><b>Kısa Vade (0-3 Ay):</b> 1.43 - 1.51 talep bölgesinden başlayan dönüş hareketi 1.75 direncini test etmektedir.</p>
+                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Derin varlık iskontosu uzun vadede potansiyel sunmakla birlikte borçluluk yapısının iyileştirilmesi takip edilmelidir.</p>
                     </div>
                 </div>
             </div>
@@ -896,11 +905,11 @@
                     <div class="moat-box">
                         <div class="moat-label">HENDEK (MOAT) SKORU</div>
                         <div class="moat-val">3<span style="font-size:16px;">/10</span></div>
-                        <div class="moat-sub">Zayıf Hendek (No/Narrow Moat)</div>
+                        <div class="moat-sub">Zayıf / Dar Hendek</div>
                     </div>
                     <div class="verdict-box" style="border-color:#ffab00;">
                         <div class="verdict-label">ALGORİTMİK MODEL STATÜSÜ</div>
-                        <div class="verdict-val" style="color:#ffab00;">NÖTR / İZLEMEDE KAL</div>
+                        <div class="verdict-val" style="color:#ffab00;">TEMKİNLİ İZLEME (Onay Bekleniyor)</div>
                     </div>
                 </div>
             </div>
@@ -939,7 +948,7 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏛️</span> 1. İş Modeli ve Stratejik Konumlanma</div>
                     <div class="mod-body">
-                        <p>İplik, havlu ve bornoz üretimi gerçekleştiren ihracat odaklı tekstil firması, Avrupa ve Kuzey Amerika pazarlarına tedarik sağlamaktadır.</p>
+                        <p>Hatek, havlu, bornoz, iplik ve ev tekstili ürünleri üretimi yapmakta olup ağırlıklı olarak Avrupa pazarına ihracat gerçekleştirmektedir. Entegre üretim tesisleriyle uluslararası perakende zincirlerine tedarik sağlamaktadır.</p>
                     </div>
                 </div>
 
@@ -948,12 +957,12 @@
                     <div class="mod-head"><span class="mod-icon">📊</span> 2. Derinlemesine Finansal Performans</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">-%11.00</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">-%56.22</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">-%685.50</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%-11.00 Daralma</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%-56.22 Daralma</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%-685.50 Daralma</span></div>
                             <div class="kpi-box"><span class="kpi-lbl">Cari Oran</span><span class="kpi-val cyan">0.97</span></div>
                         </div>
-                        <p style="margin-top:12px;">Küresel tekstil talebindeki daralma ve artan işçilik/enerji maliyetleri nedeniyle satışlarda %11.00 daralma yaşanmış, esas faaliyet kârı -%685.50 ile zarara geçmiş ve net kâr %56.22 gerilemiştir. Cari oran 0.97 ile sınırda seyretmektedir.</p>
+                        <p style="margin-top:12px;">Şirket, küresel tekstil sektöründeki talep daralması, artan işçilik/enerji maliyetleri ve döviz kuru baskıları nedeniyle operasyonel kârlılıkta sert daralma yaşamıştır. Satışlar %11, net kâr %56.22 gerilemiştir. Cari oran 0.97 ile başabaş noktasına yakın seyretmektedir.</p>
                     </div>
                 </div>
 
@@ -961,8 +970,8 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏰</span> 3. Rekabet Üstünlüğü (Moat) Analizi</div>
                     <div class="mod-body">
-                        <div class="moat-highlight">Hendek Sınıfı: <b>Zayıf Hendek (No/Narrow Moat) (Skor: 3/10)</b></div>
-                        <p>Tekstil sektöründeki yüksek küresel rekabet (özellikle Asya menşeli üreticiler) ve fiyata duyarlı müşteri yapısı nedeniyle şirket sınırlı bir fiyatlama gücüne sahiptir.</p>
+                        <div class="moat-highlight">Hendek Sınıfı: <b>Zayıf / Dar Hendek (Skor: 3/10)</b></div>
+                        <p>Tekstil sektöründe Asya merkezli üreticilerin fiyat rekabeti ve ürün ikamesinin kolay olması şirket hendek gücünü sınırlamaktadır.</p>
                     </div>
                 </div>
 
@@ -971,11 +980,11 @@
                     <div class="mod-head"><span class="mod-icon">⚖️</span> 4. Değerleme ve Çarpan Analizi</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">4.59</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.51</span></div>
-                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">İskontolu Varlık / Zayıf Kârlılık</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">4.59x</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.51x</span></div>
+                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Iskontolu Defter Değeri Çarpanı</span></div>
                         </div>
-                        <p style="margin-top:12px;">0.51 PD/DD ve 4.59 F/K cazip görünse de operasyonel kârlılığın kaybolmuş olması değerlemenin üzerindeki en büyük gölgedir.</p>
+                        <p style="margin-top:12px;">0.51x PD/DD cazip görünse de operasyonel marjlardaki düzelme teyit edilmeden DCF potansiyeli sınırlı kalmaktadır.</p>
                     </div>
                 </div>
 
@@ -984,7 +993,7 @@
                     <div class="mod-head"><span class="mod-icon">⚠️</span> 5. Kritik Risk Hiyerarşisi & Resmi Tedbirler</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>1. Faaliyet kârındaki -%685.50'lik bozulmanın sürdürülebilirliği tehdit etmesi.</li><li>2. Avro/Dolar paritesi ve ana ihracat pazarlarındaki durgunluk riski.</li><li>3. Enerji ve işçilik maliyetlerindeki artışın marjları tamamen sıfırlaması.</li><li>4. Aktif SPK tedbiri bulunmamaktadır.</li>
+                            <li>1. Avrupa ana ihracat pazarındaki durgunluk ve sipariş iptalleri.</li><li>2. İç piyasada artan işçilik ve enerji girdi maliyetleri.</li><li>3. Faaliyet kârındaki negatif dönüşüm ve işletme sermayesi ihtiyacı.</li><li>4. Düşük likidite ve piyasa yapıcı eksikliği.</li>
                         </ul>
                     </div>
                 </div>
@@ -994,7 +1003,7 @@
                     <div class="mod-head"><span class="mod-icon">🚀</span> 6. Uzun Vadeli Büyüme Katalizörleri</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>Avrupa tekstil pazarında yaşanabilecek talep toparlanması.</li><li>Katma değerli ve teknik tekstil ürünlerinin portföydeki payının artırılması.</li><li>Yenilenebilir enerji (GES) yatırımları ile elektrik giderlerinin düşürülmesi.</li>
+                            <li>AB pazarında yeşil mutabakat uyumlu sürdürülebilir tekstil üretimi avantajı.</li><li>Döviz kurlarındaki olası dengelenmenin ihracat marjlarına pozitif katkısı.</li><li>Teknik tekstil ve katma değerli ürün segmentlerine geçiş.</li>
                         </ul>
                     </div>
                 </div>
@@ -1005,26 +1014,26 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box green-border">
                             <div class="sg-title" style="color:#00e676;">🟢 Neden Portföye Alınır? (Long Tezi)</div>
-                            <p>0.51 PD/DD oranındaki defter değeri iskontosu ve olası bir döviz/ihracat patlamasında döngüsel toparlanma beklentisiyle takip edilebilir.</p>
+                            <p>4.59x F/K ve 0.51x PD/DD çarpanları ile düşük değerleme seviyesi.</p>
                         </div>
                         <div class="sg-box red-border">
                             <div class="sg-title" style="color:#ff5252;">🔴 Neden Çekimser Kalınır? (Risk / Kısıtlar)</div>
-                            <p>Sektörel marj baskısı ve faaliyet kârının zarara dönmüş olması kurumsal ilgiyi zayıflatmaktadır.</p>
+                            <p>Faaliyet kârındaki sert düşüş (%-685.5) ve tekstil sektöründeki dönemsel kriz.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Modül 8: Boğa vs Ayı -->
                 <div class="mod-card" style="grid-column: span 2;">
-                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%50 Boğa / %50 Ayı</span></div>
+                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%40 Boğa / %60 Ayı Lehine</span></div>
                     <div class="mod-body split-grid">
                         <div class="sg-box">
                             <div class="sg-title" style="color:#00e676;">Boğa Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#00e676;'>✓ 0.51 PD/DD ve düşük F/K çarpanı.</li><li style='color:#00e676;'>✓ SMC tarafında HTF uyumlu güvenli bölgede yer alması.</li></ul>
+                            <ul class="clean-list"><li style='color:#00e676;'>✓ Defter değerinin yarısında (0.51 PD/DD) işlem görmesi.</li><li style='color:#00e676;'>✓ Düşük beta (0.61) ile piyasa dalgalanmalarına karşı göreceli direnç.</li><li style='color:#00e676;'>✓ Düşük F/K oranı.</li></ul>
                         </div>
                         <div class="sg-box">
                             <div class="sg-title" style="color:#ff5252;">Ayı Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Faaliyet kârında %685.50'lik devasa daralma.</li><li style='color:#ff5252;'>⚠ Satış hacimlerindeki gerileme (%11.00).</li></ul>
+                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Operasyonel kârlılıkta yaşanan sert kayıplar.</li><li style='color:#ff5252;'>⚠ 1.00 altındaki cari oran (0.97) ve ihracat pazarlarındaki zayıflık.</li></ul>
                         </div>
                     </div>
                 </div>
@@ -1033,19 +1042,19 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🪙</span> 9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü</div>
                     <div class="mod-body">
-                        <p>Temettü ödemeyen şirket, son çeyrekte maliyet enflasyonunu satış fiyatlarına yansıtamayarak esas faaliyet kârında ciddi zarar yazmıştır.</p>
+                        <p>Son çeyrek finansallarında maliyet baskısı hissedilmiştir. Şirket büyüme odaklı statüde olup düşük temettü skoruna (2) sahiptir.</p>
                     </div>
                 </div>
 
                 <!-- Modül 10: Sonuç ve Görünüm -->
                 <div class="mod-card">
-                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Aksiyon Planı</div>
+                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Model Görünümü</div>
                     <div class="mod-body">
                         <div style="font-size:18px; font-weight:800; color:#ffab00; margin-bottom:8px;">
-                            NÖTR / İZLEMEDE KAL
+                            TEMKİNLİ İZLEME (Onay Bekleniyor)
                         </div>
-                        <p><b>Kısa Vade (0-3 Ay):</b> 12.45 - 12.89 talep bölgesinin üzerinde tutunması durumunda 14.20 hedeflenebilir ancak tepki alımı sınırında kalmalıdır.</p>
-                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Tekstil sektöründeki makro dönüşüm ve kârlılık sinyalleri görülmeden uzun vadeli birikim önerilmemektedir.</p>
+                        <p><b>Kısa Vade (0-3 Ay):</b> 12.45 - 12.89 talep bölgesinin korunması teknik açıdan kritik olup tepki hareketleri izlenmelidir.</p>
+                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Sektörel marjlarda toparlanma görülmeden kalıcı bir trend oluşumu beklenmemelidir.</p>
                     </div>
                 </div>
             </div>
@@ -1075,9 +1084,9 @@
                         <div class="moat-val">6<span style="font-size:16px;">/10</span></div>
                         <div class="moat-sub">Orta Hendek (Moderate Moat)</div>
                     </div>
-                    <div class="verdict-box" style="border-color:#ffab00;">
+                    <div class="verdict-box" style="border-color:#29b6f6;">
                         <div class="verdict-label">ALGORİTMİK MODEL STATÜSÜ</div>
-                        <div class="verdict-val" style="color:#ffab00;">DİSİPLİNLİ İZLEME (Sıcak Takip)</div>
+                        <div class="verdict-val" style="color:#29b6f6;">DİSİPLİNLİ İZLEME (Sıcak Takip)</div>
                     </div>
                 </div>
             </div>
@@ -1116,7 +1125,7 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏛️</span> 1. İş Modeli ve Stratejik Konumlanma</div>
                     <div class="mod-body">
-                        <p>Mekanik ve elektrik tesisat taahhüt sektöründe faaliyet gösteren şirket, büyük ölçekli hastane, veri merkezi ve endüstriyel tesis projelerinin elektromekanik altyapısını üstlenmektedir.</p>
+                        <p>Birleşim Mühendislik; büyük ölçekli hastane, otel, AVM ve endüstriyel tesis projelerinde mekanik ve elektrik tesisat taahhüt hizmetleri sunmaktadır. Güçlü back-log (alınan işler) yapısıyla taahhüt sektöründe öncü konumdadır.</p>
                     </div>
                 </div>
 
@@ -1125,12 +1134,12 @@
                     <div class="mod-head"><span class="mod-icon">📊</span> 2. Derinlemesine Finansal Performans</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%53.92</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%1600.97</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">-%37.92</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%53.92 Büyüme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%1600.97 Büyüme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%-37.92 Daralma</span></div>
                             <div class="kpi-box"><span class="kpi-lbl">Cari Oran</span><span class="kpi-val cyan">1.15</span></div>
                         </div>
-                        <p style="margin-top:12px;">Satış gelirlerini %53.92 artıran şirket, net kârında tek seferlik/dönemsel kalemlerin etkisiyle %1600.97 gibi olağanüstü bir sıçrama kaydetmiştir. Ancak ana faaliyet kârlılığı maliyet artışları nedeniyle %37.92 daralmıştır. Cari oran 1.15 ile makul düzeydedir.</p>
+                        <p style="margin-top:12px;">Şirketin satış gelirleri %53.92 oranında büyümüş, ertelenmiş vergi ve tekseferlik gelirlerin etkisiyle net kârında olağanüstü (%1600.97) bir artış kaydedilmiştir. Buna karşın esas faaliyet kârında %37.92 daralma yaşanması operasyonel maliyet artışlarına işaret etmektedir. Cari oran 1.15 seviyesinde makuldür.</p>
                     </div>
                 </div>
 
@@ -1139,7 +1148,7 @@
                     <div class="mod-head"><span class="mod-icon">🏰</span> 3. Rekabet Üstünlüğü (Moat) Analizi</div>
                     <div class="mod-body">
                         <div class="moat-highlight">Hendek Sınıfı: <b>Orta Hendek (Moderate Moat) (Skor: 6/10)</b></div>
-                        <p>Mekanik-elektrik taahhüt alanındaki teknik uzmanlık, nitelikli mühendislik kadrosu ve tamamlanan dev projelerin getirdiği referans gücü bir hendek oluşturmaktadır.</p>
+                        <p>Büyük ölçekli elektromekanik taahhüt projelerindeki uzmanlık, teknik yetkinlik ve tamamlama referansları rekabet avantajı sağlamaktadır.</p>
                     </div>
                 </div>
 
@@ -1148,11 +1157,11 @@
                     <div class="mod-head"><span class="mod-icon">⚖️</span> 4. Değerleme ve Çarpan Analizi</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">A.D. (0.00)</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">2.72</span></div>
-                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Operasyonel Olarak İzlenmeli</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">Hesaplanamıyor / Düzeltilmiş</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">2.72x</span></div>
+                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Sektör Ortalamasında Değerleme</span></div>
                         </div>
-                        <p style="margin-top:12px;">Net kâr artışının faaliyet kârıyla desteklenmemesi ve F/K çarpanının hesaplanamaması nedeniyle 2.72 PD/DD üzerinden muhafazakar yaklaşılmalıdır.</p>
+                        <p style="margin-top:12px;">Mevcut iş stoğunun (backlog) hakedişe dönüşme hızı ve esas faaliyet kâr marjlarının yeniden yükselmesi DCF değerlemesini destekleyecektir.</p>
                     </div>
                 </div>
 
@@ -1161,7 +1170,7 @@
                     <div class="mod-head"><span class="mod-icon">⚠️</span> 5. Kritik Risk Hiyerarşisi & Resmi Tedbirler</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>1. Esas faaliyet kârındaki %37.92'lik daralmanın operasyonel marjları bozması.</li><li>2. Taahhüt projelerinde hammadde ve işçilik maliyet artışlarının bütçe aşımına yol açması.</li><li>3. Kamu ve özel sektör altyapı yatırımlarının yavaşlama riski.</li><li>4. Herhangi bir tedbir kısıtı bulunmamaktadır.</li>
+                            <li>1. Esas faaliyet kârlılığındaki %37.92 daralma ve proje girdi maliyet artışları.</li><li>2. Taahhüt projelerindeki hakediş ve tahsilat gecikmeleri.</li><li>3. İnşaat sektöründeki genel yavaşlama riski.</li><li>4. Negatif alpha (-0.2841) ve bağıl zayıf momentum.</li>
                         </ul>
                     </div>
                 </div>
@@ -1171,7 +1180,7 @@
                     <div class="mod-head"><span class="mod-icon">🚀</span> 6. Uzun Vadeli Büyüme Katalizörleri</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>Yurtdışı taahhüt projelerinin ve döviz bazlı iş sözleşmelerinin artırılması.</li><li>Veri merkezleri ve yenilenebilir enerji tesisleri gibi yüksek marjlı niş alanlara odaklanma.</li><li>Şirket birleşmeleri ve grup şirketleri sinerjisi.</li>
+                            <li>Yurt dışı mühendislik ve taahhüt projelerinin portföydeki payının artırılması.</li><li>Yenilenebilir enerji ve EPC santral kurulum taahhüt işleri.</li><li>Devam eden kamu ve özel sektör mega projeleri.</li>
                         </ul>
                     </div>
                 </div>
@@ -1182,26 +1191,26 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box green-border">
                             <div class="sg-title" style="color:#00e676;">🟢 Neden Portföye Alınır? (Long Tezi)</div>
-                            <p>Katılım Finans uygunluğu, güçlü ciro büyümesi (%53.92) ve devasa net kâr artışı muhafazakar portföylerin ilgisini çekebilir.</p>
+                            <p>%53.92 ciro büyümesi, Katılım Finans kriterlerine uygunluk ve güçlü iş portföyü.</p>
                         </div>
                         <div class="sg-box red-border">
                             <div class="sg-title" style="color:#ff5252;">🔴 Neden Çekimser Kalınır? (Risk / Kısıtlar)</div>
-                            <p>Faaliyet kârındaki gerileme ve -0.28 negatif alpha göstergesi kurumsal fonlarda temkin yaratmaktadır.</p>
+                            <p>Esas faaliyet kârındaki gerileme ve negatif alpha değeri.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Modül 8: Boğa vs Ayı -->
                 <div class="mod-card" style="grid-column: span 2;">
-                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%60 Boğa Lehine / %40 Ayı Lehine</span></div>
+                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%50 Boğa / %50 Ayı (Dengeli)</span></div>
                     <div class="mod-body split-grid">
                         <div class="sg-box">
                             <div class="sg-title" style="color:#00e676;">Boğa Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#00e676;'>✓ %53.92 ciro büyümesi ve proje backlog (alınan iş) gücü.</li><li style='color:#00e676;'>✓ 22.60 teknik hedefine yönelik SMC yapısı.</li></ul>
+                            <ul class="clean-list"><li style='color:#00e676;'>✓ İstikrarlı ciro artışı (%53.92) ve Katılım uygunluğu.</li><li style='color:#00e676;'>✓ Nakit akışını destekleyen 1.15 cari oran.</li><li style='color:#00e676;'>✓ SMC HTF Güvenli fazda bulunması.</li></ul>
                         </div>
                         <div class="sg-box">
                             <div class="sg-title" style="color:#ff5252;">Ayı Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Esas faaliyet kârlılığındaki %37.92'lik aşınma.</li><li style='color:#ff5252;'>⚠ -0.28 negatif Alpha ile endeks altı performans riski.</li></ul>
+                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Net kârdaki patlamanın tek seferlik kalemlerden kaynaklanması ve esas faaliyet kârındaki düşüş.</li><li style='color:#ff5252;'>⚠ 2.72x PD/DD çarpanı.</li></ul>
                         </div>
                     </div>
                 </div>
@@ -1210,19 +1219,19 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🪙</span> 9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü</div>
                     <div class="mod-body">
-                        <p>Büyüme odaklı olan BRLSM temettü ödememektedir. Son çeyrekte ciro artışına karşın hammadde maliyetleri operasyonel kâr marjını baskılamıştır.</p>
+                        <p>Son çeyrekte net kâr yüksek açıklanmış ancak faaliyet marjları daralmıştır. Şirket büyüme odaklı olup temettü puanı 2'dir.</p>
                     </div>
                 </div>
 
                 <!-- Modül 10: Sonuç ve Görünüm -->
                 <div class="mod-card">
-                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Aksiyon Planı</div>
+                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Model Görünümü</div>
                     <div class="mod-body">
-                        <div style="font-size:18px; font-weight:800; color:#ffab00; margin-bottom:8px;">
+                        <div style="font-size:18px; font-weight:800; color:#29b6f6; margin-bottom:8px;">
                             DİSİPLİNLİ İZLEME (Sıcak Takip)
                         </div>
-                        <p><b>Kısa Vade (0-3 Ay):</b> 17.67 - 18.90 destek bölgesinden verilecek tepki ile 22.60 direnç hedefi izlenebilir.</p>
-                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Faaliyet kârlılığı net kâra paralel toparlanmadıkça pozisyon büyüklüğü sınırlı tutulmalıdır.</p>
+                        <p><b>Kısa Vade (0-3 Ay):</b> 17.67 - 18.90 destek bölgesindeki fiyat hareketleri takip edilmeli, 21.37 direnci izlenmelidir.</p>
+                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Esas faaliyet kârlılığındaki toparlanma ve yeni alınan sözleşmeler uzun vadeli yönü belirleyecektir.</p>
                     </div>
                 </div>
             </div>
@@ -1250,11 +1259,11 @@
                     <div class="moat-box">
                         <div class="moat-label">HENDEK (MOAT) SKORU</div>
                         <div class="moat-val">7<span style="font-size:16px;">/10</span></div>
-                        <div class="moat-sub">Geniş Hendek (Wide Moat)</div>
+                        <div class="moat-sub">Geniş/Orta Hendek</div>
                     </div>
-                    <div class="verdict-box" style="border-color:#00e676;">
+                    <div class="verdict-box" style="border-color:#29b6f6;">
                         <div class="verdict-label">ALGORİTMİK MODEL STATÜSÜ</div>
-                        <div class="verdict-val" style="color:#00e676;">KADEMELİ AL / DEĞER ODAKLI</div>
+                        <div class="verdict-val" style="color:#29b6f6;">DİSİPLİNLİ İZLEME (Sıcak Takip)</div>
                     </div>
                 </div>
             </div>
@@ -1293,7 +1302,7 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏛️</span> 1. İş Modeli ve Stratejik Konumlanma</div>
                     <div class="mod-body">
-                        <p>Alarko Holding bünyesinde yer alan ALGYO; döviz bazlı otel kira gelirleri, likit döviz/nakit varlıkları ve arsa/gayrimenkul portföyü ile defansif bir GYO modeline sahiptir.</p>
+                        <p>Alarko GYO; Hillside Beach Club gibi nitelikli turizm varlıkları, döviz bazlı kiralık gayrimenkuller ve nakit/döviz varlıklarından oluşan likit bir portföye sahiptir. Sektördeki en yüksek döviz ve nakit pozisyonuna sahip GYO'lardan biridir.</p>
                     </div>
                 </div>
 
@@ -1302,12 +1311,12 @@
                     <div class="mod-head"><span class="mod-icon">📊</span> 2. Derinlemesine Finansal Performans</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">-%6.65</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%983.01</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">-%76.76</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%-6.65 Daralma</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%983.01 Büyüme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%-76.76 Daralma</span></div>
                             <div class="kpi-box"><span class="kpi-lbl">Cari Oran</span><span class="kpi-val cyan">0.23</span></div>
                         </div>
-                        <p style="margin-top:12px;">Satışları %6.65 ve esas faaliyet kârı %76.76 oranında gerileyen şirket, gayrimenkul yeniden değerleme artışları sayesinde net kârını %983.01 büyütmüştür. Cari oranının 0.23 olması, bilançoda dönen varlık / kısa vadeli borç dengesinde dikkatle izlenmesi gereken bir likidite yapısına işaret etmektedir.</p>
+                        <p style="margin-top:12px;">Şirket varlık değerleme artışları ve finansal gelirlerin katkısıyla net kârını %983.01 artırmıştır. Ancak operasyonel tarafta ciro %6.65, faaliyet kârı ise %76.76 daralma kaydetmiştir. 0.23 seviyesindeki cari oran, GYO muhasebe standartları ve finansal borç kalemi yapısından kaynaklanmaktadır.</p>
                     </div>
                 </div>
 
@@ -1315,8 +1324,8 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏰</span> 3. Rekabet Üstünlüğü (Moat) Analizi</div>
                     <div class="mod-body">
-                        <div class="moat-highlight">Hendek Sınıfı: <b>Geniş Hendek (Wide Moat) (Skor: 7/10)</b></div>
-                        <p>Hillside Fethiye gibi prestijli turizm varlıkları, yüksek döviz varlığı ve Alarko Grubu'nun kurumsal yönetim kalitesi güçlü bir marka/varlık hendeği oluşturur.</p>
+                        <div class="moat-highlight">Hendek Sınıfı: <b>Geniş/Orta Hendek (Skor: 7/10)</b></div>
+                        <p>Hillside markasının yarattığı yüksek turizm geliri ve şirketin döviz cinsinden nakit varlıkları kriz dönemlerinde koruyucu kalkan sunmaktadır.</p>
                     </div>
                 </div>
 
@@ -1325,11 +1334,11 @@
                     <div class="mod-head"><span class="mod-icon">⚖️</span> 4. Değerleme ve Çarpan Analizi</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">A.D. (0.00)</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.40</span></div>
-                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Ciddi Varlık İskontosu</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">Hesaplanamıyor / Düşük</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.40x</span></div>
+                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Yüksek Net Aktif Değeri (NAD) İskontosu</span></div>
                         </div>
-                        <p style="margin-top:12px;">0.40 PD/DD çarpanı şirketin gayrimenkul portföyünün %60 iskontolu işlem gördüğünü ortaya koymaktadır.</p>
+                        <p style="margin-top:12px;">0.40x PD/DD seviyesi, şirketin sunduğu gayrimenkul ve nakit varlıklarına göre derin bir iskontoya işaret etmektedir.</p>
                     </div>
                 </div>
 
@@ -1338,7 +1347,7 @@
                     <div class="mod-head"><span class="mod-icon">⚠️</span> 5. Kritik Risk Hiyerarşisi & Resmi Tedbirler</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>1. Cari oranın 0.23 gibi son derece düşük bir seviyede bulunması ve borç yönetim riski.</li><li>2. Esas faaliyet kârlılığındaki %76.76'lık sert düşüş.</li><li>3. Turizm sektöründeki döviz bazlı gelirlerin kur hareketlerine duyarlılığı.</li><li>4. Herhangi bir SPK tedbir kısıtı yoktur, tahta son derece likittir.</li>
+                            <li>1. 0.23 cari oran nedeniyle kısa vadeli finansal yükümlülük yapısının takibi.</li><li>2. Esas faaliyet kârındaki %76.76 daralma.</li><li>3. Turizm sezonundaki olası doluluk oranı dalgalanmaları.</li><li>4. Gayrimenkul piyasasındaki genel durgunluk.</li>
                         </ul>
                     </div>
                 </div>
@@ -1348,7 +1357,7 @@
                     <div class="mod-head"><span class="mod-icon">🚀</span> 6. Uzun Vadeli Büyüme Katalizörleri</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>Yeni turizm ve arazi yatırımlarının portföye katılması.</li><li>Döviz mevduatlarından ve Eurobond portföyünden elde edilen finansal gelirler.</li><li>Sektörel faiz indirim döngüsünde GYO varlık değerlerinin genel yükselişi.</li>
+                            <li>Nakit varlıkların yeni otel veya gelir getirici mülk yatırımlarında değerlendirilmesi.</li><li>Hillside markasının yeni lokasyonlara genişletilmesi projeleri.</li><li>Döviz kurlarındaki artışın döviz bazlı kiralara ve nakit varlıklara pozitif katkısı.</li>
                         </ul>
                     </div>
                 </div>
@@ -1359,26 +1368,26 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box green-border">
                             <div class="sg-title" style="color:#00e676;">🟢 Neden Portföye Alınır? (Long Tezi)</div>
-                            <p>0.40 PD/DD oranındaki derin varlık iskontosu, devasa net kâr büyümesi ve defansif döviz pozisyonu nedeniyle portföylere eklenir.</p>
+                            <p>0.40x PD/DD derin iskontosu, Yıldız Pazar prestiji ve döviz varlık gücü.</p>
                         </div>
                         <div class="sg-box red-border">
                             <div class="sg-title" style="color:#ff5252;">🔴 Neden Çekimser Kalınır? (Risk / Kısıtlar)</div>
-                            <p>0.23 cari oran ve esas faaliyet kârındaki belirgin kan kaybı (-%76.76) operasyonel tarafta soru işareti yaratmaktadır.</p>
+                            <p>Faaliyet kârındaki düşüş ve düşük cari oran göstergesi.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Modül 8: Boğa vs Ayı -->
                 <div class="mod-card" style="grid-column: span 2;">
-                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%65 Boğa Lehine / %35 Ayı Lehine</span></div>
+                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%60 Boğa / %40 Ayı Lehine</span></div>
                     <div class="mod-body split-grid">
                         <div class="sg-box">
                             <div class="sg-title" style="color:#00e676;">Boğa Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#00e676;'>✓ 0.40 PD/DD ile muazzam Net Varlık Değeri (NVD) iskontosu.</li><li style='color:#00e676;'>✓ Z-Skorunun (0.76) pozitif momentumu desteklemesi.</li></ul>
+                            <ul class="clean-list"><li style='color:#00e676;'>✓ Net kârda %983.01 artış ve 0.40 PD/DD ile yüksek varlık koruması.</li><li style='color:#00e676;'>✓ Z-Skorunun (0.7618) pozitif momentum üretmesi.</li><li style='color:#00e676;'>✓ Yıldız Pazar ve Alarko Grubu kurumsal yönetimi.</li></ul>
                         </div>
                         <div class="sg-box">
                             <div class="sg-title" style="color:#ff5252;">Ayı Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Cari oranın 0.23 seviyesinde kalarak likidite riski oluşturması.</li><li style='color:#ff5252;'>⚠ Esas faaliyet kârının %76.76 daralmış olması.</li></ul>
+                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Esas faaliyet kârında %76.76 düşüş.</li><li style='color:#ff5252;'>⚠ Cari oranın 0.23 ile zayıf görünmesi.</li></ul>
                         </div>
                     </div>
                 </div>
@@ -1387,19 +1396,19 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🪙</span> 9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü</div>
                     <div class="mod-body">
-                        <p>Temettü puanı 2 olan ve kârını yatırımlara yönlendiren ALGYO, son dönemde varlık değerlemeleriyle kârını patlatırken operasyonel tarafta nakit üretmekte zorlanmıştır.</p>
+                        <p>Değerleme etkisiyle net kâr artmış, operasyonel marjlar baskılanmıştır. Temettü skoru 2 olup dönemsel temettü ödemektedir.</p>
                     </div>
                 </div>
 
                 <!-- Modül 10: Sonuç ve Görünüm -->
                 <div class="mod-card">
-                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Aksiyon Planı</div>
+                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Model Görünümü</div>
                     <div class="mod-body">
-                        <div style="font-size:18px; font-weight:800; color:#00e676; margin-bottom:8px;">
-                            KADEMELİ AL / DEĞER ODAKLI
+                        <div style="font-size:18px; font-weight:800; color:#29b6f6; margin-bottom:8px;">
+                            DİSİPLİNLİ İZLEME (Sıcak Takip)
                         </div>
-                        <p><b>Kısa Vade (0-3 Ay):</b> 3.46 - 3.57 talep bölgesinde dip oluşumu tamamlanmakta olup 3.89 hedefi takip edilmektedir.</p>
-                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> İskontonun kapanması ve varlık satış/kiralama gelirleriyle uzun vadede yüksek potansiyel sunmaktadır.</p>
+                        <p><b>Kısa Vade (0-3 Ay):</b> 3.46 - 3.57 talep bölgesinden gelen tepki adımları 3.89 hedef bölgesine doğru ivmelenmektedir.</p>
+                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Döviz nakit varlıkları ve derin NAD iskontosu uzun vadede güvenli liman niteliğini korumaktadır.</p>
                     </div>
                 </div>
             </div>
@@ -1426,12 +1435,12 @@
                 <div class="sh-right">
                     <div class="moat-box">
                         <div class="moat-label">HENDEK (MOAT) SKORU</div>
-                        <div class="moat-val">7<span style="font-size:16px;">/10</span></div>
-                        <div class="moat-sub">Geniş Hendek (Wide Moat)</div>
+                        <div class="moat-val">6<span style="font-size:16px;">/10</span></div>
+                        <div class="moat-sub">Orta Hendek (Moderate Moat)</div>
                     </div>
                     <div class="verdict-box" style="border-color:#ffab00;">
                         <div class="verdict-label">ALGORİTMİK MODEL STATÜSÜ</div>
-                        <div class="verdict-val" style="color:#ffab00;">YAKIN TAKİP / DÖNGÜSEL TEPKİ</div>
+                        <div class="verdict-val" style="color:#ffab00;">TEMKİNLİ İZLEME (Onay Bekleniyor)</div>
                     </div>
                 </div>
             </div>
@@ -1470,7 +1479,7 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏛️</span> 1. İş Modeli ve Stratejik Konumlanma</div>
                     <div class="mod-body">
-                        <p>Türkiye'nin ilk entegre demir-çelik üreticisi olan Kardemir'in (A) grubu imtiyazlı hissesidir. Demiryolu rayı, ağır profil ve kütük çelik imalatında lider konumdadır.</p>
+                        <p>Kardemir, Türkiye'nin entegre demir-çelik üreticilerinden biri olup ham çelik, ray, profil ve ağır sanayi girdileri üretmektedir. (A) grubu hisseler, yönetim kurulu seçiminde imtiyaza ve kurucu mirasa sahip pay grubudur.</p>
                     </div>
                 </div>
 
@@ -1479,12 +1488,12 @@
                     <div class="mod-head"><span class="mod-icon">📊</span> 2. Derinlemesine Finansal Performans</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">-%5.43</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">-%2450.61</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">-%417.12</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%-5.43 Daralma</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%-2450.61 Daralma</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%-417.12 Daralma</span></div>
                             <div class="kpi-box"><span class="kpi-lbl">Cari Oran</span><span class="kpi-val cyan">1.40</span></div>
                         </div>
-                        <p style="margin-top:12px;">Ağır sanayi ve çelik sektöründeki küresel fiyat düşüşleri ve marj daralması sebebiyle satışlar %5.43 gerilemiş, esas faaliyet kârı -%417.12 ve net kâr -%2450.61 ile şiddetli bir dönemsel kayıp yaşamıştır. 1.40 cari oran likidite güvenliği sağlamaktadır.</p>
+                        <p style="margin-top:12px;">Küresel çelik sektöründeki marj darlığı, çelik fiyatlarındaki gerileme ve yüksek enerji girdi maliyetleri nedeniyle şirket operasyonel zarara geçmiş ve net kârlılıkta sert bir daralma yaşanmıştır. Ciro %5.43 gerilemiştir. Bilançonun olumlu tarafı, 1.40 seviyesindeki sağlıklı cari orandır.</p>
                     </div>
                 </div>
 
@@ -1492,8 +1501,8 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏰</span> 3. Rekabet Üstünlüğü (Moat) Analizi</div>
                     <div class="mod-body">
-                        <div class="moat-highlight">Hendek Sınıfı: <b>Geniş Hendek (Wide Moat) (Skor: 7/10)</b></div>
-                        <p>Türkiye ve bölgedeki tek demiryolu rayı ve tekerleği üreticisi olması, liman bağlantıları ve entegre tesis ölçeği şirkete yüksek stratejik hendek kazandırmaktadır.</p>
+                        <div class="moat-highlight">Hendek Sınıfı: <b>Orta Hendek (Moderate Moat) (Skor: 6/10)</b></div>
+                        <p>Türkiye'nin tek demiryolu rayı ve tekerleği üreticisi olması ve yüksek giriş engeline sahip entegre demir-çelik tesisi altyapısı.</p>
                     </div>
                 </div>
 
@@ -1502,11 +1511,11 @@
                     <div class="mod-head"><span class="mod-icon">⚖️</span> 4. Değerleme ve Çarpan Analizi</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">14.64</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.59</span></div>
-                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Döngüsel Dip / Defter Değeri İskontolu</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">14.64x</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.59x</span></div>
+                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">İskontolu Defter Değeri / Yüksek Döngüsel F/K</span></div>
                         </div>
-                        <p style="margin-top:12px;">0.59 PD/DD çarpanı sektörün döngüsel dipte olduğuna ve hissenin defter değerine göre yüksek iskonto barındırdığına işaret etmektedir.</p>
+                        <p style="margin-top:12px;">Sektörün döngü tabanında olması sebebiyle 0.59x PD/DD cazip olup, küresel çelik fiyatlarının toparlanması durumunda yüksek nakit akış potansiyeli barındırmaktadır.</p>
                     </div>
                 </div>
 
@@ -1515,7 +1524,7 @@
                     <div class="mod-head"><span class="mod-icon">⚠️</span> 5. Kritik Risk Hiyerarşisi & Resmi Tedbirler</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>1. Çelik marjlarındaki (spread) küresel daralmanın kârlılığı baskılaması.</li><li>2. Çin demir-çelik arz fazlasının küresel fiyatlar üzerindeki olumsuz etkisi.</li><li>3. Yüksek hammadde (cevher/kömür) maliyetleri.</li><li>4. Herhangi bir tedbir kısıtı yoktur, tahta işlem serbestisine sahiptir.</li>
+                            <li>1. Küresel çelik fiyatları ve Çin üretimi kaynaklı marj baskısı.</li><li>2. Faaliyet kârındaki ciddi daralma (%-417.12) ve net zarar dönemi.</li><li>3. Elektrik ve doğalgaz girdi maliyetlerindeki artışlar.</li><li>4. Negatif Alpha (-1.1595) ve aşırı satım bölgesindeki Z-skor (-0.7481).</li>
                         </ul>
                     </div>
                 </div>
@@ -1525,7 +1534,7 @@
                     <div class="mod-head"><span class="mod-icon">🚀</span> 6. Uzun Vadeli Büyüme Katalizörleri</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>Demiryolu yatırımlarının ve savunma sanayine yönelik katma değerli çelik üretiminin artması.</li><li>Yeşil çelik dönüşümü ve karbon vergisi uyum yatırımları.</li><li>Küresel çelik döngüsünün yukarı dönmesiyle marjların hızla genişlemesi.</li>
+                            <li>Demiryolu ve savunma sanayine yönelik katma değerli vasıflı çelik yatırımları.</li><li>Şebeke ve liman bağlantılı lojistik avantajlarının kullanılması.</li><li>Küresel faiz indirimleriyle birlikte inşaat ve alt yapı sektörünün canlanması.</li>
                         </ul>
                     </div>
                 </div>
@@ -1536,26 +1545,26 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box green-border">
                             <div class="sg-title" style="color:#00e676;">🟢 Neden Portföye Alınır? (Long Tezi)</div>
-                            <p>Katılım Finans uygunluğu, 0.59 PD/DD iskontosu ve -0.75 Z-Skoru ile 'Aşırı Satım/İskonto' bölgesinde bulunması dip avcıları için fırsat sunar.</p>
+                            <p>0.59x PD/DD ile defter değerine göre yüksek iskonto, 1.40 cari oran ve Katılım Finans uygunluğu.</p>
                         </div>
                         <div class="sg-box red-border">
                             <div class="sg-title" style="color:#ff5252;">🔴 Neden Çekimser Kalınır? (Risk / Kısıtlar)</div>
-                            <p>Net kâr ve faaliyet kârındaki devasa düşüşler (-%2450.61 ve -%417.12) dönemsel toparlanma beklenene kadar çekimserlik yaratır.</p>
+                            <p>Sektörel kriz nedeniyle kârlılıktaki düşüş ve negatif alpha/z-skor göstergeleri.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Modül 8: Boğa vs Ayı -->
                 <div class="mod-card" style="grid-column: span 2;">
-                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%45 Boğa / %55 Ayı</span></div>
+                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%45 Boğa / %55 Ayı Lehine</span></div>
                     <div class="mod-body split-grid">
                         <div class="sg-box">
                             <div class="sg-title" style="color:#00e676;">Boğa Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#00e676;'>✓ 0.59 PD/DD oranı ile tarihi dip değerleme seviyeleri.</li><li style='color:#00e676;'>✓ -0.75 Z-Skor ile aşırı satım bölgesinden tepki potansiyeli.</li></ul>
+                            <ul class="clean-list"><li style='color:#00e676;'>✓ 0.59 PD/DD oranı ve Z-skorun (-0.7481) aşırı satım/iskonto bölgesini işaret etmesi.</li><li style='color:#00e676;'>✓ Stratejik ray üretimi tekel avantajı ve Katılım uygunluğu.</li><li style='color:#00e676;'>✓ 1.40 cari oran ile dengeli finansal yapı.</li></ul>
                         </div>
                         <div class="sg-box">
                             <div class="sg-title" style="color:#ff5252;">Ayı Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Faaliyet ve net kârlılıkta yaşanan çöküş.</li><li style='color:#ff5252;'>⚠ -1.16 negatif Alpha ile endeks karşısında zayıf performans.</li></ul>
+                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Faaliyet kârı ve net kârın sert düşüş göstermesi.</li><li style='color:#ff5252;'>⚠ Alpha değerinin negatif bölgede bulunması.</li></ul>
                         </div>
                     </div>
                 </div>
@@ -1564,19 +1573,19 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🪙</span> 9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü</div>
                     <div class="mod-body">
-                        <p>Büyüme odaklı dönemde temettü verimi düşen şirket, son çeyrekte çelik sektöründeki marj daralmasının tüm olumsuz etkilerini finansallarına yansıtmıştır.</p>
+                        <p>Döngüsel dip dönemi finansallara yansımıştır. Şirket tarihsel olarak temettü ödeme geleneğine sahiptir.</p>
                     </div>
                 </div>
 
                 <!-- Modül 10: Sonuç ve Görünüm -->
                 <div class="mod-card">
-                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Aksiyon Planı</div>
+                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Model Görünümü</div>
                     <div class="mod-body">
                         <div style="font-size:18px; font-weight:800; color:#ffab00; margin-bottom:8px;">
-                            YAKIN TAKİP / DÖNGÜSEL TEPKİ
+                            TEMKİNLİ İZLEME (Onay Bekleniyor)
                         </div>
-                        <p><b>Kısa Vade (0-3 Ay):</b> 54.00 - 58.29 talep aralığında taban arayışı sürmekte olup, 71.15 orta vadeli hedef olarak izlenmektedir.</p>
-                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Sektörel döngü dönene kadar kademeli ve uzun vadeli birikim stratejisi uygundur.</p>
+                        <p><b>Kısa Vade (0-3 Ay):</b> 54.00 - 58.29 destek bandında dip arayışı sürmekte olup dönüş teyidi beklenmelidir.</p>
+                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Çelik sektöründeki döngüsel toparlanma başladığında varlık iskontosu yüksek prim potansiyeline dönüşebilir.</p>
                     </div>
                 </div>
             </div>
@@ -1608,7 +1617,7 @@
                     </div>
                     <div class="verdict-box" style="border-color:#00e676;">
                         <div class="verdict-label">ALGORİTMİK MODEL STATÜSÜ</div>
-                        <div class="verdict-val" style="color:#00e676;">POZİTİF İVME / PORTFÖY ÇAPASI</div>
+                        <div class="verdict-val" style="color:#00e676;">POZİTİF İVME / YAKIN TAKİP</div>
                     </div>
                 </div>
             </div>
@@ -1647,7 +1656,7 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏛️</span> 1. İş Modeli ve Stratejik Konumlanma</div>
                     <div class="mod-body">
-                        <p>Küresel mühendislik ve inşaat devi olan ENKAI; uluslararası taahhüt projeleri, Rusya'daki gayrimenkul/ofis portföyü, enerji santralleri ve devasa likit yatırım portföyü ile konglomerat yapısına sahiptir.</p>
+                        <p>ENKA; uluslararası ölçekte mühendislik ve inşaat taahhüdü, enerji üretimi (doğalgaz santralleri), gayrimenkul yönetimi (Moskova emlak portföyü) ve devasa bir nakit/finansal yatırım portföyünü yöneten küresel bir konglomerattır.</p>
                     </div>
                 </div>
 
@@ -1656,12 +1665,12 @@
                     <div class="mod-head"><span class="mod-icon">📊</span> 2. Derinlemesine Finansal Performans</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%31.67</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%18.50</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">-%8.77</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%31.67 Büyüme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%18.50 Büyüme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%-8.77 Daralma</span></div>
                             <div class="kpi-box"><span class="kpi-lbl">Cari Oran</span><span class="kpi-val cyan">2.93</span></div>
                         </div>
-                        <p style="margin-top:12px;">Satış gelirlerini %31.67 artırarak 90 milyar TL sınırına yaklaşan şirket, net kârını %18.50 büyütmüştür. Operasyonel faaliyet kârı ise maliyet enflasyonu nedeniyle %8.77 oranında hafif bir daralma kaydetmiştir. 2.93 cari oran ile kale gibi sağlam bir bilançoya sahiptir.</p>
+                        <p style="margin-top:12px;">Şirket satış gelirlerini %31.67, net kârını %18.50 oranında büyütmüştür. İşletme giderleri ve taahhüt marjlarındaki hafif daralmayla faaliyet kârı %8.77 gerilemiştir. 2.93 seviyesindeki mükemmel cari oran ve milyarlarca dolarlık net nakit pozisyonu kale gibi sağlam bir bilanço sunmaktadır.</p>
                     </div>
                 </div>
 
@@ -1670,7 +1679,7 @@
                     <div class="mod-head"><span class="mod-icon">🏰</span> 3. Rekabet Üstünlüğü (Moat) Analizi</div>
                     <div class="mod-body">
                         <div class="moat-highlight">Hendek Sınıfı: <b>Geniş Hendek (Wide Moat) (Skor: 9/10)</b></div>
-                        <p>Bilyon dolarlık uluslararası projeleri tamamlama kapasitesi, milyarlarca dolarlık likit portföyü ve küresel ölçekteki itibarı mükemmel bir rekabet hendek oluşturur.</p>
+                        <p>Devasa likit finansal portföy, küresel taahhüt bitirme kapasitesi, Moskova'daki A+ gayrimenkul varlıkları ve 10 yıllık temettü şampiyonluğu statüsü.</p>
                     </div>
                 </div>
 
@@ -1679,11 +1688,11 @@
                     <div class="mod-head"><span class="mod-icon">⚖️</span> 4. Değerleme ve Çarpan Analizi</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">13.88</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">1.32</span></div>
-                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Makul / Güvenli Liman Değerlemesi</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">13.88x</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">1.32x</span></div>
+                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Makul Değerleme / Yüksek Bilanço Kalitesi</span></div>
                         </div>
-                        <p style="margin-top:12px;">13.88 F/K ve 1.32 PD/DD çarpanları, şirketin bünyesindeki net nakit ve gayrimenkul varlıkları dikkate alındığında son derece makul ve güvenlidir.</p>
+                        <p style="margin-top:12px;">Net nakit pozisyonu düşüldüğünde indirgenmiş operasyonel değerleme oldukça cazip çarpanlara işaret etmektedir.</p>
                     </div>
                 </div>
 
@@ -1692,7 +1701,7 @@
                     <div class="mod-head"><span class="mod-icon">⚠️</span> 5. Kritik Risk Hiyerarşisi & Resmi Tedbirler</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>1. Rusya ve Fildişi Sahili gibi operasyon yürütülen coğrafyalardaki jeopolitik riskler.</li><li>2. Küresel inşaat projelerinde hammadde ve işçilik maliyet artışları.</li><li>3. Faaliyet kârındaki %8.77'lik dönemsel daralma.</li><li>4. Tam likidite; herhangi bir tedbir kısıtı bulunmamaktadır.</li>
+                            <li>1. Rusya ve BDT bölgesindeki jeopolitik riskler ve yaptırım iklimi.</li><li>2. Küresel inşaat/enerji taahhüt projelerindeki başlama gecikmeleri.</li><li>3. Küresel tahvil ve hisse senedi piyasalarındaki dalgalanmaların portföy gelirlerine etkisi.</li><li>4. Esas faaliyet kârında görülen %8.77'lik dönemsel daralma.</li>
                         </ul>
                     </div>
                 </div>
@@ -1702,7 +1711,7 @@
                     <div class="mod-head"><span class="mod-icon">🚀</span> 6. Uzun Vadeli Büyüme Katalizörleri</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>Avrupa ve Orta Doğu'da yeni büyük ölçekli enerji ve altyapı ihalelerinin kazanılması.</li><li>Yenilenebilir enerji ve sürdürülebilirlik odaklı taahhüt projeleri.</li><li>Küresel faiz indirimleriyle birlikte yatırım portföyünden elde edilen değer artışları.</li>
+                            <li>Avrupa ve Orta Doğu'da kazanılan yeni mega EPC enerji ve altyapı ihaleleri.</li><li>Küresel faiz indirim döngüsünde eurobond ve finansal yatırım portföy değer artışları.</li><li>Yenilenebilir enerji ve yeşil hidrojen taahhüt projelerindeki büyüme.</li>
                         </ul>
                     </div>
                 </div>
@@ -1713,26 +1722,26 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box green-border">
                             <div class="sg-title" style="color:#00e676;">🟢 Neden Portföye Alınır? (Long Tezi)</div>
-                            <p>BIST 10 Yıllık Temettü Şampiyonu (10 puan), Kurumsal Yönetim ve Sürdürülebilirlik endeksi üyesi, 2.93 cari oran ile en güvenli limanlardan biridir.</p>
+                            <p>BIST 30 güvencesi, 10 yıllık temettü şampiyonluğu (10 puan), 2.93 cari oran ve muazzam net nakit rezervi.</p>
                         </div>
                         <div class="sg-box red-border">
                             <div class="sg-title" style="color:#ff5252;">🔴 Neden Çekimser Kalınır? (Risk / Kısıtlar)</div>
-                            <p>Beta'sının 0.91 olması ve büyük ölçeği nedeniyle agresif büyüme hisselerine kıyasla daha yavaş hareket etmesi.</p>
+                            <p>Faaliyet kârındaki hafif gerileme ve jeopolitik risk başlıkları.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Modül 8: Boğa vs Ayı -->
                 <div class="mod-card" style="grid-column: span 2;">
-                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%80 Boğa Lehine / %20 Ayı Lehine</span></div>
+                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%80 Boğa / %20 Ayı Lehine</span></div>
                     <div class="mod-body split-grid">
                         <div class="sg-box">
                             <div class="sg-title" style="color:#00e676;">Boğa Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#00e676;'>✓ BIST 30'un en sağlam bilançolarından biri (Cari Oran: 2.93).</li><li style='color:#00e676;'>✓ %31.67 ciro büyümesi ve 10 yıllık kesintisiz temettü disiplini.</li></ul>
+                            <ul class="clean-list"><li style='color:#00e676;'>✓ Sektörünün en sağlam bilançosu (Cari Oran: 2.93).</li><li style='color:#00e676;'>✓ 10 Yıllık Temettü Şampiyonu statüsü ve Sürdürülebilirlik Endeksi üyeliği.</li><li style='color:#00e676;'>✓ %31.67 ciro büyümesi ve pozitif alpha (0.396).</li></ul>
                         </div>
                         <div class="sg-box">
                             <div class="sg-title" style="color:#ff5252;">Ayı Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Faaliyet kârındaki %8.77'lik kısıtlı gerileme.</li><li style='color:#ff5252;'>⚠ Jeopolitik gerilimlerin Rusya pazarındaki gayrimenkul gelirlerine etkisi.</li></ul>
+                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Faaliyet kârının %8.77 daralması.</li><li style='color:#ff5252;'>⚠ Jeopolitik coğrafyalardaki varlık yoğunluğu.</li></ul>
                         </div>
                     </div>
                 </div>
@@ -1741,19 +1750,19 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🪙</span> 9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü</div>
                     <div class="mod-body">
-                        <p>10/10 tam temettü puanına sahip şirket, BIST Temettü Şampiyonları listesinde yer almakta, son çeyrekte döviz bazlı kârlılığını koruyarak istikrarlı büyümesini sürdürmektedir.</p>
+                        <p>İstikrarlı kârlılık korunmuştur. Şirket BIST 10 Yıllık Temettü Şampiyonu olup kesintisiz yüksek nakit temettü ödemektedir.</p>
                     </div>
                 </div>
 
                 <!-- Modül 10: Sonuç ve Görünüm -->
                 <div class="mod-card">
-                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Aksiyon Planı</div>
+                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Model Görünümü</div>
                     <div class="mod-body">
                         <div style="font-size:18px; font-weight:800; color:#00e676; margin-bottom:8px;">
-                            POZİTİF İVME / PORTFÖY ÇAPASI
+                            POZİTİF İVME / YAKIN TAKİP
                         </div>
-                        <p><b>Kısa Vade (0-3 Ay):</b> 82.45 - 84.43 talep bölgesine geri çekilmeler uzun vadeli ekleme fırsatıdır; 90.35 hedefi ilk aşamadır.</p>
-                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Piyasa dalgalanmalarına karşı ana portföy çapası olarak elde tutulması önerilir.</p>
+                        <p><b>Kısa Vade (0-3 Ay):</b> 82.45 - 84.43 talep bölgesi üzerinde yükseliş trendi korunmakta, 90.35 zirve hedefleri izlenmektedir.</p>
+                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Küresel ölçekte defansif, temettü verimi yüksek ve deflasyonist/enflasyonist her ortama dayanıklı liman.</p>
                     </div>
                 </div>
             </div>
@@ -1780,12 +1789,12 @@
                 <div class="sh-right">
                     <div class="moat-box">
                         <div class="moat-label">HENDEK (MOAT) SKORU</div>
-                        <div class="moat-val">7<span style="font-size:16px;">/10</span></div>
-                        <div class="moat-sub">Geniş Hendek (Wide Moat)</div>
+                        <div class="moat-val">6<span style="font-size:16px;">/10</span></div>
+                        <div class="moat-sub">Orta Hendek (Moderate Moat)</div>
                     </div>
-                    <div class="verdict-box" style="border-color:#00e676;">
+                    <div class="verdict-box" style="border-color:#29b6f6;">
                         <div class="verdict-label">ALGORİTMİK MODEL STATÜSÜ</div>
-                        <div class="verdict-val" style="color:#00e676;">AL / TEKNİK TEPKİ ODAKLI</div>
+                        <div class="verdict-val" style="color:#29b6f6;">DİSİPLİNLİ İZLEME (Sıcak Takip)</div>
                     </div>
                 </div>
             </div>
@@ -1824,7 +1833,7 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏛️</span> 1. İş Modeli ve Stratejik Konumlanma</div>
                     <div class="mod-body">
-                        <p>Kardemir'in BIST 30 endeksinde yer alan en yüksek likiditeye sahip D grubu paylarıdır. Ağır sanayi, profil, inşaat demiri ve demiryolu ürünlerinde yüksek pazar payına sahiptir.</p>
+                        <p>Kardemir D; grubun BIST 30 endeksinde yer alan, likiditesi ve halka açıklık oranı en yüksek pay sınıfıdır. Entegre çelik üretimi, demiryolu ray/tekerlek üretimi ve ağır profil imalatı yapmaktadır.</p>
                     </div>
                 </div>
 
@@ -1833,12 +1842,12 @@
                     <div class="mod-head"><span class="mod-icon">📊</span> 2. Derinlemesine Finansal Performans</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">-%5.43</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">-%2450.61</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">-%417.12</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%-5.43 Daralma</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%-2450.61 Daralma</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%-417.12 Daralma</span></div>
                             <div class="kpi-box"><span class="kpi-lbl">Cari Oran</span><span class="kpi-val cyan">1.40</span></div>
                         </div>
-                        <p style="margin-top:12px;">Sektörel marj baskıları nedeniyle ciro %5.43 gerilemiş, esas faaliyet kârı -%417.12 ve net kâr -%2450.61 daralma kaydetmiştir. 1.40 cari oran likidite risklerini bertaraf etmektedir.</p>
+                        <p style="margin-top:12px;">Şirket küresel demir-çelik sektöründeki marj daralması ve kâr marjlarındaki erime sebebiyle dönemsel zarara geçmiş, satışlar %5.43 azalmıştır. Buna karşın 1.40 seviyesindeki cari oran, borç yönetimi ve likidite açısından güvenli tampon oluşturmaktadır.</p>
                     </div>
                 </div>
 
@@ -1846,8 +1855,8 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏰</span> 3. Rekabet Üstünlüğü (Moat) Analizi</div>
                     <div class="mod-body">
-                        <div class="moat-highlight">Hendek Sınıfı: <b>Geniş Hendek (Wide Moat) (Skor: 7/10)</b></div>
-                        <p>BIST 30 likiditesi, entegre demir-çelik üretim altyapısı ve tekel konumundaki demiryolu ray/teker imalat kapasitesi geniş bir hendek sağlamaktadır.</p>
+                        <div class="moat-highlight">Hendek Sınıfı: <b>Orta Hendek (Moderate Moat) (Skor: 6/10)</b></div>
+                        <p>BIST 30 likiditesi, stratejik demiryolu ve ağır sanayi ürünlerindeki üretim yetkinliği.</p>
                     </div>
                 </div>
 
@@ -1856,11 +1865,11 @@
                     <div class="mod-head"><span class="mod-icon">⚖️</span> 4. Değerleme ve Çarpan Analizi</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">12.49</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.50</span></div>
-                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Derin İskontolu / Döngü Tabanı</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">12.49x</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.50x</span></div>
+                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Defter Değerinin Yarısında İskonto</span></div>
                         </div>
-                        <p style="margin-top:12px;">0.50 PD/DD oranı hissenin varlık değerinin yarı fiyatına işlem gördüğünü ve çelik sektörünün döngüsel dip noktasına yaklaştığını gösterir.</p>
+                        <p style="margin-top:12px;">0.50x PD/DD seviyesi döngüsel dip noktalarına işaret etmekte olup operasyonel marj recovery (toparlanma) senaryosunda yüksek potansiyele sahiptir.</p>
                     </div>
                 </div>
 
@@ -1869,7 +1878,7 @@
                     <div class="mod-head"><span class="mod-icon">⚠️</span> 5. Kritik Risk Hiyerarşisi & Resmi Tedbirler</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>1. Esas faaliyet kârlılığındaki sert düşüşün döngüsel olarak uzaması.</li><li>2. Küresel inşaat ve çelik talebindeki yavaşlama.</li><li>3. Kömür ve hurda fiyatlarındaki maliyet artışları.</li><li>4. Herhangi bir SPK tedbiri bulunmamaktadır; tahta oldukça likittir.</li>
+                            <li>1. Küresel ve yerel demir-çelik talebindeki zayıflık.</li><li>2. Faaliyet kârındaki negatif görünüm (%-417.12).</li><li>3. Yüksek enerji maliyetlerinin marjlar üzerindeki baskısı.</li><li>4. Beta katsayısının 1.09 ile piyasa duyarlılığının yüksek olması.</li>
                         </ul>
                     </div>
                 </div>
@@ -1879,7 +1888,7 @@
                     <div class="mod-head"><span class="mod-icon">🚀</span> 6. Uzun Vadeli Büyüme Katalizörleri</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>Savunma ve otomotiv sanayi için nitelikli çelik yatırımlarının devreye girmesi.</li><li>Küresel çelik fiyatlarında toparlanma ve marj genişlemesi.</li><li>Yüksek likidite sebebiyle yabancı kurumsal fon girişleri.</li>
+                            <li>Katma değerli ürün imalatının (tekerlek, liman/ray sistemleri) toplam satışlar içindeki payının artması.</li><li>Küresel altyapı ve kentsel dönüşüm harcamalarının artması.</li><li>Çelik sektöründeki dip döngüsünden çıkış emareleri.</li>
                         </ul>
                     </div>
                 </div>
@@ -1890,26 +1899,26 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box green-border">
                             <div class="sg-title" style="color:#00e676;">🟢 Neden Portföye Alınır? (Long Tezi)</div>
-                            <p>Katılım Finans uygunluğu, BIST 30 likiditesi, 0.98 Alpha ve 1.21 Z-Skor ile güçlü talep iştahı ve 0.50 PD/DD iskontosu nedeniyle tercih edilir.</p>
+                            <p>BIST 30 likiditesi, 0.98 pozitif alpha, 1.21 Z-Skor momentumu, 0.50x PD/DD iskontosu ve Katılım Finans uygunluğu.</p>
                         </div>
                         <div class="sg-box red-border">
                             <div class="sg-title" style="color:#ff5252;">🔴 Neden Çekimser Kalınır? (Risk / Kısıtlar)</div>
-                            <p>Kârlılık rakamlarındaki dönemsel çöküş (-%2450.61) kısa vadeli bilançolarda baskı oluşturabilir.</p>
+                            <p>Sektörel kârlılık daralması ve net kârdaki sert düşüş.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Modül 8: Boğa vs Ayı -->
                 <div class="mod-card" style="grid-column: span 2;">
-                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%55 Boğa Lehine / %45 Ayı Lehine</span></div>
+                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%60 Boğa / %40 Ayı Lehine</span></div>
                     <div class="mod-body split-grid">
                         <div class="sg-box">
                             <div class="sg-title" style="color:#00e676;">Boğa Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#00e676;'>✓ 1.21 Z-Skor ile yüksek talep ivmesi ve 0.98 Alpha.</li><li style='color:#00e676;'>✓ 0.50 PD/DD ile %50 varlık iskontosu.</li></ul>
+                            <ul class="clean-list"><li style='color:#00e676;'>✓ 1.21 Z-Skoru ile pozitif momentum ve 0.9841 yüksek alpha üretimi.</li><li style='color:#00e676;'>✓ 0.50x PD/DD ile cazip varlık iskontosu.</li><li style='color:#00e676;'>✓ BIST 30 derinliği ve Katılım Finans kriterlerine uygunluk.</li></ul>
                         </div>
                         <div class="sg-box">
                             <div class="sg-title" style="color:#ff5252;">Ayı Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Faaliyet kârı ve net kârın zarara yakın baskılanması.</li><li style='color:#ff5252;'>⚠ 1.09 Beta ile piyasa düşüşlerinde yüksek oynaklık.</li></ul>
+                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ Net kâr ve faaliyet kârında dönemsel sert daralma.</li><li style='color:#ff5252;'>⚠ Çelik marjlarındaki baskının devam etmesi.</li></ul>
                         </div>
                     </div>
                 </div>
@@ -1918,19 +1927,19 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🪙</span> 9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü</div>
                     <div class="mod-body">
-                        <p>Kötüleşen çelik marjları nedeniyle son çeyrekte operasyonel zarar yazan şirket, temettü ödemelerini askıya almış durumdadır.</p>
+                        <p>Sektörel baskı sonuçlara yansımıştır. Hisse büyüme odaklı evrede olup tarihsel temettü geçmişine sahiptir.</p>
                     </div>
                 </div>
 
                 <!-- Modül 10: Sonuç ve Görünüm -->
                 <div class="mod-card">
-                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Aksiyon Planı</div>
+                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Model Görünümü</div>
                     <div class="mod-body">
-                        <div style="font-size:18px; font-weight:800; color:#00e676; margin-bottom:8px;">
-                            AL / TEKNİK TEPKİ ODAKLI
+                        <div style="font-size:18px; font-weight:800; color:#29b6f6; margin-bottom:8px;">
+                            DİSİPLİNLİ İZLEME (Sıcak Takip)
                         </div>
-                        <p><b>Kısa Vade (0-3 Ay):</b> 42.58 - 43.93 talep bölgesinden gelen tepkiyle 47.96 direnç hedefine doğru hareket beklenmektedir.</p>
-                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Sektörel dip geçildikten sonra BIST 30 ivmesiyle güçlü bir rally potansiyeline sahiptir.</p>
+                        <p><b>Kısa Vade (0-3 Ay):</b> 42.58 - 43.93 talep bölgesinden gelen güçlü alımlar ile 47.96 direnç bölgesi hedeflenmektedir.</p>
+                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> BIST 30 ağırlığı ve yüksek varlık iskontosu sektörel toparlanmayla birlikte potansiyel sunmaktadır.</p>
                     </div>
                 </div>
             </div>
@@ -1960,9 +1969,9 @@
                         <div class="moat-val">6<span style="font-size:16px;">/10</span></div>
                         <div class="moat-sub">Orta Hendek (Moderate Moat)</div>
                     </div>
-                    <div class="verdict-box" style="border-color:#ff1744;">
+                    <div class="verdict-box" style="border-color:#ffab00;">
                         <div class="verdict-label">ALGORİTMİK MODEL STATÜSÜ</div>
-                        <div class="verdict-val" style="color:#ff1744;">SAT / UZAK DUR (DOKUNMA)</div>
+                        <div class="verdict-val" style="color:#ffab00;">TEMKİNLİ İZLEME (Onay Bekleniyor)</div>
                     </div>
                 </div>
             </div>
@@ -2001,7 +2010,7 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🏛️</span> 1. İş Modeli ve Stratejik Konumlanma</div>
                     <div class="mod-body">
-                        <p>Rüzgar (RES), güneş (GES) ve hidroelektrik (HES) santrallerinden oluşan dengeli bir yenilenebilir portföye sahip şirket, YEKDEM mekanizması ve döviz bazlı sabit fiyat garantisiyle elektrik üretimi yapmaktadır.</p>
+                        <p>Akfen Yenilenebilir Enerji; rüzgar (RES), güneş (GES) ve hidroelektrik (HES) santrallerinden oluşan dengeli bir portföyle yenilenebilir enerji üretimi gerçekleştirmektedir. YEKDEM mekanizmasıyla döviz bazlı sabit fiyat garantili satış imkanına sahiptir.</p>
                     </div>
                 </div>
 
@@ -2010,12 +2019,12 @@
                     <div class="mod-head"><span class="mod-icon">📊</span> 2. Derinlemesine Finansal Performans</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">-%4.59</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%88.58</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">-%65.77</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Satış Büyümesi</span><span class="kpi-val green">%-4.59 Daralma</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Net Kâr Büyümesi</span><span class="kpi-val green">%88.58 Büyüme</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Faaliyet Kârı</span><span class="kpi-val">%-65.77 Daralma</span></div>
                             <div class="kpi-box"><span class="kpi-lbl">Cari Oran</span><span class="kpi-val cyan">0.50</span></div>
                         </div>
-                        <p style="margin-top:12px;">Şirketin satış gelirleri kur ve kuraklık etkisiyle %4.59, esas faaliyet kârı ise %65.77 daralmıştır. Buna karşın ertelemiş vergi ve türev/finansal gelirler net kârı %88.58 büyütmüştür. Cari oranın 0.50 olması, kısa vadeli borç ödemelerinde işletme sermayesi darlığına işaret etmektedir.</p>
+                        <p style="margin-top:12px;">Şirket net kârını ertelenmiş vergi ve finansal gelirler desteğiyle %88.58 büyütmüştür. Ancak kuraklık ve elektrik tavan fiyatlarındaki baskı nedeniyle ciro %4.59, faaliyet kârı ise %65.77 gerilemiştir. 0.50 cari oran, borç servisinin yakından izlenmesini gerektirmektedir.</p>
                     </div>
                 </div>
 
@@ -2024,7 +2033,7 @@
                     <div class="mod-head"><span class="mod-icon">🏰</span> 3. Rekabet Üstünlüğü (Moat) Analizi</div>
                     <div class="mod-body">
                         <div class="moat-highlight">Hendek Sınıfı: <b>Orta Hendek (Moderate Moat) (Skor: 6/10)</b></div>
-                        <p>YEKDEM kapsamındaki döviz bazlı alım garantileri ve coğrafi olarak çeşitlendirilmiş santral portföyü gelir tahmin edilebilirliği sunmaktadır.</p>
+                        <p>Coğrafi olarak çeşitlendirilmiş RES/GES/HES portföyü ve YEKDEM döviz bazlı satış garantileri.</p>
                     </div>
                 </div>
 
@@ -2033,11 +2042,11 @@
                     <div class="mod-head"><span class="mod-icon">⚖️</span> 4. Değerleme ve Çarpan Analizi</div>
                     <div class="mod-body">
                         <div class="kpi-mini-grid">
-                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">11.68</span></div>
-                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.46</span></div>
-                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Varlık İskontolu / Finansal Riskli</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">Fiyat / Kazanç (F/K)</span><span class="kpi-val gold">11.68x</span></div>
+                            <div class="kpi-box"><span class="kpi-lbl">PD / DD</span><span class="kpi-val cyan">0.46x</span></div>
+                            <div class="kpi-box" style="grid-column:span 2;"><span class="kpi-lbl">Göreceli Değerleme</span><span class="kpi-val" style="font-size:14px;">Derin Defter Değeri İskontosu</span></div>
                         </div>
-                        <p style="margin-top:12px;">0.46 PD/DD iskontolu bir varlık yapısını gösterse de yüksek borçluluk ve 0.50 cari oran değerleme üzerinde baskı oluşturmaktadır.</p>
+                        <p style="margin-top:12px;">0.46x PD/DD çarpanı santral varlıklarının piyasa değerine göre ciddi iskontolu olduğuna işaret etmektedir.</p>
                     </div>
                 </div>
 
@@ -2046,7 +2055,7 @@
                     <div class="mod-head"><span class="mod-icon">⚠️</span> 5. Kritik Risk Hiyerarşisi & Resmi Tedbirler</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>1. Cari oranın 0.50 olması sebebiyle ciddi kısa vadeli likidite ve refinansman riski.</li><li>2. Esas faaliyet kârlılığındaki %65.77'lik kan kaybı.</li><li>3. SMC sistemine göre 'MAKRO_DAGITIM (Dokunma)' fazında bulunması ve Sentez Puanının -250.0 olması.</li><li>4. Tedbir bulunmamakla birlikte teknik dağıtım yapısı risk oluşturmaktadır.</li>
+                            <li>1. SMC fazının 'MAKRO_DAGITIM (Dokunma)' uyarısı vermesi ve sentez puanının negatif olması (-250.0).</li><li>2. 0.50 seviyesindeki cari oran kaynaklı likidite riski.</li><li>3. Esas faaliyet kârındaki %65.77 oranındaki sert daralma.</li><li>4. Mevsimsel kuraklık ve rüzgar verimlilik düşüşleri.</li>
                         </ul>
                     </div>
                 </div>
@@ -2056,7 +2065,7 @@
                     <div class="mod-head"><span class="mod-icon">🚀</span> 6. Uzun Vadeli Büyüme Katalizörleri</div>
                     <div class="mod-body">
                         <ul class="clean-list">
-                            <li>Kapasite artışları ve hibrit GES projelerinin faaliyete geçmesi.</li><li>YEKDEM süre uzatımları ve uluslararası karbon kredisi satışları.</li><li>Borç dekalibrasyonu ve faiz giderlerinin azaltılması.</li>
+                            <li>Mevcut santrallere hibrit GES ve depolamalı Rüzgar/Güneş kapasite yatırımları.</li><li>Karbon kredisi satış gelirlerindeki artış.</li><li>YEKDEM süresi devam eden santrallerin nakit akış katkısı.</li>
                         </ul>
                     </div>
                 </div>
@@ -2067,26 +2076,26 @@
                     <div class="mod-body split-grid">
                         <div class="sg-box green-border">
                             <div class="sg-title" style="color:#00e676;">🟢 Neden Portföye Alınır? (Long Tezi)</div>
-                            <p>2.24 Alpha ve 1.93 Z-Skoru ile hissedeki aşırı kısa vadeli momentum ve Katılım Finans uygunluğu için spekülatif izlenebilir.</p>
+                            <p>%88.58 net kâr büyümesi, 2.24 yüksek alpha, 1.93 Z-skoru ve Katılım Finans uygunluğu.</p>
                         </div>
                         <div class="sg-box red-border">
                             <div class="sg-title" style="color:#ff5252;">🔴 Neden Çekimser Kalınır? (Risk / Kısıtlar)</div>
-                            <p>SMC'nin Makro Dağıtım fazı uyarısı (-250 Sentez Puanı), 0.50 cari oran ve faaliyet kârındaki sert düşüş (-%65.77) nedeniyle kurumsal fonlar mesafelidir.</p>
+                            <p>SMC Makro Dağıtım fazı, negatif sentez skoru ve 0.50 cari oran.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Modül 8: Boğa vs Ayı -->
                 <div class="mod-card" style="grid-column: span 2;">
-                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%35 Boğa / %65 Ayı Lehine</span></div>
+                    <div class="mod-head"><span class="mod-icon">🐂 vs 🐻</span> 8. Boğa vs. Ayı Tartışması <span class="balance-tag">%50 Boğa / %50 Ayı (Riskli Dengede)</span></div>
                     <div class="mod-body split-grid">
                         <div class="sg-box">
                             <div class="sg-title" style="color:#00e676;">Boğa Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#00e676;'>✓ 2.24 ile çok yüksek Alpha ivmesi ve %88.58 net kâr artışı.</li><li style='color:#00e676;'>✓ 0.46 PD/DD varlık iskontosu.</li></ul>
+                            <ul class="clean-list"><li style='color:#00e676;'>✓ 2.2351 ile gruptaki en yüksek alpha ve 1.93 Z-Skor kuvvetli momentumu.</li><li style='color:#00e676;'>✓ 0.46x PD/DD derin iskontosu ve Katılım uygunluğu.</li><li style='color:#00e676;'>✓ Net kârın %88.58 oranında artması.</li></ul>
                         </div>
                         <div class="sg-box">
                             <div class="sg-title" style="color:#ff5252;">Ayı Senaryosu</div>
-                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ SMC Sisteminin 'MAKRO_DAGITIM (Dokunma)' sinyali ve -250 sentez puanı.</li><li style='color:#ff5252;'>⚠ 0.50 zayıf cari oran ve %65.77 faaliyet kârı daralması.</li></ul>
+                            <ul class="clean-list"><li style='color:#ff5252;'>⚠ SMC sisteminin 'MAKRO_DAGITIM' ikazı vermesi.</li><li style='color:#ff5252;'>⚠ Esas faaliyet kârında %65.77 düşüş ve 0.50 cari oran riski.</li></ul>
                         </div>
                     </div>
                 </div>
@@ -2095,19 +2104,19 @@
                 <div class="mod-card">
                     <div class="mod-head"><span class="mod-icon">🪙</span> 9. Son Çeyrek Finansal Sonuç & Resmi Temettü Statüsü</div>
                     <div class="mod-body">
-                        <p>Temettü ödemeyen şirket, son çeyrekte operasyonel marjlarda kuraklık ve elektrik fiyatı düşüşleri nedeniyle zorlanmış, net kârı finansal kalemler desteklemiştir.</p>
+                        <p>Net kâr yüksek kalmakla birlikte operasyonel nakit üretimi baskılanmıştır. Büyüme odaklıdır (Temettü puanı: 2).</p>
                     </div>
                 </div>
 
                 <!-- Modül 10: Sonuç ve Görünüm -->
                 <div class="mod-card">
-                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Aksiyon Planı</div>
+                    <div class="mod-head"><span class="mod-icon">🎯</span> 10. Sonuç ve Stratejik Model Görünümü</div>
                     <div class="mod-body">
-                        <div style="font-size:18px; font-weight:800; color:#ff1744; margin-bottom:8px;">
-                            SAT / UZAK DUR (DOKUNMA)
+                        <div style="font-size:18px; font-weight:800; color:#ffab00; margin-bottom:8px;">
+                            TEMKİNLİ İZLEME (Onay Bekleniyor)
                         </div>
-                        <p><b>Kısa Vade (0-3 Ay):</b> Makro dağıtım evresinde olan hissede 23.65 - 24.26 supply bölgesinde kâr satışları derinleşebilir; 21.38 stop noktası kritik önemdedir.</p>
-                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> İşletme sermayesi yapısı düzelmeden ve dağıtım fazı tamamlanmadan yatırım yapılması önerilmez.</p>
+                        <p><b>Kısa Vade (0-3 Ay):</b> Fiyat 26.50 kapanışıyla arz bölgesinin üzerine çıksa da SMC Dağıtım fazı nedeniyle teyit ve düzeltme süreçleri izlenmelidir.</p>
+                        <p style="margin-top:6px;"><b>Uzun Vade (12+ Ay):</b> Yenilenebilir enerji kapasite artışları uzun vadeli hikayeyi korumakla birlikte bilanço borç yapısı dengelenmelidir.</p>
                     </div>
                 </div>
             </div>
@@ -2116,7 +2125,8 @@
 
         <!-- Footer -->
         <div class="footer">
-            <p><b>SVS NEXUS SMC ALGO LABS</b> | Bu rapor Borsa İstanbul resmi veri yayınları (hisse_endeks_ds.csv, menkul_tedbir_listesi.csv), kuantitatif modeller ve bilanço rasyolarıyla üretilmiştir. Yatırım tavsiyesi niteliğinde olmayıp stratejik karar destek sistemi olarak kullanılır.</p>
+            <p><b>SVS NEXUS SMC ALGO LABS</b> | Bu rapor Borsa İstanbul resmi veri yayınları (hisse_endeks_ds.csv, menkul_tedbir_listesi.csv), kuantitatif modeller ve bilanço rasyolarıyla üretilmiştir.</p>
+            <p style="margin-top:6px; font-size:11px; color:#64748b;">SPK Mevzuatı Uyarınca: Rapor içeriğindeki seviye ve değerlendirmeler hiçbir şekilde "AL", "SAT" veya doğrudan yatırım tavsiyesi niteliğinde olmayıp, 6362 sayılı Sermaye Piyasası Kanunu kapsamında yetkisiz yatırım danışmanlığı faaliyeti oluşturmaz.</p>
         </div>
     </div>
 
